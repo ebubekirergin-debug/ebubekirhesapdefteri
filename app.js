@@ -16,3 +16,20 @@ q("#entryForm").onsubmit=async e=>{e.preventDefault();let k=q("#kind").value,o;i
 function pay(id){let a=A.find(x=>x.id===id);q("#accountId").value=id;q("#paymentTitle").textContent=a.record_type==="alacak"?"Tahsilat işle":"Ödeme işle";q("#paymentAmount").value=rem(a);q("#paymentDate").value=day();q("#paymentNote").value="";q("#paymentDialog").showModal()}
 q("#closePayment").onclick=()=>q("#paymentDialog").close();q("#paymentForm").onsubmit=async e=>{e.preventDefault();let id=+q("#accountId").value,a=A.find(x=>x.id===id),v=+q("#paymentAmount").value;if(v<=0||v>rem(a))return alert("Tutar geçersiz");let r=await s.from("payments").insert({user_id:u.id,account_id:id,payment_date:q("#paymentDate").value,amount:v,currency:"TRY",note:q("#paymentNote").value});if(r.error)return alert(r.error.message);q("#paymentDialog").close();load()};
 (async()=>{let r=await s.auth.getSession();u=r.data.session?.user||null;view(!!u);if(u)load()})();
+let rtChannel=null;
+function startRealtime(){
+  if(!u||rtChannel)return;
+  rtChannel=s.channel("finance-live")
+    .on("postgres_changes",{event:"*",schema:"public",table:"transactions",filter:"user_id=eq."+u.id},()=>load())
+    .on("postgres_changes",{event:"*",schema:"public",table:"accounts",filter:"user_id=eq."+u.id},()=>load())
+    .on("postgres_changes",{event:"*",schema:"public",table:"payments",filter:"user_id=eq."+u.id},()=>load())
+    .subscribe(status=>{
+      const t=q("#toast");
+      if(status==="SUBSCRIBED"&&t){t.textContent="Canlı senkronizasyon aktif";t.classList.add("show");setTimeout(()=>t.classList.remove("show"),1400)}
+    });
+}
+s.auth.onAuthStateChange((event,session)=>{
+  u=session?.user||null;
+  if(u){view(true);startRealtime();load()}
+  else{if(rtChannel){s.removeChannel(rtChannel);rtChannel=null}view(false)}
+});
