@@ -90,15 +90,16 @@ function render(){
  const incGross=T.filter(x=>x.type==="gelir"&&String(x.transaction_date).startsWith(ym)).reduce((a,x)=>a+txTry(x),0);
  const exp=T.filter(x=>x.type==="gider"&&String(x.transaction_date).startsWith(ym)).reduce((a,x)=>a+txTry(x),0);
  const debtPaidMonth=P.filter(p=>String(p.payment_date||"").startsWith(ym)&&A.some(a=>Number(a.id)===Number(p.account_id)&&a.record_type==="borc")).reduce((sum,p)=>sum+paymentTry(p),0);
- const inc=Math.max(0,incGross-debtPaidMonth);
+ const totalOut=exp+debtPaidMonth;
+ const balance=incGross-totalOut;
  const open=A.filter(x=>rem(x)>0), rec=open.filter(x=>x.record_type==="alacak"), debts=open.filter(x=>x.record_type==="borc");
  const recTry=rec.reduce((a,x)=>a+valuedTry(x),0),debtTry=debts.reduce((a,x)=>a+valuedTry(x),0);
  const set=(id,v)=>{const e=q(id);if(e)e.textContent=v};
- set("#monthIncome",m(inc));set("#monthExpense",m(exp));set("#receivable",m(recTry));set("#debt",m(debtTry));set("#net",m(inc-exp+recTry-debtTry));
+ set("#monthIncome",m(incGross));set("#monthExpense",m(totalOut));set("#receivable",m(recTry));set("#debt",m(debtTry));set("#net",m(balance));
  set("#recCount",rec.length+" kayıt");set("#debtCount",debts.length+" kayıt");set("#txCount",T.length);set("#openCount",open.length);set("#payCount",P.length);
  set("#largestDebt",m(debts.reduce((mx,x)=>Math.max(mx,valuedTry(x)),0)));
  const limit=new Date(now.getTime()+30*86400000),due=open.filter(x=>x.due_date&&new Date(x.due_date+"T12:00:00")>=now&&new Date(x.due_date+"T12:00:00")<=limit);
- set("#due30",m(due.reduce((a,x)=>a+valuedTry(x),0)));set("#due30Count",due.length+" kayıt");set("#savingRate",inc>0?"%"+Math.round(((inc-exp)/inc)*100):"%0");set("#wealthNow",m(inc-exp+recTry-debtTry));
+ set("#due30",m(due.reduce((a,x)=>a+valuedTry(x),0)));set("#due30Count",due.length+" kayıt");set("#savingRate",incGross>0?"%"+Math.round((balance/incGross)*100):"%0");set("#wealthNow",m(balance));
  q("#emptyOnboarding")?.classList.toggle("hidden",!(T.length===0&&A.length===0));
  renderRates();renderLedger();renderPlanning();
 }
@@ -131,8 +132,10 @@ function renderLedger(){
  const z=(q("#search")?.value||"").toLocaleLowerCase("tr-TR");
  q("#debtSubtabs")?.classList.toggle("hidden",ledgerTab!=="borc");
  if(ledgerTab==="gelir"||ledgerTab==="gider"){
-  const list=sortRows(T.filter(v=>v.type===ledgerTab&&(String(v.description)+" "+String(v.category||"")).toLocaleLowerCase("tr-TR").includes(z)),false);
-  panel.innerHTML=list.length?list.map(v=>'<div class="ledger-row"><div><b>'+safe(v.description||"İşlem")+'</b><small>'+safe(v.category||"Genel")+' · '+safe(v.transaction_date)+'</small></div><div class="ledger-amount"><strong class="'+(v.type==="gelir"?"pos":"neg")+'">'+amountUnit(v.amount,v.currency)+'</strong>'+(v.currency!=="TRY"&&Number(v.try_value)>0?'<small>'+m(v.try_value)+'</small>':'')+'<div class="actions"><button data-edit-tx="'+v.id+'">Düzenle</button><button data-del-tx="'+v.id+'">Sil</button></div></div></div>').join(""):'<div class="empty">Kayıt yok.</div>';
+  const base=T.filter(v=>v.type===ledgerTab&&(String(v.description)+" "+String(v.category||"")).toLocaleLowerCase("tr-TR").includes(z));
+  const debtRows=ledgerTab==="gider"?P.filter(p=>A.some(a=>Number(a.id)===Number(p.account_id)&&a.record_type==="borc")).map(p=>{const a=A.find(x=>Number(x.id)===Number(p.account_id));return {id:"pay-"+p.id,type:"gider",transaction_date:p.payment_date,description:(a?.title||a?.party_name||"Borç")+" borç ödemesi",category:"Borç ödemesi",amount:p.amount,currency:p.currency||a?.currency||"TRY",try_value:p.original_try_value||0,_payment:true}}).filter(v=>(String(v.description)+" "+v.category).toLocaleLowerCase("tr-TR").includes(z)):[];
+  const list=sortRows([...base,...debtRows],false);
+  panel.innerHTML=list.length?list.map(v=>'<div class="ledger-row"><div><b>'+safe(v.description||"İşlem")+'</b><small>'+safe(v.category||"Genel")+' · '+safe(v.transaction_date||"")+'</small></div><div class="ledger-amount"><strong class="'+(v.type==="gelir"?"pos":"neg")+'">'+amountUnit(v.amount,v.currency)+'</strong>'+(v.currency!=="TRY"?'<small>TL karşılığı '+m(txTry(v))+'</small>':'')+(v._payment?'':'<div class="actions"><button data-edit-tx="'+v.id+'">Düzenle</button><button data-del-tx="'+v.id+'">Sil</button></div>')+'</div></div>').join(""):'<div class="empty">Kayıt yok.</div>';
  }else{
   const completed=ledgerTab==="borc"&&debtView==="completed";
   const list=sortRows(A.filter(v=>(completed?(v.record_type==="borc"&&rem(v)<=0.0001):(v.record_type===ledgerTab&&rem(v)>0.0001))&&(String(v.party_name)+" "+String(v.title||"")+" "+String(v.note||"")).toLocaleLowerCase("tr-TR").includes(z)),true);
