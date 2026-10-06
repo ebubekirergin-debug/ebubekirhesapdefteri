@@ -5,7 +5,7 @@ const q=x=>document.querySelector(x);
 const qa=x=>[...document.querySelectorAll(x)];
 const TRY=new Intl.NumberFormat("tr-TR",{style:"currency",currency:"TRY",maximumFractionDigits:2});
 const NUM=new Intl.NumberFormat("tr-TR",{maximumFractionDigits:2});
-let u=null,T=[],A=[],P=[],CATS=[],BUD=[],REC=[],SALARY=[],FORECAST=[],ledgerTab="gelir",debtView="active",detailAccountId=null,rtChannel=null,LIVE_RATES={USD:49.1793,EUR:55.4105,GOLD:6586.08,updatedAt:null,source:"fallback"};
+let u=null,T=[],A=[],P=[],CATS=[],BUD=[],REC=[],SALARY=[],FORECAST=[],ledgerTab="gelir",debtView="active",selectedMonth=new Date().getFullYear()+"-"+String(new Date().getMonth()+1).padStart(2,"0"),detailAccountId=null,rtChannel=null,LIVE_RATES={USD:49.1793,EUR:55.4105,GOLD:6586.08,updatedAt:null,source:"fallback"};
 
 const m=n=>TRY.format(Number(n||0));
 const day=()=>new Date().toISOString().slice(0,10);
@@ -125,20 +125,23 @@ function sortRows(list,isAccount){
   return name(a).localeCompare(name(b),"tr");
  });
 }
+function monthLabel(ym){const [y,mn]=ym.split("-").map(Number);return new Date(y,mn-1,1).toLocaleDateString("tr-TR",{month:"long",year:"numeric"})}
+function moveMonth(delta){const [y,mn]=selectedMonth.split("-").map(Number),d=new Date(y,mn-1+delta,1);selectedMonth=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0");renderLedger()}
 function renderLedger(){
  const panel=q("#ledgerPanel");if(!panel)return;
+ if(q("#selectedMonthLabel"))q("#selectedMonthLabel").textContent=monthLabel(selectedMonth);
  const titles={gelir:"Gelir",gider:"Gider",alacak:"Alacak",borc:"Borçlar"};q("#ledgerTitle").textContent=titles[ledgerTab];
  qa("[data-ledger-tab]").forEach(b=>b.classList.toggle("active",b.dataset.ledgerTab===ledgerTab));
  const z=(q("#search")?.value||"").toLocaleLowerCase("tr-TR");
  q("#debtSubtabs")?.classList.toggle("hidden",ledgerTab!=="borc");
  if(ledgerTab==="gelir"||ledgerTab==="gider"){
-  const base=T.filter(v=>v.type===ledgerTab&&(String(v.description)+" "+String(v.category||"")).toLocaleLowerCase("tr-TR").includes(z));
-  const debtRows=ledgerTab==="gider"?P.filter(p=>A.some(a=>Number(a.id)===Number(p.account_id)&&a.record_type==="borc")).map(p=>{const a=A.find(x=>Number(x.id)===Number(p.account_id));return {id:"pay-"+p.id,type:"gider",transaction_date:p.payment_date,description:(a?.title||a?.party_name||"Borç")+" borç ödemesi",category:"Borç ödemesi",amount:p.amount,currency:p.currency||a?.currency||"TRY",try_value:p.original_try_value||0,_payment:true}}).filter(v=>(String(v.description)+" "+v.category).toLocaleLowerCase("tr-TR").includes(z)):[];
+  const base=T.filter(v=>v.type===ledgerTab&&String(v.transaction_date||"").startsWith(selectedMonth)&&(String(v.description)+" "+String(v.category||"")).toLocaleLowerCase("tr-TR").includes(z));
+  const debtRows=ledgerTab==="gider"?P.filter(p=>String(p.payment_date||"").startsWith(selectedMonth)&&A.some(a=>Number(a.id)===Number(p.account_id)&&a.record_type==="borc")).map(p=>{const a=A.find(x=>Number(x.id)===Number(p.account_id));return {id:"pay-"+p.id,type:"gider",transaction_date:p.payment_date,description:(a?.title||a?.party_name||"Borç")+" borç ödemesi",category:"Borç ödemesi",amount:p.amount,currency:p.currency||a?.currency||"TRY",try_value:p.original_try_value||0,_payment:true}}).filter(v=>(String(v.description)+" "+v.category).toLocaleLowerCase("tr-TR").includes(z)):[];
   const list=sortRows([...base,...debtRows],false);
   panel.innerHTML=list.length?list.map(v=>'<div class="ledger-row"><div><b>'+safe(v.description||"İşlem")+'</b><small>'+safe(v.category||"Genel")+' · '+safe(v.transaction_date||"")+'</small></div><div class="ledger-amount"><strong class="'+(v.type==="gelir"?"pos":"neg")+'">'+amountUnit(v.amount,v.currency)+'</strong>'+(v.currency!=="TRY"?'<small>TL karşılığı '+m(txTry(v))+'</small>':'')+(v._payment?'':'<div class="actions"><button data-edit-tx="'+v.id+'">Düzenle</button><button data-del-tx="'+v.id+'">Sil</button></div>')+'</div></div>').join(""):'<div class="empty">Kayıt yok.</div>';
  }else{
   const completed=ledgerTab==="borc"&&debtView==="completed";
-  const list=sortRows(A.filter(v=>(completed?(v.record_type==="borc"&&rem(v)<=0.0001):(v.record_type===ledgerTab&&rem(v)>0.0001))&&(String(v.party_name)+" "+String(v.title||"")+" "+String(v.note||"")).toLocaleLowerCase("tr-TR").includes(z)),true);
+  const list=sortRows(A.filter(v=>(completed?(v.record_type==="borc"&&rem(v)<=0.0001):(v.record_type===ledgerTab&&rem(v)>0.0001))&&String((v.record_type==="borc"?(v.payment_date||v.due_date||v.start_date):v.start_date)||"").startsWith(selectedMonth)&&(String(v.party_name)+" "+String(v.title||"")+" "+String(v.note||"")).toLocaleLowerCase("tr-TR").includes(z)),true);
   panel.innerHTML=list.length?list.map(v=>{
    const pv=paid(v.id),rv=rem(v),tl=valuedTry(v);
    return '<button class="ledger-row account-link '+(rv<=0.0001?"completed-row":"")+'" data-account-detail="'+v.id+'"><div><b>'+safe(v.title||v.party_name)+'</b><small>'+safe(v.party_name)+' · '+safe(v.debt_kind||"Genel")+' · '+(rv<=0.0001?"Ödemesi bitti":safe(v.status||""))+'</small></div><div class="ledger-amount"><strong class="'+(rv<=0.0001?"done":v.record_type==="alacak"?"pos":"neg")+'">'+amountUnit(rv,v.currency)+'</strong>'+(v.currency!=="TRY"?'<small>TL karşılığı '+m(tl)+'</small>':'')+'<small>Ödenen/Tahsil '+amountUnit(pv,v.currency)+' · '+P.filter(x=>Number(x.account_id)===Number(v.id)).length+' kayıt</small></div></button>'
@@ -193,6 +196,9 @@ async function delAcc(id){if(!confirm("Bu borç/alacak ve ödeme geçmişi silin
 
 qa("[data-ledger-tab]").forEach(b=>b.addEventListener("click",()=>{ledgerTab=b.dataset.ledgerTab;if(ledgerTab==="borc")debtView="active";renderLedger()}));
 qa("[data-debt-view]").forEach(b=>b.addEventListener("click",()=>{debtView=b.dataset.debtView;qa("[data-debt-view]").forEach(x=>x.classList.toggle("active",x.dataset.debtView===debtView));renderLedger()}));
+q("#prevMonth")?.addEventListener("click",()=>moveMonth(-1));
+q("#nextMonth")?.addEventListener("click",()=>moveMonth(1));
+q("#todayMonth")?.addEventListener("click",()=>{const d=new Date();selectedMonth=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0");renderLedger()});
 q("#sortMode")?.addEventListener("change",renderLedger);
 q("#exportExcel")?.addEventListener("click",exportExcel);
 function exportExcel(){
