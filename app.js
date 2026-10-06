@@ -110,6 +110,20 @@ function renderRates(){
   q("#rateSource").textContent=(r.source==="manual"?"Elle belirlenen kur":r.source==="live"?"Canlı piyasa verisi":r.source==="cache"?"Son alınan piyasa verisi":"Yedek piyasa değeri")+(ts?" · "+ts:"");
  }
 }
+function sortRows(list,isAccount){
+ const mode=q("#sortMode")?.value||"amount-desc";
+ const name=x=>String(isAccount?(x.title||x.party_name||""):(x.description||"")).toLocaleLowerCase("tr-TR");
+ const date=x=>String(isAccount?(x.start_date||""):(x.transaction_date||""));
+ const amount=x=>isAccount?valuedTry(x):txTry(x);
+ return [...list].sort((a,b)=>{
+  if(mode==="amount-desc")return amount(b)-amount(a);
+  if(mode==="amount-asc")return amount(a)-amount(b);
+  if(mode==="date-desc")return date(b).localeCompare(date(a));
+  if(mode==="date-asc")return date(a).localeCompare(date(b));
+  if(mode==="name-desc")return name(b).localeCompare(name(a),"tr");
+  return name(a).localeCompare(name(b),"tr");
+ });
+}
 function renderLedger(){
  const panel=q("#ledgerPanel");if(!panel)return;
  const titles={gelir:"Gelir",gider:"Gider",alacak:"Alacak",borc:"Borçlar"};q("#ledgerTitle").textContent=titles[ledgerTab];
@@ -117,11 +131,11 @@ function renderLedger(){
  const z=(q("#search")?.value||"").toLocaleLowerCase("tr-TR");
  q("#debtSubtabs")?.classList.toggle("hidden",ledgerTab!=="borc");
  if(ledgerTab==="gelir"||ledgerTab==="gider"){
-  const list=T.filter(v=>v.type===ledgerTab&&(String(v.description)+" "+String(v.category||"")).toLocaleLowerCase("tr-TR").includes(z));
+  const list=sortRows(T.filter(v=>v.type===ledgerTab&&(String(v.description)+" "+String(v.category||"")).toLocaleLowerCase("tr-TR").includes(z)),false);
   panel.innerHTML=list.length?list.map(v=>'<div class="ledger-row"><div><b>'+safe(v.description||"İşlem")+'</b><small>'+safe(v.category||"Genel")+' · '+safe(v.transaction_date)+'</small></div><div class="ledger-amount"><strong class="'+(v.type==="gelir"?"pos":"neg")+'">'+amountUnit(v.amount,v.currency)+'</strong>'+(v.currency!=="TRY"&&Number(v.try_value)>0?'<small>'+m(v.try_value)+'</small>':'')+'<div class="actions"><button data-edit-tx="'+v.id+'">Düzenle</button><button data-del-tx="'+v.id+'">Sil</button></div></div></div>').join(""):'<div class="empty">Kayıt yok.</div>';
  }else{
   const completed=ledgerTab==="borc"&&debtView==="completed";
-  const list=A.filter(v=>(completed?(v.record_type==="borc"&&rem(v)<=0.0001):(v.record_type===ledgerTab&&rem(v)>0.0001))&&(String(v.party_name)+" "+String(v.title||"")+" "+String(v.note||"")).toLocaleLowerCase("tr-TR").includes(z));
+  const list=sortRows(A.filter(v=>(completed?(v.record_type==="borc"&&rem(v)<=0.0001):(v.record_type===ledgerTab&&rem(v)>0.0001))&&(String(v.party_name)+" "+String(v.title||"")+" "+String(v.note||"")).toLocaleLowerCase("tr-TR").includes(z)),true);
   panel.innerHTML=list.length?list.map(v=>{
    const pv=paid(v.id),rv=rem(v),tl=valuedTry(v);
    return '<button class="ledger-row account-link '+(rv<=0.0001?"completed-row":"")+'" data-account-detail="'+v.id+'"><div><b>'+safe(v.title||v.party_name)+'</b><small>'+safe(v.party_name)+' · '+safe(v.debt_kind||"Genel")+' · '+(rv<=0.0001?"Ödemesi bitti":safe(v.status||""))+'</small></div><div class="ledger-amount"><strong class="'+(rv<=0.0001?"done":v.record_type==="alacak"?"pos":"neg")+'">'+amountUnit(rv,v.currency)+'</strong>'+(v.currency!=="TRY"?'<small>TL karşılığı '+m(tl)+'</small>':'')+'<small>Ödenen/Tahsil '+amountUnit(pv,v.currency)+' · '+P.filter(x=>Number(x.account_id)===Number(v.id)).length+' kayıt</small></div></button>'
@@ -176,6 +190,21 @@ async function delAcc(id){if(!confirm("Bu borç/alacak ve ödeme geçmişi silin
 
 qa("[data-ledger-tab]").forEach(b=>b.addEventListener("click",()=>{ledgerTab=b.dataset.ledgerTab;if(ledgerTab==="borc")debtView="active";renderLedger()}));
 qa("[data-debt-view]").forEach(b=>b.addEventListener("click",()=>{debtView=b.dataset.debtView;qa("[data-debt-view]").forEach(x=>x.classList.toggle("active",x.dataset.debtView===debtView));renderLedger()}));
+q("#sortMode")?.addEventListener("change",renderLedger);
+q("#exportExcel")?.addEventListener("click",exportExcel);
+function exportExcel(){
+ const wb=XLSX.utils.book_new();
+ const txRows=T.map(x=>({"Tür":x.type==="gelir"?"Gelir":"Gider","Tarih":x.transaction_date,"Açıklama":x.description,"Kategori":x.category,"Tutar":Number(x.amount||0),"Birim":moneyUnit(x.currency),"TL Karşılığı":txTry(x),"Durum":x.status||"","Not":x.note||""}));
+ const accRows=A.map(a=>({"Tür":a.record_type==="borc"?"Borç":"Alacak","Başlık":a.title||"","Kişi / Kurum":a.party_name||"","Borç Cinsi":a.debt_kind||"","Başlangıç":a.start_date||"","Vade":a.due_date||"","İlk Tutar":Number(a.original_amount||0),"Birim":moneyUnit(a.currency),"Taksit Sayısı":Number(a.installment_count||0),"Ödenen / Tahsil":paid(a.id),"Kalan":rem(a),"Kalan TL Karşılığı":valuedTry(a),"Durum":rem(a)<=0.0001?"Bitti":(a.status||"Açık"),"Not":a.note||""}));
+ const payRows=P.map(p=>{const a=A.find(x=>Number(x.id)===Number(p.account_id));return {"Borç / Alacak":a?.title||a?.party_name||"","Tür":a?.record_type==="borc"?"Borç Ödemesi":"Alacak Tahsilatı","Tarih":p.payment_date||"","Tutar":Number(p.amount||0),"Birim":moneyUnit(p.currency||a?.currency),"TL Karşılığı":paymentTry(p),"İşlem No":p.sequence_no||"","Not":p.note||""}});
+ XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(txRows.filter(x=>x["Tür"]==="Gelir")),"Gelirler");
+ XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(txRows.filter(x=>x["Tür"]==="Gider")),"Giderler");
+ XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(accRows.filter(x=>x["Tür"]==="Alacak")),"Alacaklar");
+ XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(accRows.filter(x=>x["Tür"]==="Borç")),"Borçlar");
+ XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(payRows),"Ödeme Geçmişi");
+ XLSX.writeFile(wb,"Hesap-Defteri-"+day()+".xlsx");
+ toast("Excel dosyası hazırlandı");
+}
 q("#ledgerAdd")?.addEventListener("click",()=>{if(ledgerTab==="borc"&&debtView==="completed")return toast("Biten borçlar otomatik oluşur");open(ledgerTab)});q("#search")?.addEventListener("input",renderLedger);
 qa("[data-kind]").forEach(b=>b.addEventListener("click",()=>open(b.dataset.kind)));
 q("#closeEntry")?.addEventListener("click",()=>q("#entryDialog").close());q("#entryForm")?.addEventListener("submit",saveEntry);
