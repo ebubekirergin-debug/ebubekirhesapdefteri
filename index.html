@@ -1,9 +1,15 @@
-<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f6f7f9"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Hesap Defteri"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css?v=6"><title>Hesap Defteri</title></head><body>
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f6f7f9"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Hesap Defteri"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css?v=8"><title>Hesap Defteri</title></head><body>
 <div id="authView" class="auth-shell"><div class="auth-card"><div class="logo">HD</div><p class="eyebrow">Kişisel finans</p><h1>Hesap Defteri</h1><p class="sub">Gelir, gider, borç ve alacaklarını tek yerden yönet.</p><input id="email" type="email" placeholder="E-posta"><input id="password" type="password" placeholder="Şifre"><button id="signIn" class="primary">Giriş yap</button><button id="signUp" class="secondary">Hesap oluştur</button><p id="authMsg" class="msg"></p></div></div>
 <div id="appView" class="app hidden"><header><div><p class="eyebrow">Kişisel finans</p><h1>Hesap Defteri</h1></div><button id="signOut" class="icon">Çıkış</button></header><main>
 <section id="emptyOnboarding" class="onboarding hidden"><div><p class="eyebrow">Hazır veri aktarımı</p><h2>Eski Excel’ini içeri al</h2><p>Borçlar, alacaklar, gelirler ve giderler tek seferde Supabase hesabına aktarılır.</p></div><label class="import-btn">Excel seç<input id="excelImport" type="file" accept=".xlsx,.xls" hidden></label></section>
 <section class="hero"><div class="hero-main"><span>Net durum</span><strong id="net">₺0</strong><div class="mini"><div><small>Bu ay gelir</small><b id="monthIncome">₺0</b></div><div><small>Bu ay gider</small><b id="monthExpense">₺0</b></div></div></div><div class="metric"><span>Alacak</span><b id="receivable">₺0</b><small id="recCount">0 kayıt</small></div><div class="metric"><span>Borç</span><b id="debt">₺0</b><small id="debtCount">0 kayıt</small></div></section>
 <section class="quick"><button data-kind="gelir">+ Gelir</button><button data-kind="gider">− Gider</button><button data-kind="alacak">↗ Alacak</button><button data-kind="borc">↘ Borç</button></section>
+<section class="rate-strip" id="excelRates">
+ <div><span>USD</span><b id="rateUSD">-</b></div>
+ <div><span>EUR</span><b id="rateEUR">-</b></div>
+ <div><span>Gram Altın</span><b id="rateGOLD">-</b></div>
+ <small id="rateSource">Excel referans değerleri</small>
+</section>
 <section class="overview-grid">
   <article class="overview-card"><span>Gerçek net varlık</span><b id="wealthNow">₺0</b><small>Kur/altın değerlemesi bağlandıkça güncellenir</small></article>
   <article class="overview-card"><span>30 gün içinde vade</span><b id="due30">₺0</b><small id="due30Count">0 kayıt</small></article>
@@ -27,6 +33,9 @@
 </section>
 <div id="transactions" class="hidden"></div><div id="accounts" class="hidden"></div><select id="accountFilter" class="hidden"><option value="all">Tümü</option></select>
 <section class="card"><div class="section-head"><div><p class="eyebrow">Planlama</p><h2>Bütçeler & Kategoriler</h2></div><button id="addCategory" class="soft-btn">+ Kategori</button></div><div class="split-grid"><div><h3>Kategoriler</h3><div id="categories" class="pill-list"></div></div><div><h3>Aylık bütçeler</h3><div id="budgets" class="budget-list"></div><button id="addBudget" class="soft-btn full">+ Bütçe ekle</button></div></div></section>
+<section class="card"><div class="section-head"><div><p class="eyebrow">Excel planları</p><h2>Maaş & Öngörü</h2></div></div>
+ <div class="split-grid"><div><h3>Maaş geçmişi</h3><div id="salaryPanel" class="list"></div></div><div><h3>Finansal öngörü</h3><div id="forecastPanel" class="list"></div></div></div>
+</section>
 <section class="card"><div class="section-head"><div><p class="eyebrow">Otomasyon</p><h2>Tekrarlayan işlemler</h2></div><button id="addRecurring" class="soft-btn">+ Kural</button></div><div id="recurring" class="list"></div></section>
 </main></div>
 <dialog id="entryDialog"><form id="entryForm" class="modal"><div class="section-head"><div><p class="eyebrow">Yeni kayıt</p><h2 id="entryTitle">İşlem ekle</h2></div><button type="button" class="icon" id="closeEntry">✕</button></div><input type="hidden" id="kind"><label>Tutar<input id="amount" type="number" min="0" step="0.01" required></label><label>Para Birimi<select id="currency"><option value="TRY">TL</option><option value="USD">Dolar (USD)</option><option value="EUR">Euro (EUR)</option><option value="GOLD">Altın / Gram</option></select></label><label id="descLabel">Açıklama<input id="description" required></label><label>Tarih<input id="date" type="date" required></label><label>Kategori<input id="category" value="Genel"></label><label>Not<textarea id="note" rows="3"></textarea></label><button class="primary" type="submit">Kaydet</button></form></dialog>
@@ -43,4 +52,4 @@
   <div class="history-head"><h3>Ödeme geçmişi</h3><small>Tarih sırasıyla</small></div>
   <div id="detailHistory" class="history-list"></div>
 </div></dialog>
-<div id="toast" class="toast"></div><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script><script src="app.js?v=6"></script><script src="import.js?v=6"></script></body></html>
+<div id="toast" class="toast"></div><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script><script src="app.js?v=8"></script><script src="import.js?v=8"></script></body></html>
