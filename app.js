@@ -147,3 +147,54 @@ q("#detailEdit")?.addEventListener("click",()=>{q("#accountDetailDialog").close(
 q("#detailDelete")?.addEventListener("click",()=>{q("#accountDetailDialog").close();document.querySelector('[data-del-acc="'+detailAccountId+'"]')?.click()});
 const paySubmit=q("#paymentForm").onsubmit;
 q("#paymentForm").onsubmit=async e=>{e.preventDefault();let id=+q("#accountId").value,a=A.find(x=>x.id===id),v=+q("#paymentAmount").value;if(v<=0||v>rem(a))return alert("Tutar geçersiz");let r=await s.from("payments").insert({user_id:u.id,account_id:id,payment_date:q("#paymentDate").value,amount:v,currency:q("#paymentCurrency")?.value||a.currency||"TRY",note:q("#paymentNote").value});if(r.error)return alert(r.error.message);q("#paymentDialog").close();load()};
+
+/* excelModelV8 */
+let SALARY=[],FORECAST=[];
+const _loadV8=load;
+load=async function(){
+ await _loadV8();
+ const [sh,fc]=await Promise.all([
+  s.from("salary_history").select("*").eq("user_id",u.id).order("effective_date",{ascending:false}),
+  s.from("forecasts").select("*").eq("user_id",u.id)
+ ]);
+ SALARY=sh.data||[];FORECAST=fc.data||[];renderExcelModel();
+};
+function excelRates(){
+ try{return JSON.parse(localStorage.getItem("excelFinanceMeta")||"{}").rates||{}}catch{return {}}
+}
+function renderExcelModel(){
+ const rates=excelRates(),fmt=n=>new Intl.NumberFormat("tr-TR",{maximumFractionDigits:2}).format(+n||0)+" TL";
+ if(q("#rateUSD"))q("#rateUSD").textContent=rates.USD?fmt(rates.USD):"-";
+ if(q("#rateEUR"))q("#rateEUR").textContent=rates.EUR?fmt(rates.EUR):"-";
+ if(q("#rateGOLD"))q("#rateGOLD").textContent=rates.GOLD?fmt(rates.GOLD):"-";
+ const meta=(()=>{try{return JSON.parse(localStorage.getItem("excelFinanceMeta")||"{}")}catch{return {}}})();
+ if(q("#rateSource"))q("#rateSource").textContent=meta.importedAt?"Excel referansı · son aktarım "+new Date(meta.importedAt).toLocaleDateString("tr-TR"):"Excel referans değerleri";
+ const sp=q("#salaryPanel");if(sp)sp.innerHTML=SALARY.length?SALARY.map(x=>'<div class="row"><div><b>'+m(x.net_salary)+'</b><small>'+safe(x.effective_date||"")+' · Halkbank kesintisi '+m(x.halkbank_deduction)+'</small></div></div>').join(""):'<div class="empty">Excel’de maaş kaydı yok.</div>';
+ const fp=q("#forecastPanel");if(fp)fp.innerHTML=FORECAST.length?FORECAST.map(x=>'<div class="row"><div><b>'+safe(x.period_label)+'</b><small>'+safe(x.period_type==="monthly"?"Aylık":"Yıllık")+' · Net '+m(x.estimated_net)+'</small></div></div>').join(""):'<div class="empty">Excel’de öngörü kaydı yok.</div>';
+}
+function valuedTry(a){
+ const r=excelRates(),remaining=rem(a);
+ if(a.currency==="TRY")return remaining;
+ if(a.currency==="USD")return remaining*(r.USD||a.base_rate||0);
+ if(a.currency==="EUR")return remaining*(r.EUR||a.base_rate||0);
+ if(a.currency==="GOLD")return remaining*(r.GOLD||a.base_rate||0);
+ return a.imported_remaining_try||0;
+}
+const _detailV8=showAccountDetail;
+showAccountDetail=function(id){
+ _detailV8(id);const a=A.find(x=>x.id===id);if(!a)return;
+ const bits=[
+  a.title&&a.title!==a.party_name?"Başlık: "+a.title:null,
+  a.debt_kind?"Cins: "+a.debt_kind:null,
+  a.status?"Durum: "+a.status:null,
+  a.start_date?"Başlangıç: "+a.start_date:null,
+  "Birim: "+moneyUnit(a.currency),
+  a.currency!=="TRY"?"Güncel TL karşılığı: "+m(valuedTry(a)):null,
+  a.imported_remaining_try!=null&&a.currency!=="TRY"?"Excel TL karşılığı: "+m(a.imported_remaining_try):null,
+  a.base_rate&&a.currency!=="TRY"?"Excel referans kuru/gramı: "+fmtRate(a.base_rate):null,
+  a.imported_transaction_count!=null?"İşlem sayısı: "+a.imported_transaction_count:null,
+  a.note?"Not: "+a.note:null
+ ].filter(Boolean);
+ q("#detailMeta").innerHTML=bits.map(x=>'<div class="detail-line">'+safe(x)+'</div>').join("");
+};
+function fmtRate(v){return new Intl.NumberFormat("tr-TR",{maximumFractionDigits:2}).format(+v||0)+" TL"}
