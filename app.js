@@ -101,7 +101,7 @@ function render(){
  const limit=new Date(now.getTime()+30*86400000),due=open.filter(x=>x.due_date&&new Date(x.due_date+"T12:00:00")>=now&&new Date(x.due_date+"T12:00:00")<=limit);
  set("#due30",m(due.reduce((a,x)=>a+valuedTry(x),0)));set("#due30Count",due.length+" kayıt");set("#savingRate",incGross>0?"%"+Math.round((balance/incGross)*100):"%0");set("#wealthNow",m(balance));
  q("#emptyOnboarding")?.classList.toggle("hidden",!(T.length===0&&A.length===0));
- renderRates();renderMonthlySummary();renderLedger();renderPlanning();
+ renderRates();renderMonthlySummary();renderLedger();renderFinanceAnalysis();renderPlanning();
 }
 function renderRates(){
  const r=rates(),set=(id,v)=>{const e=q(id);if(e)e.textContent=v};
@@ -126,7 +126,7 @@ function sortRows(list,isAccount){
  });
 }
 function monthLabel(ym){const [y,mn]=ym.split("-").map(Number);return new Date(y,mn-1,1).toLocaleDateString("tr-TR",{month:"long",year:"numeric"})}
-function moveMonth(delta){const [y,mn]=selectedMonth.split("-").map(Number),d=new Date(y,mn-1+delta,1);selectedMonth=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0");renderMonthlySummary();renderLedger()}
+function moveMonth(delta){const [y,mn]=selectedMonth.split("-").map(Number),d=new Date(y,mn-1+delta,1);selectedMonth=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0");renderMonthlySummary();renderFinanceAnalysis();renderLedger()}
 function renderMonthlySummary(){
  const income=T.filter(x=>x.type==="gelir"&&String(x.transaction_date||"").startsWith(selectedMonth)).reduce((s,x)=>s+txTry(x),0);
  const normalExpense=T.filter(x=>x.type==="gider"&&String(x.transaction_date||"").startsWith(selectedMonth)).reduce((s,x)=>s+txTry(x),0);
@@ -135,6 +135,32 @@ function renderMonthlySummary(){
  const set=(id,v)=>{const e=q(id);if(e)e.textContent=m(v)};
  set("#summaryIncome",income);set("#summaryExpense",normalExpense+debtPayment);set("#summaryReceivable",monthRec);set("#summaryDebtPayment",debtPayment);
  set("#monthIncome",income);set("#monthExpense",normalExpense+debtPayment);set("#net",income-normalExpense-debtPayment);
+}
+function renderFinanceAnalysis(){
+ const allIncome=T.filter(x=>x.type==="gelir").reduce((s,x)=>s+txTry(x),0);
+ const allNormalOut=T.filter(x=>x.type==="gider").reduce((s,x)=>s+txTry(x),0);
+ const allDebtPaid=P.filter(p=>A.some(a=>Number(a.id)===Number(p.account_id)&&a.record_type==="borc")).reduce((s,p)=>s+paymentTry(p),0);
+ const allOut=allNormalOut+allDebtPaid,allBalance=allIncome-allOut;
+ const monthIncome=T.filter(x=>x.type==="gelir"&&String(x.transaction_date||"").startsWith(selectedMonth)).reduce((s,x)=>s+txTry(x),0);
+ const monthNormalOut=T.filter(x=>x.type==="gider"&&String(x.transaction_date||"").startsWith(selectedMonth)).reduce((s,x)=>s+txTry(x),0);
+ const monthDebt=P.filter(p=>String(p.payment_date||"").startsWith(selectedMonth)&&A.some(a=>Number(a.id)===Number(p.account_id)&&a.record_type==="borc")).reduce((s,p)=>s+paymentTry(p),0);
+ const monthOut=monthNormalOut+monthDebt,balance=monthIncome-monthOut;
+ const debtRatio=monthIncome>0?monthDebt/monthIncome*100:0,expenseRatio=monthIncome>0?monthOut/monthIncome*100:0;
+ const set=(id,v)=>{const e=q(id);if(e)e.textContent=v};
+ set("#allTimeIncome",m(allIncome));set("#allTimeDebtPaid",m(allDebtPaid));set("#allTimeOut",m(allOut));set("#allTimeBalance",m(allBalance));
+ set("#analysisBalance",m(balance));set("#analysisDebtRatio","%"+Math.round(debtRatio));set("#analysisExpenseRatio","%"+Math.round(expenseRatio));set("#analysisMonthLabel",monthLabel(selectedMonth));
+ const tips=[];
+ if(monthIncome<=0&&monthOut>0)tips.push(["Dikkat","Bu ay kayıtlı gelir yokken "+m(monthOut)+" çıkış var. Gelir kayıtlarının eksiksiz olduğundan emin ol."]);
+ else if(balance<0)tips.push(["Nakit açığı","Bu ay gider ve borç ödemeleri geliri "+m(Math.abs(balance))+" aşıyor. Yeni ödeme planlarken önce zorunlu ve vadeli borçları önceliklendir."]);
+ else if(expenseRatio>=90)tips.push(["Dar marj","Bu ay gelirin %"+Math.round(expenseRatio)+" kadarı çıktı. Kalan "+m(balance)+"; yeni taksit veya büyük ödeme eklerken nakit tamponu bırak."]);
+ else if(expenseRatio>=70)tips.push(["Kontrollü ilerle","Bu ay gelirin %"+Math.round(expenseRatio)+" kadarı harcama ve borç ödemelerine gidiyor. Ay sonu kalan "+m(balance)+"."]);
+ else if(monthIncome>0)tips.push(["Olumlu denge","Bu ay gelirinin %"+Math.max(0,Math.round(100-expenseRatio))+" kadarı çıkışlardan sonra kalıyor ("+m(balance)+")."]);
+ if(debtRatio>=40)tips.push(["Borç yükü yüksek","Bu ay gelirin %"+Math.round(debtRatio)+" kadarı doğrudan borç ödemesine ayrılmış. Önümüzdeki ödemelerde vade ve nakit akışını birlikte kontrol et."]);
+ else if(debtRatio>0)tips.push(["Borç ödemeleri","Bu ay "+m(monthDebt)+" borç ödemesi yaptın; bu, aylık gelirin %"+Math.round(debtRatio)+" kadarına denk geliyor."]);
+ const upcoming=A.filter(a=>a.record_type==="borc"&&rem(a)>0&&a.payment_date&&a.payment_date>=day()).sort((a,b)=>String(a.payment_date).localeCompare(String(b.payment_date)))[0];
+ if(upcoming)tips.push(["Sıradaki ödeme",(upcoming.title||upcoming.party_name||"Borç")+" için kayıtlı ödeme tarihi "+upcoming.payment_date+". Kalan güncel TL karşılığı "+m(valuedTry(upcoming))+"."]);
+ if(!tips.length)tips.push(["Veri bekleniyor","Gelir ve gider kayıtları arttıkça sistem aylık nakit akışına göre daha anlamlı öneriler gösterecek."]);
+ const box=q("#financeAdvice");if(box)box.innerHTML=tips.slice(0,4).map(t=>'<article><b>'+safe(t[0])+'</b><p>'+safe(t[1])+'</p></article>').join("");
 }
 function renderLedger(){
  const panel=q("#ledgerPanel");if(!panel)return;
