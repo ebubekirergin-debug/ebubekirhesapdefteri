@@ -137,14 +137,14 @@ function renderPlanning(){
 }
 
 function open(k){
- q("#kind").value=k;q("#amount").value="";q("#description").value="";q("#date").value=day();q("#category").value="Genel";q("#note").value="";q("#currency").value="TRY";
+ q("#kind").value=k;q("#amount").value="";q("#description").value="";q("#date").value=day();q("#category").value="Genel";q("#note").value="";q("#currency").value="TRY";q("#installmentCount").value=0;q("#installmentLabel").classList.toggle("hidden",k!=="borc");
  q("#entryTitle").textContent=({gelir:"Gelir ekle",gider:"Gider ekle",alacak:"Alacak ekle",borc:"Borç ekle"})[k];
  q("#entryDialog").showModal();
 }
 async function saveEntry(e){
  e.preventDefault();const k=q("#kind").value,c=q("#currency").value,amount=Number(q("#amount").value);if(!(amount>0))return;
  let r;if(k==="gelir"||k==="gider")r=await s.from("transactions").insert({user_id:u.id,type:k,transaction_date:q("#date").value,description:q("#description").value,category:q("#category").value,amount,currency:c,note:q("#note").value});
- else r=await s.from("accounts").insert({user_id:u.id,title:q("#description").value,party_name:q("#description").value,record_type:k,debt_kind:"Genel",currency:c,original_amount:amount,start_date:q("#date").value,note:q("#note").value,asset_type:c==="GOLD"?"GOLD":null,asset_quantity:c==="GOLD"?amount:null});
+ else {const installments=k==="borc"?Math.max(0,Math.min(60,Number(q("#installmentCount").value||0))):0;r=await s.from("accounts").insert({user_id:u.id,title:q("#description").value,party_name:q("#description").value,record_type:k,debt_kind:"Genel",currency:c,original_amount:amount,start_date:q("#date").value,note:q("#note").value,installment_count:installments,asset_type:c==="GOLD"?"GOLD":null,asset_quantity:c==="GOLD"?amount:null});}
  if(r.error)return alert(r.error.message);q("#entryDialog").close();await load();
 }
 function pay(id){
@@ -162,7 +162,7 @@ function showAccountDetail(id){
  q("#detailOriginal").textContent=amountUnit(a.original_amount,a.currency);q("#detailPaid").textContent=amountUnit(paid(id),a.currency);q("#detailRemaining").textContent=amountUnit(rem(a),a.currency);
  const completedDate=hist.length&&rem(a)<=0.0001?hist[0].payment_date:null;
  const totalPaidTry=hist.reduce((sum,p)=>sum+paymentTry(p),0);
- const lines=[a.party_name?"Kişi / Kurum: "+a.party_name:null,a.title?"Başlık: "+a.title:null,a.debt_kind?"Cins: "+a.debt_kind:null,"Durum: "+(rem(a)<=0.0001?"Borç kapandı":(a.status||"Açık")),a.start_date?"Başlangıç: "+a.start_date:null,a.due_date?"Vade: "+a.due_date:null,completedDate?"Kapanış tarihi: "+completedDate:null,"Birim: "+moneyUnit(a.currency),"Toplam ödeme TL karşılığı: "+m(totalPaidTry),a.currency!=="TRY"?"Güncel/Excel TL karşılığı: "+m(valuedTry(a)):null,a.imported_remaining_try&&a.currency!=="TRY"?"Excel kalan TL: "+m(a.imported_remaining_try):null,a.base_rate&&a.currency!=="TRY"?"Referans kur/gram: "+NUM.format(a.base_rate)+" TL":null,a.imported_transaction_count!=null?"Excel işlem sayısı: "+a.imported_transaction_count:null,a.note?"Not: "+a.note:null].filter(Boolean);
+ const lines=[a.party_name?"Kişi / Kurum: "+a.party_name:null,a.title?"Başlık: "+a.title:null,a.debt_kind?"Cins: "+a.debt_kind:null,a.record_type==="borc"?"Taksit sayısı: "+Number(a.installment_count||0):null,"Durum: "+(rem(a)<=0.0001?"Borç kapandı":(a.status||"Açık")),a.start_date?"Başlangıç: "+a.start_date:null,a.due_date?"Vade: "+a.due_date:null,completedDate?"Kapanış tarihi: "+completedDate:null,"Birim: "+moneyUnit(a.currency),"Toplam ödeme TL karşılığı: "+m(totalPaidTry),a.currency!=="TRY"?"Güncel/Excel TL karşılığı: "+m(valuedTry(a)):null,a.imported_remaining_try&&a.currency!=="TRY"?"Excel kalan TL: "+m(a.imported_remaining_try):null,a.base_rate&&a.currency!=="TRY"?"Referans kur/gram: "+NUM.format(a.base_rate)+" TL":null,a.imported_transaction_count!=null?"Excel işlem sayısı: "+a.imported_transaction_count:null,a.note?"Not: "+a.note:null].filter(Boolean);
  q("#detailMeta").innerHTML=lines.map(x=>'<div class="detail-line">'+safe(x)+'</div>').join("");
  q("#detailPartialPay").textContent=rem(a)<=0.0001?"Ödeme tamamlandı":a.record_type==="alacak"?"Kısmi tahsilat ekle":"Kısmi ödeme ekle";q("#detailPartialPay").disabled=rem(a)<=0.0001;
  q("#detailHistory").innerHTML=hist.length?hist.map(x=>'<div class="history-item"><div><b>'+(x.payment_date?new Date(x.payment_date+"T12:00:00").toLocaleDateString("tr-TR"):"Tarih belirtilmemiş")+'</b><small>'+(x.sequence_no?"#"+x.sequence_no+" · ":"")+safe(x.note||"Ödeme kaydı")+(x.original_try_value?" · O gün "+m(x.original_try_value):"")+'</small></div><strong>'+amountUnit(x.amount,x.currency||a.currency)+'</strong></div>').join(""):'<div class="empty">Henüz ödeme/tahsilat kaydı yok.</div>';
@@ -171,7 +171,7 @@ function showAccountDetail(id){
 
 async function editTx(id){const x=T.find(v=>Number(v.id)===Number(id));if(!x)return;const d=prompt("Açıklama",x.description);if(d===null)return;const a=Number(prompt("Tutar",x.amount));if(!(a>0))return;const c=prompt("Kategori",x.category||"Genel");const r=await s.from("transactions").update({description:d,amount:a,category:c||"Genel"}).eq("id",x.id).eq("user_id",u.id);if(r.error)alert(r.error.message);else load()}
 async function delTx(id){if(!confirm("Bu gelir/gider kaydı silinsin mi?"))return;const r=await s.from("transactions").delete().eq("id",id).eq("user_id",u.id);if(r.error)alert(r.error.message);else load()}
-async function editAcc(id){const x=A.find(v=>Number(v.id)===Number(id));if(!x)return;const n=prompt("Kişi / kurum",x.party_name);if(n===null)return;const a=Number(prompt("Toplam tutar",x.original_amount));if(!(a>0))return;const r=await s.from("accounts").update({party_name:n,original_amount:a}).eq("id",x.id).eq("user_id",u.id);if(r.error)alert(r.error.message);else load()}
+async function editAcc(id){const x=A.find(v=>Number(v.id)===Number(id));if(!x)return;const n=prompt("Kişi / kurum",x.party_name);if(n===null)return;const a=Number(prompt("Toplam tutar",x.original_amount));if(!(a>0))return;const ic=x.record_type==="borc"?Number(prompt("Taksit sayısı (0-60)",x.installment_count||0)):0;if(ic<0||ic>60||!Number.isInteger(ic))return alert("Taksit sayısı 0 ile 60 arasında tam sayı olmalı.");const r=await s.from("accounts").update({party_name:n,original_amount:a,installment_count:ic}).eq("id",x.id).eq("user_id",u.id);if(r.error)alert(r.error.message);else load()}
 async function delAcc(id){if(!confirm("Bu borç/alacak ve ödeme geçmişi silinsin mi?"))return;await s.from("payments").delete().eq("account_id",id).eq("user_id",u.id);const r=await s.from("accounts").delete().eq("id",id).eq("user_id",u.id);if(r.error)alert(r.error.message);else{q("#accountDetailDialog")?.close();load()}}
 
 qa("[data-ledger-tab]").forEach(b=>b.addEventListener("click",()=>{ledgerTab=b.dataset.ledgerTab;if(ledgerTab==="borc")debtView="active";renderLedger()}));
