@@ -67,3 +67,32 @@ document.addEventListener("click",async e=>{
 });
 const _txV4=tx;tx=function(){_txV4();q("#transactions").querySelectorAll(".row").forEach((el,i)=>{const z=q("#search").value.toLowerCase(),list=T.filter(v=>(v.description+" "+(v.category||"")).toLowerCase().includes(z)).slice(0,50),v=list[i];if(v)el.insertAdjacentHTML("beforeend",'<div class="actions"><button data-edit-tx="'+v.id+'">Düzenle</button><button data-del-tx="'+v.id+'">Sil</button></div>')})};
 const _accV4=acc;acc=function(){_accV4();q("#accounts").querySelectorAll(".account").forEach((el,i)=>{const list=A.filter(v=>rem(v)>0),v=list[i];if(v)el.insertAdjacentHTML("beforeend",'<div class="actions"><button data-edit-acc="'+v.id+'">Düzenle</button><button data-del-acc="'+v.id+'">Sil</button></div>')})};
+
+/* planningV5 */
+let CATS=[],BUD=[],REC=[];
+const _loadV5=load;
+load=async function(){
+  await _loadV5();
+  const [c,b,r]=await Promise.all([
+    s.from("categories").select("*").eq("user_id",u.id).order("sort_order"),
+    s.from("budgets").select("*").eq("user_id",u.id).order("month",{ascending:false}),
+    s.from("recurring_rules").select("*").eq("user_id",u.id).order("created_at",{ascending:false})
+  ]);
+  CATS=c.data||[];BUD=b.data||[];REC=r.data||[];renderPlanning();
+};
+function renderPlanning(){
+  const cat=q("#categories"); if(cat)cat.innerHTML=CATS.length?CATS.map(x=>'<span class="pill">'+safe(x.name)+' · '+safe(x.kind)+'</span>').join(""):'<div class="empty">Kategori yok.</div>';
+  const bud=q("#budgets"); if(bud){const now=new Date(),key=now.toISOString().slice(0,7);bud.innerHTML=BUD.length?BUD.slice(0,10).map(x=>{const spent=T.filter(t=>t.type==="gider"&&t.category===x.category&&t.transaction_date.startsWith(String(x.month).slice(0,7))).reduce((a,t)=>a+(+t.amount),0),pct=Math.min(100,x.amount?spent/(+x.amount)*100:0);return '<div class="budget-item"><b>'+safe(x.category)+'</b><span> '+m(spent)+' / '+m(x.amount)+'</span><div class="bar"><i style="width:'+pct+'%"></i></div></div>'}).join(""):'<div class="empty">Bütçe yok.</div>'}
+  const rr=q("#recurring"); if(rr)rr.innerHTML=REC.length?REC.map(x=>'<div class="row"><div><b>'+safe(x.description)+'</b><small>'+safe(x.category||"Genel")+' · ayın '+x.day_of_month+'. günü</small></div><strong class="'+(x.type==="gelir"?"pos":"neg")+'">'+m(x.amount)+'</strong></div>').join(""):'<div class="empty">Tekrarlayan işlem yok.</div>';
+  const open=A.filter(x=>rem(x)>0), now=new Date(), limit=new Date(now.getTime()+30*86400000);
+  const due=open.filter(x=>x.due_date&&new Date(x.due_date+"T12:00:00")<=limit&&new Date(x.due_date+"T12:00:00")>=now);
+  const dueAmt=due.reduce((a,x)=>a+rem(x),0), inc=+String(q("#monthIncome")?.textContent||"0").replace(/[^0-9,-]/g,"").replace(",",".")||0, exp=+String(q("#monthExpense")?.textContent||"0").replace(/[^0-9,-]/g,"").replace(",",".")||0;
+  const set=(id,v)=>{const e=q(id);if(e)e.textContent=v};
+  set("#due30",m(dueAmt));set("#due30Count",due.length+" kayıt");
+  const d=new Date(),ym=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0"),mi=T.filter(x=>x.type==="gelir"&&x.transaction_date.startsWith(ym)).reduce((a,x)=>a+(+x.amount),0),me=T.filter(x=>x.type==="gider"&&x.transaction_date.startsWith(ym)).reduce((a,x)=>a+(+x.amount),0);
+  set("#savingRate",mi>0?"%"+Math.round(((mi-me)/mi)*100):"%0");
+  set("#wealthNow",q("#net")?.textContent||m(0));
+}
+q("#addCategory")?.addEventListener("click",async()=>{const name=prompt("Kategori adı");if(!name)return;const kind=prompt("Tür: gelir, gider veya both","both");if(!["gelir","gider","both"].includes(kind))return alert("Tür geçersiz");const r=await s.from("categories").insert({user_id:u.id,name,kind});if(r.error)alert(r.error.message);else load()});
+q("#addBudget")?.addEventListener("click",async()=>{const category=prompt("Kategori");if(!category)return;const amount=+prompt("Aylık bütçe tutarı");if(!(amount>0))return;const d=new Date(),month=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-01";const r=await s.from("budgets").upsert({user_id:u.id,category,month,amount},{onConflict:"user_id,category,month"});if(r.error)alert(r.error.message);else load()});
+q("#addRecurring")?.addEventListener("click",async()=>{const type=prompt("Tür: gelir veya gider","gider");if(!["gelir","gider"].includes(type))return;const description=prompt("Açıklama");if(!description)return;const amount=+prompt("Tutar");if(!(amount>0))return;const day_of_month=+prompt("Ayın kaçıncı günü?","1");if(day_of_month<1||day_of_month>31)return;const category=prompt("Kategori","Genel")||"Genel";const r=await s.from("recurring_rules").insert({user_id:u.id,type,description,category,amount,currency:"TRY",day_of_month});if(r.error)alert(r.error.message);else load()});
