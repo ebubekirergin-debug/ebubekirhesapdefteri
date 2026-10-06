@@ -5,7 +5,7 @@ const q=x=>document.querySelector(x);
 const qa=x=>[...document.querySelectorAll(x)];
 const TRY=new Intl.NumberFormat("tr-TR",{style:"currency",currency:"TRY",maximumFractionDigits:2});
 const NUM=new Intl.NumberFormat("tr-TR",{maximumFractionDigits:2});
-let u=null,T=[],A=[],P=[],CATS=[],BUD=[],REC=[],SALARY=[],FORECAST=[],ledgerTab="gelir",detailAccountId=null,rtChannel=null,LIVE_RATES={USD:49.1793,EUR:55.4105,GOLD:6586.08,updatedAt:null,source:"fallback"};
+let u=null,T=[],A=[],P=[],CATS=[],BUD=[],REC=[],SALARY=[],FORECAST=[],ledgerTab="gelir",debtView="active",detailAccountId=null,rtChannel=null,LIVE_RATES={USD:49.1793,EUR:55.4105,GOLD:6586.08,updatedAt:null,source:"fallback"};
 
 const m=n=>TRY.format(Number(n||0));
 const day=()=>new Date().toISOString().slice(0,10);
@@ -46,6 +46,17 @@ async function refreshMarketRates(){
   if(cached.USD&&cached.EUR&&cached.GOLD)LIVE_RATES={...cached,source:"cache"};
  }
 }
+function unitToTry(amount,currency,storedTry=0){
+ const n=Number(amount||0),r=rates();
+ if(currency==="TRY")return n;
+ if(Number(storedTry)>0)return Number(storedTry);
+ if(currency==="USD")return n*Number(r.USD||0);
+ if(currency==="EUR")return n*Number(r.EUR||0);
+ if(currency==="GOLD")return n*Number(r.GOLD||0);
+ return n;
+}
+function txTry(x){return unitToTry(x.amount,x.currency,x.try_value)}
+function paymentTry(p){return unitToTry(p.amount,p.currency,p.original_try_value)}
 function valuedTry(a){
   const remaining=rem(a),r=rates();
   if(a.currency==="TRY")return remaining;
@@ -76,8 +87,10 @@ async function load(){
 }
 function render(){
  const now=new Date(),ym=now.getFullYear()+"-"+String(now.getMonth()+1).padStart(2,"0");
- const inc=T.filter(x=>x.type==="gelir"&&String(x.transaction_date).startsWith(ym)).reduce((a,x)=>a+Number(x.amount||0),0);
- const exp=T.filter(x=>x.type==="gider"&&String(x.transaction_date).startsWith(ym)).reduce((a,x)=>a+Number(x.amount||0),0);
+ const incGross=T.filter(x=>x.type==="gelir"&&String(x.transaction_date).startsWith(ym)).reduce((a,x)=>a+txTry(x),0);
+ const exp=T.filter(x=>x.type==="gider"&&String(x.transaction_date).startsWith(ym)).reduce((a,x)=>a+txTry(x),0);
+ const debtPaidMonth=P.filter(p=>String(p.payment_date||"").startsWith(ym)&&A.some(a=>Number(a.id)===Number(p.account_id)&&a.record_type==="borc")).reduce((sum,p)=>sum+paymentTry(p),0);
+ const inc=Math.max(0,incGross-debtPaidMonth);
  const open=A.filter(x=>rem(x)>0), rec=open.filter(x=>x.record_type==="alacak"), debts=open.filter(x=>x.record_type==="borc");
  const recTry=rec.reduce((a,x)=>a+valuedTry(x),0),debtTry=debts.reduce((a,x)=>a+valuedTry(x),0);
  const set=(id,v)=>{const e=q(id);if(e)e.textContent=v};
@@ -99,15 +112,16 @@ function renderRates(){
 }
 function renderLedger(){
  const panel=q("#ledgerPanel");if(!panel)return;
- const titles={gelir:"Gelir",gider:"Gider",alacak:"Alacak",borc:"Borçlar",tamamlanan:"Ödemesi Bitenler"};q("#ledgerTitle").textContent=titles[ledgerTab];
+ const titles={gelir:"Gelir",gider:"Gider",alacak:"Alacak",borc:"Borçlar"};q("#ledgerTitle").textContent=titles[ledgerTab];
  qa("[data-ledger-tab]").forEach(b=>b.classList.toggle("active",b.dataset.ledgerTab===ledgerTab));
  const z=(q("#search")?.value||"").toLocaleLowerCase("tr-TR");
+ q("#debtSubtabs")?.classList.toggle("hidden",ledgerTab!=="borc");
  if(ledgerTab==="gelir"||ledgerTab==="gider"){
   const list=T.filter(v=>v.type===ledgerTab&&(String(v.description)+" "+String(v.category||"")).toLocaleLowerCase("tr-TR").includes(z));
   panel.innerHTML=list.length?list.map(v=>'<div class="ledger-row"><div><b>'+safe(v.description||"İşlem")+'</b><small>'+safe(v.category||"Genel")+' · '+safe(v.transaction_date)+'</small></div><div class="ledger-amount"><strong class="'+(v.type==="gelir"?"pos":"neg")+'">'+amountUnit(v.amount,v.currency)+'</strong>'+(v.currency!=="TRY"&&Number(v.try_value)>0?'<small>'+m(v.try_value)+'</small>':'')+'<div class="actions"><button data-edit-tx="'+v.id+'">Düzenle</button><button data-del-tx="'+v.id+'">Sil</button></div></div></div>').join(""):'<div class="empty">Kayıt yok.</div>';
  }else{
-  const completed=ledgerTab==="tamamlanan";
-  const list=A.filter(v=>(completed?rem(v)<=0.0001:(v.record_type===ledgerTab&&rem(v)>0.0001))&&(String(v.party_name)+" "+String(v.title||"")+" "+String(v.note||"")).toLocaleLowerCase("tr-TR").includes(z));
+  const completed=ledgerTab==="borc"&&debtView==="completed";
+  const list=A.filter(v=>(completed?(v.record_type==="borc"&&rem(v)<=0.0001):(v.record_type===ledgerTab&&rem(v)>0.0001))&&(String(v.party_name)+" "+String(v.title||"")+" "+String(v.note||"")).toLocaleLowerCase("tr-TR").includes(z));
   panel.innerHTML=list.length?list.map(v=>{
    const pv=paid(v.id),rv=rem(v),tl=valuedTry(v);
    return '<button class="ledger-row account-link '+(rv<=0.0001?"completed-row":"")+'" data-account-detail="'+v.id+'"><div><b>'+safe(v.title||v.party_name)+'</b><small>'+safe(v.party_name)+' · '+safe(v.debt_kind||"Genel")+' · '+(rv<=0.0001?"Ödemesi bitti":safe(v.status||""))+'</small></div><div class="ledger-amount"><strong class="'+(rv<=0.0001?"done":v.record_type==="alacak"?"pos":"neg")+'">'+amountUnit(rv,v.currency)+'</strong>'+(v.currency!=="TRY"?'<small>TL karşılığı '+m(tl)+'</small>':'')+'<small>Ödenen/Tahsil '+amountUnit(pv,v.currency)+' · '+P.filter(x=>Number(x.account_id)===Number(v.id)).length+' kayıt</small></div></button>'
@@ -146,7 +160,9 @@ function showAccountDetail(id){
  const hist=P.filter(x=>Number(x.account_id)===Number(id)).sort((x,y)=>String(y.payment_date||"").localeCompare(String(x.payment_date||""))||Number(y.sequence_no||0)-Number(x.sequence_no||0));
  q("#detailType").textContent=a.record_type==="alacak"?"Alacak detayı":"Borç detayı";q("#detailParty").textContent=a.title||a.party_name;
  q("#detailOriginal").textContent=amountUnit(a.original_amount,a.currency);q("#detailPaid").textContent=amountUnit(paid(id),a.currency);q("#detailRemaining").textContent=amountUnit(rem(a),a.currency);
- const lines=[a.party_name?"Kişi / Kurum: "+a.party_name:null,a.debt_kind?"Cins: "+a.debt_kind:null,a.status?"Durum: "+a.status:null,a.start_date?"Başlangıç: "+a.start_date:null,"Birim: "+moneyUnit(a.currency),a.currency!=="TRY"?"Güncel/Excel TL karşılığı: "+m(valuedTry(a)):null,a.imported_remaining_try&&a.currency!=="TRY"?"Excel kalan TL: "+m(a.imported_remaining_try):null,a.base_rate&&a.currency!=="TRY"?"Referans kur/gram: "+NUM.format(a.base_rate)+" TL":null,a.imported_transaction_count!=null?"Excel işlem sayısı: "+a.imported_transaction_count:null,a.note?"Not: "+a.note:null].filter(Boolean);
+ const completedDate=hist.length&&rem(a)<=0.0001?hist[0].payment_date:null;
+ const totalPaidTry=hist.reduce((sum,p)=>sum+paymentTry(p),0);
+ const lines=[a.party_name?"Kişi / Kurum: "+a.party_name:null,a.title?"Başlık: "+a.title:null,a.debt_kind?"Cins: "+a.debt_kind:null,"Durum: "+(rem(a)<=0.0001?"Borç kapandı":(a.status||"Açık")),a.start_date?"Başlangıç: "+a.start_date:null,a.due_date?"Vade: "+a.due_date:null,completedDate?"Kapanış tarihi: "+completedDate:null,"Birim: "+moneyUnit(a.currency),"Toplam ödeme TL karşılığı: "+m(totalPaidTry),a.currency!=="TRY"?"Güncel/Excel TL karşılığı: "+m(valuedTry(a)):null,a.imported_remaining_try&&a.currency!=="TRY"?"Excel kalan TL: "+m(a.imported_remaining_try):null,a.base_rate&&a.currency!=="TRY"?"Referans kur/gram: "+NUM.format(a.base_rate)+" TL":null,a.imported_transaction_count!=null?"Excel işlem sayısı: "+a.imported_transaction_count:null,a.note?"Not: "+a.note:null].filter(Boolean);
  q("#detailMeta").innerHTML=lines.map(x=>'<div class="detail-line">'+safe(x)+'</div>').join("");
  q("#detailPartialPay").textContent=rem(a)<=0.0001?"Ödeme tamamlandı":a.record_type==="alacak"?"Kısmi tahsilat ekle":"Kısmi ödeme ekle";q("#detailPartialPay").disabled=rem(a)<=0.0001;
  q("#detailHistory").innerHTML=hist.length?hist.map(x=>'<div class="history-item"><div><b>'+(x.payment_date?new Date(x.payment_date+"T12:00:00").toLocaleDateString("tr-TR"):"Tarih belirtilmemiş")+'</b><small>'+(x.sequence_no?"#"+x.sequence_no+" · ":"")+safe(x.note||"Ödeme kaydı")+(x.original_try_value?" · O gün "+m(x.original_try_value):"")+'</small></div><strong>'+amountUnit(x.amount,x.currency||a.currency)+'</strong></div>').join(""):'<div class="empty">Henüz ödeme/tahsilat kaydı yok.</div>';
@@ -158,8 +174,9 @@ async function delTx(id){if(!confirm("Bu gelir/gider kaydı silinsin mi?"))retur
 async function editAcc(id){const x=A.find(v=>Number(v.id)===Number(id));if(!x)return;const n=prompt("Kişi / kurum",x.party_name);if(n===null)return;const a=Number(prompt("Toplam tutar",x.original_amount));if(!(a>0))return;const r=await s.from("accounts").update({party_name:n,original_amount:a}).eq("id",x.id).eq("user_id",u.id);if(r.error)alert(r.error.message);else load()}
 async function delAcc(id){if(!confirm("Bu borç/alacak ve ödeme geçmişi silinsin mi?"))return;await s.from("payments").delete().eq("account_id",id).eq("user_id",u.id);const r=await s.from("accounts").delete().eq("id",id).eq("user_id",u.id);if(r.error)alert(r.error.message);else{q("#accountDetailDialog")?.close();load()}}
 
-qa("[data-ledger-tab]").forEach(b=>b.addEventListener("click",()=>{ledgerTab=b.dataset.ledgerTab;renderLedger()}));
-q("#ledgerAdd")?.addEventListener("click",()=>{if(ledgerTab==="tamamlanan")return toast("Ödemesi bitenler otomatik oluşur");open(ledgerTab)});q("#search")?.addEventListener("input",renderLedger);
+qa("[data-ledger-tab]").forEach(b=>b.addEventListener("click",()=>{ledgerTab=b.dataset.ledgerTab;if(ledgerTab==="borc")debtView="active";renderLedger()}));
+qa("[data-debt-view]").forEach(b=>b.addEventListener("click",()=>{debtView=b.dataset.debtView;qa("[data-debt-view]").forEach(x=>x.classList.toggle("active",x.dataset.debtView===debtView));renderLedger()}));
+q("#ledgerAdd")?.addEventListener("click",()=>{if(ledgerTab==="borc"&&debtView==="completed")return toast("Biten borçlar otomatik oluşur");open(ledgerTab)});q("#search")?.addEventListener("input",renderLedger);
 qa("[data-kind]").forEach(b=>b.addEventListener("click",()=>open(b.dataset.kind)));
 q("#closeEntry")?.addEventListener("click",()=>q("#entryDialog").close());q("#entryForm")?.addEventListener("submit",saveEntry);
 q("#closePayment")?.addEventListener("click",()=>q("#paymentDialog").close());q("#paymentForm")?.addEventListener("submit",savePayment);
