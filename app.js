@@ -101,7 +101,7 @@ function render(){
  const limit=new Date(now.getTime()+30*86400000),due=open.filter(x=>x.due_date&&new Date(x.due_date+"T12:00:00")>=now&&new Date(x.due_date+"T12:00:00")<=limit);
  set("#due30",m(due.reduce((a,x)=>a+valuedTry(x),0)));set("#due30Count",due.length+" kayıt");set("#savingRate",incGross>0?"%"+Math.round((balance/incGross)*100):"%0");set("#wealthNow",m(balance));
  q("#emptyOnboarding")?.classList.toggle("hidden",!(T.length===0&&A.length===0));
- renderRates();renderLedger();renderPlanning();
+ renderRates();renderMonthlySummary();renderLedger();renderPlanning();
 }
 function renderRates(){
  const r=rates(),set=(id,v)=>{const e=q(id);if(e)e.textContent=v};
@@ -126,7 +126,16 @@ function sortRows(list,isAccount){
  });
 }
 function monthLabel(ym){const [y,mn]=ym.split("-").map(Number);return new Date(y,mn-1,1).toLocaleDateString("tr-TR",{month:"long",year:"numeric"})}
-function moveMonth(delta){const [y,mn]=selectedMonth.split("-").map(Number),d=new Date(y,mn-1+delta,1);selectedMonth=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0");renderLedger()}
+function moveMonth(delta){const [y,mn]=selectedMonth.split("-").map(Number),d=new Date(y,mn-1+delta,1);selectedMonth=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0");renderMonthlySummary();renderLedger()}
+function renderMonthlySummary(){
+ const income=T.filter(x=>x.type==="gelir"&&String(x.transaction_date||"").startsWith(selectedMonth)).reduce((s,x)=>s+txTry(x),0);
+ const normalExpense=T.filter(x=>x.type==="gider"&&String(x.transaction_date||"").startsWith(selectedMonth)).reduce((s,x)=>s+txTry(x),0);
+ const debtPayment=P.filter(p=>String(p.payment_date||"").startsWith(selectedMonth)&&A.some(a=>Number(a.id)===Number(p.account_id)&&a.record_type==="borc")).reduce((s,p)=>s+paymentTry(p),0);
+ const monthRec=A.filter(a=>a.record_type==="alacak"&&String(a.start_date||"").startsWith(selectedMonth)).reduce((s,a)=>s+valuedTry(a),0);
+ const set=(id,v)=>{const e=q(id);if(e)e.textContent=m(v)};
+ set("#summaryIncome",income);set("#summaryExpense",normalExpense+debtPayment);set("#summaryReceivable",monthRec);set("#summaryDebtPayment",debtPayment);
+ set("#monthIncome",income);set("#monthExpense",normalExpense+debtPayment);set("#net",income-normalExpense-debtPayment);
+}
 function renderLedger(){
  const panel=q("#ledgerPanel");if(!panel)return;
  if(q("#selectedMonthLabel"))q("#selectedMonthLabel").textContent=monthLabel(selectedMonth);
@@ -143,7 +152,7 @@ function renderLedger(){
   const completed=ledgerTab==="borc"&&debtView==="completed";
   const list=sortRows(A.filter(v=>{
    const stateOk=completed?(v.record_type==="borc"&&rem(v)<=0.0001):(v.record_type===ledgerTab&&rem(v)>0.0001);
-   const monthOk=v.record_type==="borc"?true:String(v.start_date||"").startsWith(selectedMonth);
+   const monthOk=true;
    const searchOk=(String(v.party_name)+" "+String(v.title||"")+" "+String(v.note||"")).toLocaleLowerCase("tr-TR").includes(z);
    return stateOk&&monthOk&&searchOk;
   }),true);
@@ -203,7 +212,7 @@ qa("[data-ledger-tab]").forEach(b=>b.addEventListener("click",()=>{ledgerTab=b.d
 qa("[data-debt-view]").forEach(b=>b.addEventListener("click",()=>{debtView=b.dataset.debtView;qa("[data-debt-view]").forEach(x=>x.classList.toggle("active",x.dataset.debtView===debtView));renderLedger()}));
 q("#prevMonth")?.addEventListener("click",()=>moveMonth(-1));
 q("#nextMonth")?.addEventListener("click",()=>moveMonth(1));
-q("#todayMonth")?.addEventListener("click",()=>{const d=new Date();selectedMonth=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0");renderLedger()});
+q("#todayMonth")?.addEventListener("click",()=>{const d=new Date();selectedMonth=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0");renderMonthlySummary();renderLedger()});
 q("#sortMode")?.addEventListener("change",renderLedger);
 q("#exportExcel")?.addEventListener("click",exportExcel);
 function exportExcel(){
