@@ -1,4 +1,4 @@
-<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f6f7f9"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Hesap Defteri"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css?v=12"><title>Hesap Defteri</title></head><body>
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f6f7f9"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Hesap Defteri"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css?v=13"><title>Hesap Defteri</title></head><body>
 <div id="authView" class="auth-shell"><div class="auth-card"><div class="logo">HD</div><p class="eyebrow">Kişisel finans</p><h1>Hesap Defteri</h1><p class="sub">Gelir, gider, borç ve alacaklarını tek yerden yönet.</p><input id="email" type="email" placeholder="E-posta"><input id="password" type="password" placeholder="Şifre"><button id="signIn" class="primary">Giriş yap</button><button id="signUp" class="secondary">Hesap oluştur</button><p id="authMsg" class="msg"></p></div></div>
 <div id="appView" class="app hidden"><header><div><p class="eyebrow">Kişisel finans</p><h1>Hesap Defteri</h1></div><div class="header-actions"><button id="openSettings" class="icon">⚙︎ Ayarlar</button><button id="signOut" class="icon">Çıkış</button></div></header><main>
 <section id="emptyOnboarding" class="onboarding hidden"><div><p class="eyebrow">Hazır veri aktarımı</p><h2>Eski Excel’ini içeri al</h2><p>Borçlar, alacaklar, gelirler ve giderler tek seferde Supabase hesabına aktarılır.</p></div><label class="import-btn">Excel seç<input id="excelImport" type="file" accept=".xlsx,.xls" hidden></label></section>
@@ -21,14 +21,18 @@
     <button class="active" data-ledger-tab="gelir">Gelir</button>
     <button data-ledger-tab="gider">Gider</button>
     <button data-ledger-tab="alacak">Alacak</button>
-    <button data-ledger-tab="borc">Borçlar</button><button data-ledger-tab="tamamlanan">Ödemesi Bitenler</button>
+    <button data-ledger-tab="borc">Borçlar</button>
   </nav>
   <section class="card ledger-card">
     <div class="section-head">
       <div><p class="eyebrow">Hesap hareketleri</p><h2 id="ledgerTitle">Gelir</h2></div>
       <div class="ledger-tools"><input id="search" placeholder="Ara"><button id="ledgerAdd" class="soft-btn">+ Ekle</button></div>
     </div>
-    <div id="ledgerPanel" class="ledger-panel"></div>
+    <div id="debtSubtabs" class="debt-subtabs hidden">
+  <button class="active" data-debt-view="active">Aktif Borçlar</button>
+  <button data-debt-view="completed">Biten Borçlar</button>
+</div>
+<div id="ledgerPanel" class="ledger-panel"></div>
   </section>
 </section>
 <div id="transactions" class="hidden"></div><div id="accounts" class="hidden"></div><select id="accountFilter" class="hidden"><option value="all">Tümü</option></select>
@@ -64,4 +68,4 @@
 <button class="primary" type="submit">Kaydet ve tüm sistemi hesapla</button>
 <button class="secondary" type="button" id="useLiveRates">Canlı kura dön</button>
 </form></dialog>
-<div id="toast" class="toast"></div><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script><script src="app.js?v=12"></script><script src="import.js?v=9"></script></body></html>
+<div id="toast" class="toast"></div><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script><script src="app.js?v=13"></script><script src="import.js?v=9"></script></body></html>
