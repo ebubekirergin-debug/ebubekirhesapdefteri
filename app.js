@@ -33,3 +33,26 @@ s.auth.onAuthStateChange((event,session)=>{
   if(u){view(true);startRealtime();load()}
   else{if(rtChannel){s.removeChannel(rtChannel);rtChannel=null}view(false)}
 });
+
+/* dashboardUpgradeV3 */
+const _baseRender = render;
+render = function(){
+  _baseRender();
+  const open = A.filter(x=>rem(x)>0);
+  const rec = open.filter(x=>x.record_type==="alacak");
+  const debts = open.filter(x=>x.record_type==="borc");
+  const set=(id,val)=>{const el=q(id); if(el) el.textContent=val};
+  set("#recCount", rec.length+" kayıt");
+  set("#debtCount", debts.length+" kayıt");
+  set("#txCount", T.length);
+  set("#openCount", open.length);
+  set("#payCount", P.length);
+  set("#largestDebt", m(debts.reduce((mx,x)=>Math.max(mx,rem(x)),0)));
+  const onboarding=q("#emptyOnboarding");
+  if(onboarding) onboarding.classList.toggle("hidden", !(T.length===0 && A.length===0));
+};
+q("#accountFilter")?.addEventListener("change",()=>{
+  const f=q("#accountFilter").value;
+  const all=A.filter(v=>rem(v)>0 && (f==="all" || v.record_type===f));
+  q("#accounts").innerHTML=all.length?all.map(v=>'<div class="account"><h3>'+safe(v.party_name)+'</h3><p>'+(v.record_type==="alacak"?"Alacak":"Borç")+'</p><div class="amount '+(v.record_type==="alacak"?"pos":"neg")+'">'+m(rem(v))+'</div><button data-pay="'+v.id+'">'+(v.record_type==="alacak"?"Tahsilat işle":"Ödeme işle")+'</button></div>').join(""):'<div class="empty">Açık hesap yok.</div>';
+});
