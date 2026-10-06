@@ -56,3 +56,14 @@ q("#accountFilter")?.addEventListener("change",()=>{
   const all=A.filter(v=>rem(v)>0 && (f==="all" || v.record_type===f));
   q("#accounts").innerHTML=all.length?all.map(v=>'<div class="account"><h3>'+safe(v.party_name)+'</h3><p>'+(v.record_type==="alacak"?"Alacak":"Borç")+'</p><div class="amount '+(v.record_type==="alacak"?"pos":"neg")+'">'+m(rem(v))+'</div><button data-pay="'+v.id+'">'+(v.record_type==="alacak"?"Tahsilat işle":"Ödeme işle")+'</button></div>').join(""):'<div class="empty">Açık hesap yok.</div>';
 });
+
+/* editDeleteV4 */
+document.addEventListener("click",async e=>{
+ const editTx=e.target.closest("[data-edit-tx]"), delTx=e.target.closest("[data-del-tx]"), editAcc=e.target.closest("[data-edit-acc]"), delAcc=e.target.closest("[data-del-acc]");
+ if(editTx){const x=T.find(v=>v.id==editTx.dataset.editTx);if(!x)return;const d=prompt("Açıklama",x.description);if(d===null)return;const a=prompt("Tutar",x.amount);if(a===null||!(+a>0))return;const c=prompt("Kategori",x.category||"Genel");const r=await s.from("transactions").update({description:d,amount:+a,category:c||"Genel"}).eq("id",x.id).eq("user_id",u.id);if(r.error)alert(r.error.message);else load();}
+ if(delTx){if(!confirm("Bu gelir/gider kaydı silinsin mi?"))return;const r=await s.from("transactions").delete().eq("id",+delTx.dataset.delTx).eq("user_id",u.id);if(r.error)alert(r.error.message);else load();}
+ if(editAcc){const x=A.find(v=>v.id==editAcc.dataset.editAcc);if(!x)return;const n=prompt("Kişi / kurum",x.party_name);if(n===null)return;const a=prompt("Toplam tutar",x.original_amount);if(a===null||!(+a>0))return;const r=await s.from("accounts").update({party_name:n,original_amount:+a}).eq("id",x.id).eq("user_id",u.id);if(r.error)alert(r.error.message);else load();}
+ if(delAcc){if(!confirm("Bu borç/alacak ve bağlı ödeme kayıtları silinsin mi?"))return;const id=+delAcc.dataset.delAcc;await s.from("payments").delete().eq("account_id",id).eq("user_id",u.id);const r=await s.from("accounts").delete().eq("id",id).eq("user_id",u.id);if(r.error)alert(r.error.message);else load();}
+});
+const _txV4=tx;tx=function(){_txV4();q("#transactions").querySelectorAll(".row").forEach((el,i)=>{const z=q("#search").value.toLowerCase(),list=T.filter(v=>(v.description+" "+(v.category||"")).toLowerCase().includes(z)).slice(0,50),v=list[i];if(v)el.insertAdjacentHTML("beforeend",'<div class="actions"><button data-edit-tx="'+v.id+'">Düzenle</button><button data-del-tx="'+v.id+'">Sil</button></div>')})};
+const _accV4=acc;acc=function(){_accV4();q("#accounts").querySelectorAll(".account").forEach((el,i)=>{const list=A.filter(v=>rem(v)>0),v=list[i];if(v)el.insertAdjacentHTML("beforeend",'<div class="actions"><button data-edit-acc="'+v.id+'">Düzenle</button><button data-del-acc="'+v.id+'">Sil</button></div>')})};
