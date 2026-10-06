@@ -141,7 +141,12 @@ function renderLedger(){
   panel.innerHTML=list.length?list.map(v=>'<div class="ledger-row"><div><b>'+safe(v.description||"İşlem")+'</b><small>'+safe(v.category||"Genel")+' · '+safe(v.transaction_date||"")+'</small></div><div class="ledger-amount"><strong class="'+(v.type==="gelir"?"pos":"neg")+'">'+amountUnit(v.amount,v.currency)+'</strong>'+(v.currency!=="TRY"?'<small>TL karşılığı '+m(txTry(v))+'</small>':'')+(v._payment?'':'<div class="actions"><button data-edit-tx="'+v.id+'">Düzenle</button><button data-del-tx="'+v.id+'">Sil</button></div>')+'</div></div>').join(""):'<div class="empty">Kayıt yok.</div>';
  }else{
   const completed=ledgerTab==="borc"&&debtView==="completed";
-  const list=sortRows(A.filter(v=>(completed?(v.record_type==="borc"&&rem(v)<=0.0001):(v.record_type===ledgerTab&&rem(v)>0.0001))&&String((v.record_type==="borc"?(v.payment_date||v.due_date||v.start_date):v.start_date)||"").startsWith(selectedMonth)&&(String(v.party_name)+" "+String(v.title||"")+" "+String(v.note||"")).toLocaleLowerCase("tr-TR").includes(z)),true);
+  const list=sortRows(A.filter(v=>{
+   const stateOk=completed?(v.record_type==="borc"&&rem(v)<=0.0001):(v.record_type===ledgerTab&&rem(v)>0.0001);
+   const monthOk=v.record_type==="borc"?true:String(v.start_date||"").startsWith(selectedMonth);
+   const searchOk=(String(v.party_name)+" "+String(v.title||"")+" "+String(v.note||"")).toLocaleLowerCase("tr-TR").includes(z);
+   return stateOk&&monthOk&&searchOk;
+  }),true);
   panel.innerHTML=list.length?list.map(v=>{
    const pv=paid(v.id),rv=rem(v),tl=valuedTry(v);
    return '<button class="ledger-row account-link '+(rv<=0.0001?"completed-row":"")+'" data-account-detail="'+v.id+'"><div><b>'+safe(v.title||v.party_name)+'</b><small>'+safe(v.party_name)+' · '+safe(v.debt_kind||"Genel")+' · '+(rv<=0.0001?"Ödemesi bitti":safe(v.status||""))+'</small></div><div class="ledger-amount"><strong class="'+(rv<=0.0001?"done":v.record_type==="alacak"?"pos":"neg")+'">'+amountUnit(rv,v.currency)+'</strong>'+(v.currency!=="TRY"?'<small>TL karşılığı '+m(tl)+'</small>':'')+'<small>Ödenen/Tahsil '+amountUnit(pv,v.currency)+' · '+P.filter(x=>Number(x.account_id)===Number(v.id)).length+' kayıt</small></div></button>'
