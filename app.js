@@ -96,3 +96,54 @@ function renderPlanning(){
 q("#addCategory")?.addEventListener("click",async()=>{const name=prompt("Kategori adı");if(!name)return;const kind=prompt("Tür: gelir, gider veya both","both");if(!["gelir","gider","both"].includes(kind))return alert("Tür geçersiz");const r=await s.from("categories").insert({user_id:u.id,name,kind});if(r.error)alert(r.error.message);else load()});
 q("#addBudget")?.addEventListener("click",async()=>{const category=prompt("Kategori");if(!category)return;const amount=+prompt("Aylık bütçe tutarı");if(!(amount>0))return;const d=new Date(),month=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-01";const r=await s.from("budgets").upsert({user_id:u.id,category,month,amount},{onConflict:"user_id,category,month"});if(r.error)alert(r.error.message);else load()});
 q("#addRecurring")?.addEventListener("click",async()=>{const type=prompt("Tür: gelir veya gider","gider");if(!["gelir","gider"].includes(type))return;const description=prompt("Açıklama");if(!description)return;const amount=+prompt("Tutar");if(!(amount>0))return;const day_of_month=+prompt("Ayın kaçıncı günü?","1");if(day_of_month<1||day_of_month>31)return;const category=prompt("Kategori","Genel")||"Genel";const r=await s.from("recurring_rules").insert({user_id:u.id,type,description,category,amount,currency:"TRY",day_of_month});if(r.error)alert(r.error.message);else load()});
+
+/* ledgerV6 */
+let ledgerTab="gelir", detailAccountId=null;
+const moneyUnit=x=>({TRY:"TL",USD:"USD",EUR:"EUR",GOLD:"gr altın"}[x]||x||"TL");
+const amountUnit=(n,c)=>c==="TRY"?m(n):new Intl.NumberFormat("tr-TR",{maximumFractionDigits:2}).format(+n||0)+" "+moneyUnit(c);
+
+function renderLedger(){
+ const panel=q("#ledgerPanel"); if(!panel)return;
+ q("#ledgerTitle").textContent=({gelir:"Gelir",gider:"Gider",alacak:"Alacak",borc:"Borçlar"})[ledgerTab];
+ document.querySelectorAll("[data-ledger-tab]").forEach(b=>b.classList.toggle("active",b.dataset.ledgerTab===ledgerTab));
+ const z=(q("#search")?.value||"").toLocaleLowerCase("tr-TR");
+ if(ledgerTab==="gelir"||ledgerTab==="gider"){
+  const list=T.filter(v=>v.type===ledgerTab&&(v.description+" "+(v.category||"")).toLocaleLowerCase("tr-TR").includes(z));
+  panel.innerHTML=list.length?list.map(v=>'<button class="ledger-row" data-ledger-tx="'+v.id+'"><div><b>'+safe(v.description||"İşlem")+'</b><small>'+safe(v.category||"Genel")+' · '+v.transaction_date+'</small></div><strong class="'+(v.type==="gelir"?"pos":"neg")+'">'+amountUnit(v.amount,v.currency)+'</strong></button>').join(""):'<div class="empty">Kayıt yok.</div>';
+ }else{
+  const list=A.filter(v=>v.record_type===ledgerTab&&(v.party_name+" "+(v.note||"")).toLocaleLowerCase("tr-TR").includes(z));
+  panel.innerHTML=list.length?list.map(v=>{const p=paid(v.id),r=rem(v);return '<button class="ledger-row account-link" data-account-detail="'+v.id+'"><div><b>'+safe(v.party_name)+'</b><small>'+safe(v.currency||"TRY")+' · '+(v.start_date||"")+' · '+P.filter(x=>x.account_id===v.id).length+' ödeme</small></div><div class="ledger-amount"><strong class="'+(v.record_type==="alacak"?"pos":"neg")+'">'+amountUnit(r,v.currency)+'</strong><small>İlk '+amountUnit(v.original_amount,v.currency)+' · Ödenen '+amountUnit(p,v.currency)+'</small></div></button>'}).join(""):'<div class="empty">Kayıt yok.</div>';
+ }
+}
+const _renderV6=render; render=function(){_renderV6();renderLedger()};
+q("#search").oninput=renderLedger;
+document.querySelectorAll("[data-ledger-tab]").forEach(b=>b.addEventListener("click",()=>{ledgerTab=b.dataset.ledgerTab;renderLedger()}));
+q("#ledgerAdd")?.addEventListener("click",()=>open(ledgerTab));
+const _openV6=open; open=function(k){_openV6(k);if(q("#currency"))q("#currency").value="TRY"};
+const oldSubmit=q("#entryForm").onsubmit;
+q("#entryForm").onsubmit=async e=>{
+ e.preventDefault();let k=q("#kind").value,c=q("#currency")?.value||"TRY",o;
+ if(k==="gelir"||k==="gider")o=await s.from("transactions").insert({user_id:u.id,type:k,transaction_date:q("#date").value,description:q("#description").value,category:q("#category").value,amount:+q("#amount").value,currency:c,note:q("#note").value});
+ else o=await s.from("accounts").insert({user_id:u.id,party_name:q("#description").value,record_type:k,debt_kind:"Genel",currency:c,asset_type:c==="GOLD"?"GOLD":null,asset_quantity:c==="GOLD"?+q("#amount").value:null,original_amount:+q("#amount").value,start_date:q("#date").value,note:q("#note").value});
+ if(o.error)return alert(o.error.message);q("#entryDialog").close();load();
+};
+function showAccountDetail(id){
+ const a=A.find(x=>x.id===id);if(!a)return;detailAccountId=id;
+ const hist=P.filter(x=>x.account_id===id).sort((x,y)=>String(y.payment_date).localeCompare(String(x.payment_date)));
+ q("#detailType").textContent=a.record_type==="alacak"?"Alacak detayı":"Borç detayı";
+ q("#detailParty").textContent=a.party_name;
+ q("#detailOriginal").textContent=amountUnit(a.original_amount,a.currency);
+ q("#detailPaid").textContent=amountUnit(paid(id),a.currency);
+ q("#detailRemaining").textContent=amountUnit(rem(a),a.currency);
+ q("#detailMeta").textContent=(a.start_date?"Başlangıç: "+a.start_date+" · ":"")+"Birim: "+moneyUnit(a.currency)+(a.note?" · "+a.note:"");
+ q("#detailPartialPay").textContent=a.record_type==="alacak"?"Kısmi tahsilat ekle":"Kısmi ödeme ekle";
+ q("#detailHistory").innerHTML=hist.length?hist.map(x=>'<div class="history-item"><div><b>'+x.payment_date+'</b><small>'+safe(x.note||"Ödeme kaydı")+'</small></div><strong>'+amountUnit(x.amount,x.currency||a.currency)+'</strong></div>').join(""):'<div class="empty">Henüz ödeme/tahsilat yok.</div>';
+ q("#accountDetailDialog").showModal();
+}
+document.addEventListener("click",e=>{const a=e.target.closest("[data-account-detail]");if(a)showAccountDetail(+a.dataset.accountDetail)});
+q("#closeAccountDetail")?.addEventListener("click",()=>q("#accountDetailDialog").close());
+q("#detailPartialPay")?.addEventListener("click",()=>{q("#accountDetailDialog").close();pay(detailAccountId);const a=A.find(x=>x.id===detailAccountId);if(q("#paymentCurrency"))q("#paymentCurrency").value=a?.currency||"TRY"});
+q("#detailEdit")?.addEventListener("click",()=>{q("#accountDetailDialog").close();document.querySelector('[data-edit-acc="'+detailAccountId+'"]')?.click()});
+q("#detailDelete")?.addEventListener("click",()=>{q("#accountDetailDialog").close();document.querySelector('[data-del-acc="'+detailAccountId+'"]')?.click()});
+const paySubmit=q("#paymentForm").onsubmit;
+q("#paymentForm").onsubmit=async e=>{e.preventDefault();let id=+q("#accountId").value,a=A.find(x=>x.id===id),v=+q("#paymentAmount").value;if(v<=0||v>rem(a))return alert("Tutar geçersiz");let r=await s.from("payments").insert({user_id:u.id,account_id:id,payment_date:q("#paymentDate").value,amount:v,currency:q("#paymentCurrency")?.value||a.currency||"TRY",note:q("#paymentNote").value});if(r.error)return alert(r.error.message);q("#paymentDialog").close();load()};
