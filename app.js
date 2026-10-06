@@ -14,7 +14,7 @@ const moneyUnit=c=>({TRY:"TL",USD:"USD",EUR:"EUR",GOLD:"gr altın"}[c]||c||"TL")
 const amountUnit=(n,c)=>c==="TRY"?m(n):NUM.format(Number(n||0))+" "+moneyUnit(c);
 const paid=id=>P.filter(x=>Number(x.account_id)===Number(id)).reduce((a,x)=>a+Number(x.amount||0),0);
 const rem=a=>Math.max(0,Number(a.original_amount||0)-paid(a.id));
-function rates(){try{return JSON.parse(localStorage.getItem("excelFinanceMeta")||"{}").rates||{}}catch{return {}}}
+function rates(){try{const r=JSON.parse(localStorage.getItem("excelFinanceMeta")||"{}").rates||{};return {USD:Number(r.USD)||48.25,EUR:Number(r.EUR)||56.10,GOLD:Number(r.GOLD)||6890}}catch{return {USD:48.25,EUR:56.10,GOLD:6890}}}
 function valuedTry(a){
   const remaining=rem(a),r=rates();
   if(a.currency==="TRY")return remaining;
