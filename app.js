@@ -5,7 +5,7 @@ const q=x=>document.querySelector(x);
 const qa=x=>[...document.querySelectorAll(x)];
 const TRY=new Intl.NumberFormat("tr-TR",{style:"currency",currency:"TRY",maximumFractionDigits:2});
 const NUM=new Intl.NumberFormat("tr-TR",{maximumFractionDigits:2});
-let u=null,T=[],A=[],P=[],CATS=[],BUD=[],REC=[],SALARY=[],FORECAST=[],ledgerTab="gelir",detailAccountId=null,rtChannel=null;
+let u=null,T=[],A=[],P=[],CATS=[],BUD=[],REC=[],SALARY=[],FORECAST=[],ledgerTab="gelir",detailAccountId=null,rtChannel=null,LIVE_RATES={USD:49.1793,EUR:55.4105,GOLD:6586.08,updatedAt:null,source:"fallback"};
 
 const m=n=>TRY.format(Number(n||0));
 const day=()=>new Date().toISOString().slice(0,10);
@@ -14,7 +14,36 @@ const moneyUnit=c=>({TRY:"TL",USD:"USD",EUR:"EUR",GOLD:"gr altın"}[c]||c||"TL")
 const amountUnit=(n,c)=>c==="TRY"?m(n):NUM.format(Number(n||0))+" "+moneyUnit(c);
 const paid=id=>P.filter(x=>Number(x.account_id)===Number(id)).reduce((a,x)=>a+Number(x.amount||0),0);
 const rem=a=>Math.max(0,Number(a.original_amount||0)-paid(a.id));
-function rates(){try{const r=JSON.parse(localStorage.getItem("excelFinanceMeta")||"{}").rates||{};return {USD:Number(r.USD)||48.25,EUR:Number(r.EUR)||56.10,GOLD:Number(r.GOLD)||6890}}catch{return {USD:48.25,EUR:56.10,GOLD:6890}}}
+function rates(){
+ const cached=(()=>{try{return JSON.parse(localStorage.getItem("liveFinanceRates")||"{}")}catch{return {}}})();
+ return {
+  USD:Number(LIVE_RATES.USD)||Number(cached.USD)||49.1793,
+  EUR:Number(LIVE_RATES.EUR)||Number(cached.EUR)||55.4105,
+  GOLD:Number(LIVE_RATES.GOLD)||Number(cached.GOLD)||6586.08,
+  updatedAt:LIVE_RATES.updatedAt||cached.updatedAt||null,
+  source:LIVE_RATES.source||cached.source||"fallback"
+ };
+}
+async function refreshMarketRates(){
+ try{
+  const [usdRes,eurRes,goldRes]=await Promise.all([
+   fetch("https://api.frankfurter.dev/v2/rate/usd/try",{cache:"no-store"}),
+   fetch("https://api.frankfurter.dev/v2/rate/eur/try",{cache:"no-store"}),
+   fetch("https://api.gold-api.com/price/XAU",{cache:"no-store"})
+  ]);
+  if(!usdRes.ok||!eurRes.ok||!goldRes.ok)throw new Error("market fetch failed");
+  const usd=await usdRes.json(),eur=await eurRes.json(),gold=await goldRes.json();
+  const usdTry=Number(usd.rate),eurTry=Number(eur.rate),xauUsd=Number(gold.price);
+  const gramTry=(xauUsd/31.1034768)*usdTry;
+  if(!(usdTry>0&&eurTry>0&&gramTry>0))throw new Error("invalid market data");
+  LIVE_RATES={USD:usdTry,EUR:eurTry,GOLD:gramTry,updatedAt:new Date().toISOString(),source:"live"};
+  localStorage.setItem("liveFinanceRates",JSON.stringify(LIVE_RATES));
+  render();
+ }catch(err){
+  const cached=(()=>{try{return JSON.parse(localStorage.getItem("liveFinanceRates")||"{}")}catch{return {}}})();
+  if(cached.USD&&cached.EUR&&cached.GOLD)LIVE_RATES={...cached,source:"cache"};
+ }
+}
 function valuedTry(a){
   const remaining=rem(a),r=rates();
   if(a.currency==="TRY")return remaining;
@@ -61,6 +90,10 @@ function render(){
 function renderRates(){
  const r=rates(),set=(id,v)=>{const e=q(id);if(e)e.textContent=v};
  set("#rateUSD",r.USD?NUM.format(r.USD)+" TL":"-");set("#rateEUR",r.EUR?NUM.format(r.EUR)+" TL":"-");set("#rateGOLD",r.GOLD?NUM.format(r.GOLD)+" TL":"-");
+ if(q("#rateSource")){
+  const ts=r.updatedAt?new Date(r.updatedAt).toLocaleString("tr-TR"):"";
+  q("#rateSource").textContent=(r.source==="live"?"Canlı piyasa verisi":r.source==="cache"?"Son alınan piyasa verisi":"Yedek piyasa değeri")+(ts?" · "+ts:"");
+ }
 }
 function renderLedger(){
  const panel=q("#ledgerPanel");if(!panel)return;
@@ -141,4 +174,4 @@ q("#signUp")?.addEventListener("click",async()=>{const r=await s.auth.signUp({em
 q("#signOut")?.addEventListener("click",async()=>{await s.auth.signOut();u=null;view(false)});
 function startRealtime(){if(!u||rtChannel)return;rtChannel=s.channel("finance-live").on("postgres_changes",{event:"*",schema:"public",table:"transactions",filter:"user_id=eq."+u.id},load).on("postgres_changes",{event:"*",schema:"public",table:"accounts",filter:"user_id=eq."+u.id},load).on("postgres_changes",{event:"*",schema:"public",table:"payments",filter:"user_id=eq."+u.id},load).subscribe(st=>{if(st==="SUBSCRIBED")toast("Canlı senkronizasyon aktif")})}
 s.auth.onAuthStateChange((_e,session)=>{u=session?.user||null;if(u){view(true);startRealtime();load()}else view(false)});
-(async()=>{const r=await s.auth.getSession();u=r.data.session?.user||null;view(!!u);if(u){startRealtime();load()}})();
+(async()=>{const r=await s.auth.getSession();u=r.data.session?.user||null;view(!!u);await refreshMarketRates();if(u){startRealtime();load()}setInterval(refreshMarketRates,60000)})();
