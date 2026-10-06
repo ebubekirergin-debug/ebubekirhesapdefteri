@@ -90,6 +90,17 @@ input.addEventListener("change",async e=>{
     if(r.error)throw r.error;
   }
 
+  for(const x of salary){
+    const effective=date(x["Geçerlilik Başlangıcı"]); if(!effective)continue;
+    const exists=(await s.from("salary_history").select("id").eq("user_id",u.id).eq("effective_date",effective).limit(1)).data||[];
+    if(!exists.length){const rr=await s.from("salary_history").insert({user_id:u.id,effective_date:effective,net_salary:Number(x["Aylık Net Maaş"]||0),halkbank_deduction:Number(x["Halkbank Kesintisi (1/4)"]||0),note:norm(x["Açıklama"])});if(rr.error)throw rr.error}
+  }
+  for(const pack of [[monthly,"monthly"],[yearly,"yearly"]])for(const x of pack[0]){
+    const period=norm(x["Dönem"]);if(!period)continue;
+    const payload={user_id:u.id,period_type:pack[1],period_label:period,estimated_income:Number(x["Tahmini Gelir"]||0),estimated_expense:Number(x["Tahmini Gider"]||0),receivable_collection:Number(x["Alacak Tahsilatı"]||0),debt_payment:Number(x["Borç Ödemesi"]||0),estimated_net:Number(x["Tahmini Net"]||0),note:norm(x["Notlar"])};
+    const rr=await s.from("forecasts").upsert(payload,{onConflict:"user_id,period_type,period_label"});if(rr.error)throw rr.error;
+  }
+
   localStorage.setItem("excelFinanceMeta",JSON.stringify({
     reportDate: rows(wb,"Finans Özeti")?.[0]?.["Rapor Tarihi"]||null,
     rates, salaryRows:salary.length, monthlyForecastRows:monthly.length, yearlyForecastRows:yearly.length,
