@@ -14,8 +14,10 @@ const moneyUnit=c=>({TRY:"TL",USD:"USD",EUR:"EUR",GOLD:"gr altın"}[c]||c||"TL")
 const amountUnit=(n,c)=>c==="TRY"?m(n):NUM.format(Number(n||0))+" "+moneyUnit(c);
 const paid=id=>P.filter(x=>Number(x.account_id)===Number(id)).reduce((a,x)=>a+Number(x.amount||0),0);
 const rem=a=>Math.max(0,Number(a.original_amount||0)-paid(a.id));
+function manualRates(){try{return JSON.parse(localStorage.getItem("manualFinanceRates")||"{}")}catch{return {}}}
 function rates(){
- const cached=(()=>{try{return JSON.parse(localStorage.getItem("liveFinanceRates")||"{}")}catch{return {}}})();
+ const manual=manualRates(),cached=(()=>{try{return JSON.parse(localStorage.getItem("liveFinanceRates")||"{}")}catch{return {}}})();
+ if(manual.enabled&&Number(manual.USD)>0&&Number(manual.EUR)>0&&Number(manual.GOLD)>0)return {USD:Number(manual.USD),EUR:Number(manual.EUR),GOLD:Number(manual.GOLD),updatedAt:manual.updatedAt||null,source:"manual"};
  return {
   USD:Number(LIVE_RATES.USD)||Number(cached.USD)||49.1793,
   EUR:Number(LIVE_RATES.EUR)||Number(cached.EUR)||55.4105,
@@ -92,22 +94,23 @@ function renderRates(){
  set("#rateUSD",r.USD?NUM.format(r.USD)+" TL":"-");set("#rateEUR",r.EUR?NUM.format(r.EUR)+" TL":"-");set("#rateGOLD",r.GOLD?NUM.format(r.GOLD)+" TL":"-");
  if(q("#rateSource")){
   const ts=r.updatedAt?new Date(r.updatedAt).toLocaleString("tr-TR"):"";
-  q("#rateSource").textContent=(r.source==="live"?"Canlı piyasa verisi":r.source==="cache"?"Son alınan piyasa verisi":"Yedek piyasa değeri")+(ts?" · "+ts:"");
+  q("#rateSource").textContent=(r.source==="manual"?"Elle belirlenen kur":r.source==="live"?"Canlı piyasa verisi":r.source==="cache"?"Son alınan piyasa verisi":"Yedek piyasa değeri")+(ts?" · "+ts:"");
  }
 }
 function renderLedger(){
  const panel=q("#ledgerPanel");if(!panel)return;
- const titles={gelir:"Gelir",gider:"Gider",alacak:"Alacak",borc:"Borçlar"};q("#ledgerTitle").textContent=titles[ledgerTab];
+ const titles={gelir:"Gelir",gider:"Gider",alacak:"Alacak",borc:"Borçlar",tamamlanan:"Ödemesi Bitenler"};q("#ledgerTitle").textContent=titles[ledgerTab];
  qa("[data-ledger-tab]").forEach(b=>b.classList.toggle("active",b.dataset.ledgerTab===ledgerTab));
  const z=(q("#search")?.value||"").toLocaleLowerCase("tr-TR");
  if(ledgerTab==="gelir"||ledgerTab==="gider"){
   const list=T.filter(v=>v.type===ledgerTab&&(String(v.description)+" "+String(v.category||"")).toLocaleLowerCase("tr-TR").includes(z));
   panel.innerHTML=list.length?list.map(v=>'<div class="ledger-row"><div><b>'+safe(v.description||"İşlem")+'</b><small>'+safe(v.category||"Genel")+' · '+safe(v.transaction_date)+'</small></div><div class="ledger-amount"><strong class="'+(v.type==="gelir"?"pos":"neg")+'">'+amountUnit(v.amount,v.currency)+'</strong>'+(v.currency!=="TRY"&&Number(v.try_value)>0?'<small>'+m(v.try_value)+'</small>':'')+'<div class="actions"><button data-edit-tx="'+v.id+'">Düzenle</button><button data-del-tx="'+v.id+'">Sil</button></div></div></div>').join(""):'<div class="empty">Kayıt yok.</div>';
  }else{
-  const list=A.filter(v=>v.record_type===ledgerTab&&(String(v.party_name)+" "+String(v.title||"")+" "+String(v.note||"")).toLocaleLowerCase("tr-TR").includes(z));
+  const completed=ledgerTab==="tamamlanan";
+  const list=A.filter(v=>(completed?rem(v)<=0.0001:(v.record_type===ledgerTab&&rem(v)>0.0001))&&(String(v.party_name)+" "+String(v.title||"")+" "+String(v.note||"")).toLocaleLowerCase("tr-TR").includes(z));
   panel.innerHTML=list.length?list.map(v=>{
    const pv=paid(v.id),rv=rem(v),tl=valuedTry(v);
-   return '<button class="ledger-row account-link" data-account-detail="'+v.id+'"><div><b>'+safe(v.title||v.party_name)+'</b><small>'+safe(v.party_name)+' · '+safe(v.debt_kind||"Genel")+' · '+safe(v.status||"")+'</small></div><div class="ledger-amount"><strong class="'+(v.record_type==="alacak"?"pos":"neg")+'">'+amountUnit(rv,v.currency)+'</strong>'+(v.currency!=="TRY"?'<small>TL karşılığı '+m(tl)+'</small>':'')+'<small>Ödenen/Tahsil '+amountUnit(pv,v.currency)+' · '+P.filter(x=>Number(x.account_id)===Number(v.id)).length+' kayıt</small></div></button>'
+   return '<button class="ledger-row account-link '+(rv<=0.0001?"completed-row":"")+'" data-account-detail="'+v.id+'"><div><b>'+safe(v.title||v.party_name)+'</b><small>'+safe(v.party_name)+' · '+safe(v.debt_kind||"Genel")+' · '+(rv<=0.0001?"Ödemesi bitti":safe(v.status||""))+'</small></div><div class="ledger-amount"><strong class="'+(rv<=0.0001?"done":v.record_type==="alacak"?"pos":"neg")+'">'+amountUnit(rv,v.currency)+'</strong>'+(v.currency!=="TRY"?'<small>TL karşılığı '+m(tl)+'</small>':'')+'<small>Ödenen/Tahsil '+amountUnit(pv,v.currency)+' · '+P.filter(x=>Number(x.account_id)===Number(v.id)).length+' kayıt</small></div></button>'
   }).join(""):'<div class="empty">Kayıt yok.</div>';
  }
 }
@@ -145,7 +148,7 @@ function showAccountDetail(id){
  q("#detailOriginal").textContent=amountUnit(a.original_amount,a.currency);q("#detailPaid").textContent=amountUnit(paid(id),a.currency);q("#detailRemaining").textContent=amountUnit(rem(a),a.currency);
  const lines=[a.party_name?"Kişi / Kurum: "+a.party_name:null,a.debt_kind?"Cins: "+a.debt_kind:null,a.status?"Durum: "+a.status:null,a.start_date?"Başlangıç: "+a.start_date:null,"Birim: "+moneyUnit(a.currency),a.currency!=="TRY"?"Güncel/Excel TL karşılığı: "+m(valuedTry(a)):null,a.imported_remaining_try&&a.currency!=="TRY"?"Excel kalan TL: "+m(a.imported_remaining_try):null,a.base_rate&&a.currency!=="TRY"?"Referans kur/gram: "+NUM.format(a.base_rate)+" TL":null,a.imported_transaction_count!=null?"Excel işlem sayısı: "+a.imported_transaction_count:null,a.note?"Not: "+a.note:null].filter(Boolean);
  q("#detailMeta").innerHTML=lines.map(x=>'<div class="detail-line">'+safe(x)+'</div>').join("");
- q("#detailPartialPay").textContent=a.record_type==="alacak"?"Kısmi tahsilat ekle":"Kısmi ödeme ekle";
+ q("#detailPartialPay").textContent=rem(a)<=0.0001?"Ödeme tamamlandı":a.record_type==="alacak"?"Kısmi tahsilat ekle":"Kısmi ödeme ekle";q("#detailPartialPay").disabled=rem(a)<=0.0001;
  q("#detailHistory").innerHTML=hist.length?hist.map(x=>'<div class="history-item"><div><b>'+(x.payment_date?new Date(x.payment_date+"T12:00:00").toLocaleDateString("tr-TR"):"Tarih belirtilmemiş")+'</b><small>'+(x.sequence_no?"#"+x.sequence_no+" · ":"")+safe(x.note||"Ödeme kaydı")+(x.original_try_value?" · O gün "+m(x.original_try_value):"")+'</small></div><strong>'+amountUnit(x.amount,x.currency||a.currency)+'</strong></div>').join(""):'<div class="empty">Henüz ödeme/tahsilat kaydı yok.</div>';
  q("#accountDetailDialog").showModal();
 }
@@ -156,7 +159,7 @@ async function editAcc(id){const x=A.find(v=>Number(v.id)===Number(id));if(!x)re
 async function delAcc(id){if(!confirm("Bu borç/alacak ve ödeme geçmişi silinsin mi?"))return;await s.from("payments").delete().eq("account_id",id).eq("user_id",u.id);const r=await s.from("accounts").delete().eq("id",id).eq("user_id",u.id);if(r.error)alert(r.error.message);else{q("#accountDetailDialog")?.close();load()}}
 
 qa("[data-ledger-tab]").forEach(b=>b.addEventListener("click",()=>{ledgerTab=b.dataset.ledgerTab;renderLedger()}));
-q("#ledgerAdd")?.addEventListener("click",()=>open(ledgerTab));q("#search")?.addEventListener("input",renderLedger);
+q("#ledgerAdd")?.addEventListener("click",()=>{if(ledgerTab==="tamamlanan")return toast("Ödemesi bitenler otomatik oluşur");open(ledgerTab)});q("#search")?.addEventListener("input",renderLedger);
 qa("[data-kind]").forEach(b=>b.addEventListener("click",()=>open(b.dataset.kind)));
 q("#closeEntry")?.addEventListener("click",()=>q("#entryDialog").close());q("#entryForm")?.addEventListener("submit",saveEntry);
 q("#closePayment")?.addEventListener("click",()=>q("#paymentDialog").close());q("#paymentForm")?.addEventListener("submit",savePayment);
@@ -168,6 +171,29 @@ document.addEventListener("click",e=>{const a=e.target.closest("[data-account-de
 q("#addCategory")?.addEventListener("click",async()=>{const name=prompt("Kategori adı");if(!name)return;const kind=prompt("Tür: gelir, gider veya both","both");if(!["gelir","gider","both"].includes(kind))return;const r=await s.from("categories").insert({user_id:u.id,name,kind});if(r.error)alert(r.error.message);else load()});
 q("#addBudget")?.addEventListener("click",async()=>{const category=prompt("Kategori");if(!category)return;const amount=Number(prompt("Aylık bütçe"));if(!(amount>0))return;const d=new Date(),month=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-01";const r=await s.from("budgets").upsert({user_id:u.id,category,month,amount},{onConflict:"user_id,category,month"});if(r.error)alert(r.error.message);else load()});
 q("#addRecurring")?.addEventListener("click",async()=>{const type=prompt("Tür: gelir veya gider","gider");if(!["gelir","gider"].includes(type))return;const description=prompt("Açıklama");if(!description)return;const amount=Number(prompt("Tutar"));if(!(amount>0))return;const day_of_month=Number(prompt("Ayın kaçıncı günü?","1"));if(day_of_month<1||day_of_month>31)return;const category=prompt("Kategori","Genel")||"Genel";const r=await s.from("recurring_rules").insert({user_id:u.id,type,description,category,amount,currency:"TRY",day_of_month});if(r.error)alert(r.error.message);else load()});
+
+
+function openSettings(){
+ const r=rates(),manual=manualRates();
+ q("#manualUSD").value=manual.USD||r.USD||"";
+ q("#manualEUR").value=manual.EUR||r.EUR||"";
+ q("#manualGOLD").value=manual.GOLD||r.GOLD||"";
+ q("#manualRatesEnabled").checked=!!manual.enabled;
+ q("#settingsDialog").showModal();
+}
+q("#openSettings")?.addEventListener("click",openSettings);
+q("#closeSettings")?.addEventListener("click",()=>q("#settingsDialog").close());
+q("#settingsForm")?.addEventListener("submit",e=>{
+ e.preventDefault();
+ const USD=Number(q("#manualUSD").value),EUR=Number(q("#manualEUR").value),GOLD=Number(q("#manualGOLD").value);
+ if(!(USD>0&&EUR>0&&GOLD>0))return alert("USD, EUR ve gram altın değerlerini gir.");
+ localStorage.setItem("manualFinanceRates",JSON.stringify({USD,EUR,GOLD,enabled:q("#manualRatesEnabled").checked,updatedAt:new Date().toISOString()}));
+ q("#settingsDialog").close();render();toast("Kur ayarları kaydedildi");
+});
+q("#useLiveRates")?.addEventListener("click",async()=>{
+ const x=manualRates();localStorage.setItem("manualFinanceRates",JSON.stringify({...x,enabled:false}));
+ q("#manualRatesEnabled").checked=false;q("#settingsDialog").close();await refreshMarketRates();render();toast("Canlı kura dönüldü");
+});
 
 q("#signIn")?.addEventListener("click",async()=>{const r=await s.auth.signInWithPassword({email:q("#email").value,password:q("#password").value});q("#authMsg").textContent=r.error?r.error.message:"";if(!r.error){u=r.data.user;view(true);startRealtime();load()}});
 q("#signUp")?.addEventListener("click",async()=>{const r=await s.auth.signUp({email:q("#email").value,password:q("#password").value});q("#authMsg").textContent=r.error?r.error.message:"Hesap oluşturuldu. E-postanı doğrula."});
