@@ -1,6 +1,6 @@
 const U="https://dduzyusrwiybvphvkzpt.supabase.co";
 const K="sb_publishable_-mn0WgU0J3pE_NnOX1kIsg_Eq3m-7aR";
-const s=supabase.createClient(U,K);
+const s=supabase.createClient(U,K,{auth:{experimental:{passkey:true}}});
 const q=x=>document.querySelector(x);
 const qa=x=>[...document.querySelectorAll(x)];
 const TRY=new Intl.NumberFormat("tr-TR",{style:"currency",currency:"TRY",maximumFractionDigits:2});
@@ -296,3 +296,160 @@ q("#signOut")?.addEventListener("click",async()=>{await s.auth.signOut();u=null;
 function startRealtime(){if(!u||rtChannel)return;rtChannel=s.channel("finance-live").on("postgres_changes",{event:"*",schema:"public",table:"transactions",filter:"user_id=eq."+u.id},load).on("postgres_changes",{event:"*",schema:"public",table:"accounts",filter:"user_id=eq."+u.id},load).on("postgres_changes",{event:"*",schema:"public",table:"payments",filter:"user_id=eq."+u.id},load).subscribe(st=>{if(st==="SUBSCRIBED")toast("Canlı senkronizasyon aktif")})}
 s.auth.onAuthStateChange((_e,session)=>{u=session?.user||null;if(u){view(true);startRealtime();load()}else view(false)});
 (async()=>{const r=await s.auth.getSession();u=r.data.session?.user||null;view(!!u);await refreshMarketRates();if(u){startRealtime();load()}setInterval(refreshMarketRates,60000)})();
+
+// ===== Finans Kocu =====
+let COACH_LESSONS=[],COACH_PROGRESS=[],COACH_ENTRIES=[],COACH_CHECKINS=[],coachCurrentLesson=null,coachMode="ledger";
+
+function coachShowMode(mode){
+ coachMode=mode;
+ const coach=q("#coachView");
+ const ledgerChildren=qa("#appView main > :not(#coachView)");
+ if(mode==="coach"){
+  ledgerChildren.forEach(x=>x.classList.add("mode-hidden"));
+  coach?.classList.remove("hidden");
+  q("#modeCoach")?.classList.add("active");q("#modeLedger")?.classList.remove("active");
+  loadCoach();
+ }else{
+  ledgerChildren.forEach(x=>x.classList.remove("mode-hidden"));
+  coach?.classList.add("hidden");
+  q("#modeLedger")?.classList.add("active");q("#modeCoach")?.classList.remove("active");
+ }
+}
+q("#modeLedger")?.addEventListener("click",()=>coachShowMode("ledger"));
+q("#modeCoach")?.addEventListener("click",()=>coachShowMode("coach"));
+
+async function loadCoach(){
+ if(!u)return;
+ const [l,p,e,c]=await Promise.all([
+  s.from("finance_lessons").select("*").eq("active",true).order("sequence_no"),
+  s.from("finance_lesson_progress").select("*").eq("user_id",u.id),
+  s.from("finance_lesson_entries").select("*").eq("user_id",u.id),
+  s.from("daily_finance_checkins").select("*").eq("user_id",u.id).order("checkin_date",{ascending:false})
+ ]);
+ if(l.error||p.error||e.error||c.error){
+  toast("Finans Koçu verileri yüklenemedi");
+  return;
+ }
+ COACH_LESSONS=l.data||[];COACH_PROGRESS=p.data||[];COACH_ENTRIES=e.data||[];COACH_CHECKINS=c.data||[];
+ renderCoach();
+}
+
+function coachProgressFor(id){return COACH_PROGRESS.find(x=>Number(x.lesson_id)===Number(id))}
+function coachEntryFor(id){return COACH_ENTRIES.find(x=>Number(x.lesson_id)===Number(id))}
+function renderCoach(){
+ if(!COACH_LESSONS.length)return;
+ const completed=new Set(COACH_PROGRESS.filter(x=>x.status==="completed").map(x=>Number(x.lesson_id)));
+ const done=completed.size,total=COACH_LESSONS.length,pct=total?Math.round(done/total*100):0;
+ const next=COACH_LESSONS.find(x=>!completed.has(Number(x.id)))||COACH_LESSONS[COACH_LESSONS.length-1];
+ coachCurrentLesson=next;
+ const debtOpen=A.filter(x=>x.record_type==="borc"&&rem(x)>0).reduce((sum,x)=>sum+valuedTry(x),0);
+ const profileCash=0;
+ const streak=coachStreak();
+ const set=(id,v)=>{const el=q(id);if(el)el.textContent=v};
+ set("#coachProgressPct","%"+pct);set("#coachDone",done+" / "+total);set("#coachCash",m(profileCash));set("#coachDebt",m(debtOpen));set("#coachStreak",streak+" gün");
+ set("#coachTodayTitle",next.title);set("#coachTodaySummary",next.summary||next.learning_objective||"");
+ set("#coachTodayMeta",(next.module_title||"Finans")+" · "+Number(next.estimated_minutes||10)+" dk");
+ renderLessonArchive();
+}
+function coachStreak(){
+ const dates=new Set(COACH_CHECKINS.filter(x=>x.lesson_done||x.no_new_investment_today||x.tracked_spending_today).map(x=>x.checkin_date));
+ let n=0,d=new Date();
+ for(;;){const key=d.toISOString().slice(0,10);if(!dates.has(key))break;n++;d.setDate(d.getDate()-1)}
+ return n;
+}
+function renderLessonArchive(){
+ const box=q("#lessonArchive");if(!box)return;
+ const term=(q("#lessonSearch")?.value||"").toLocaleLowerCase("tr-TR");
+ const rows=COACH_LESSONS.filter(x=>(String(x.title)+" "+String(x.module_title||"")+" "+String(x.summary||"")).toLocaleLowerCase("tr-TR").includes(term));
+ box.innerHTML=rows.map(x=>{
+  const p=coachProgressFor(x.id),done=p?.status==="completed";
+  return '<button type="button" class="lesson-row '+(done?"lesson-done":"")+'" data-lesson-id="'+x.id+'"><div class="lesson-number">'+x.sequence_no+'</div><div><b>'+safe(x.title)+'</b><small>'+safe(x.module_title||"Finans")+' · '+Number(x.estimated_minutes||10)+' dk</small></div><span>'+(done?"✓ Bitti":"Aç")+'</span></button>';
+ }).join("")||'<div class="empty">Ders bulunamadı.</div>';
+}
+q("#lessonSearch")?.addEventListener("input",renderLessonArchive);
+q("#lessonArchive")?.addEventListener("click",e=>{const b=e.target.closest("[data-lesson-id]");if(b)openCoachLesson(Number(b.dataset.lessonId))});
+q("#openTodayLesson")?.addEventListener("click",()=>{if(coachCurrentLesson)openCoachLesson(coachCurrentLesson.id)});
+
+function openCoachLesson(id){
+ const lesson=COACH_LESSONS.find(x=>Number(x.id)===Number(id));if(!lesson)return;
+ coachCurrentLesson=lesson;
+ const p=coachProgressFor(id),entry=coachEntryFor(id);
+ q("#lessonModule").textContent=lesson.module_title||"Finans Koçu";
+ q("#lessonDialogTitle").textContent=lesson.title;
+ q("#lessonDifficulty").textContent=lesson.difficulty==="orta"?"Orta seviye":"Başlangıç";
+ q("#lessonMinutes").textContent=Number(lesson.estimated_minutes||10)+" dk";
+ q("#lessonStatus").textContent=p?.status==="completed"?"✓ Tamamlandı":"Devam ediyor";
+ q("#lessonObjective").textContent=lesson.learning_objective||lesson.summary||"";
+ q("#lessonBody").textContent=lesson.content||"";
+ const kp=Array.isArray(lesson.key_points)?lesson.key_points:[];
+ q("#lessonKeyPoints").innerHTML=kp.length?'<h3>Ana fikirler</h3><ul>'+kp.map(x=>'<li>'+safe(x)+'</li>').join("")+'</ul>':"";
+ q("#lessonTask").textContent=lesson.daily_task||"";
+ q("#lessonQuizQuestion").textContent=lesson.quiz_question||"";
+ const opts=Array.isArray(lesson.quiz_options)?lesson.quiz_options:[];
+ q("#lessonQuizOptions").innerHTML=opts.map((x,i)=>'<button type="button" data-quiz-index="'+i+'">'+safe(x)+'</button>').join("");
+ q("#lessonQuizResult").textContent=p?.quiz_correct===true?"Daha önce doğru cevapladın.":"";
+ q("#lessonHomework").value=entry?.homework_text||"";
+ q("#lessonReflection").value=entry?.reflection_text||"";
+ q("#lessonNotes").value=entry?.personal_notes||"";
+ q("#completeLesson").textContent=p?.status==="completed"?"Ders tamamlandı ✓":"Dersi tamamla";
+ q("#lessonDialog").showModal();
+}
+q("#closeLesson")?.addEventListener("click",()=>q("#lessonDialog").close());
+q("#lessonQuizOptions")?.addEventListener("click",async e=>{
+ const b=e.target.closest("[data-quiz-index]");if(!b||!coachCurrentLesson||!u)return;
+ const idx=Number(b.dataset.quizIndex),correct=idx===Number(coachCurrentLesson.quiz_correct_index);
+ const r=await s.from("finance_lesson_progress").upsert({
+  user_id:u.id,lesson_id:coachCurrentLesson.id,status:coachProgressFor(coachCurrentLesson.id)?.status||"started",
+  quiz_answer_index:idx,quiz_correct:correct
+ },{onConflict:"user_id,lesson_id"});
+ q("#lessonQuizResult").textContent=r.error?r.error.message:(correct?"Doğru ✓":"Tekrar düşün. Dersin ana fikrine dön.");
+ if(!r.error)await loadCoach();
+});
+async function saveCoachEntry(){
+ if(!u||!coachCurrentLesson)return false;
+ const payload={user_id:u.id,lesson_id:coachCurrentLesson.id,homework_text:q("#lessonHomework").value,reflection_text:q("#lessonReflection").value,personal_notes:q("#lessonNotes").value,updated_at:new Date().toISOString()};
+ const r=await s.from("finance_lesson_entries").upsert(payload,{onConflict:"user_id,lesson_id"});
+ if(r.error){toast(r.error.message);return false}
+ toast("Ders notların kaydedildi");await loadCoach();return true;
+}
+q("#saveLessonEntry")?.addEventListener("click",saveCoachEntry);
+q("#completeLesson")?.addEventListener("click",async()=>{
+ if(!u||!coachCurrentLesson)return;
+ await saveCoachEntry();
+ const r=await s.from("finance_lesson_progress").upsert({user_id:u.id,lesson_id:coachCurrentLesson.id,status:"completed",task_completed:true,completed_at:new Date().toISOString()},{onConflict:"user_id,lesson_id"});
+ if(r.error)return toast(r.error.message);
+ const d=day();
+ await s.from("daily_finance_checkins").upsert({user_id:u.id,checkin_date:d,lesson_done:true},{onConflict:"user_id,checkin_date"});
+ q("#lessonDialog").close();await loadCoach();toast("Ders tamamlandı");
+});
+q("#coachNoInvest")?.addEventListener("click",async()=>{
+ if(!u)return;const d=day();
+ const r=await s.from("daily_finance_checkins").upsert({user_id:u.id,checkin_date:d,no_new_investment_today:true},{onConflict:"user_id,checkin_date"});
+ if(r.error)toast(r.error.message);else{toast("Bugünün disiplin kaydı alındı");loadCoach()}
+});
+q("#coachSaveImpulse")?.addEventListener("click",async()=>{
+ if(!u)return;
+ const amount=Number(q("#coachImpulseAmount").value||0),desc=q("#coachImpulseDesc").value.trim();
+ if(!desc)return toast("Önce ne yapmak istediğini yaz.");
+ const r=await s.from("money_impulse_log").insert({user_id:u.id,impulse_type:q("#coachImpulseType").value,amount,description:desc,decision:"bekliyor"});
+ if(r.error)return toast(r.error.message);
+ q("#coachImpulseAmount").value="";q("#coachImpulseDesc").value="";toast("Kaydedildi. 24 saat bekleme başladı.");
+});
+
+// Face ID / Passkey
+q("#passkeySignIn")?.addEventListener("click",async()=>{
+ q("#authMsg").textContent="Face ID / Passkey bekleniyor…";
+ try{
+  const r=await s.auth.signInWithPasskey();
+  q("#authMsg").textContent=r.error?r.error.message:"";
+  if(!r.error){u=r.data.user;view(true);startRealtime();load();coachShowMode("coach")}
+ }catch(err){q("#authMsg").textContent=err?.message||"Passkey girişi başlatılamadı."}
+});
+q("#registerPasskey")?.addEventListener("click",async()=>{
+ const msg=q("#passkeyMsg");if(!u){msg.textContent="Önce hesabına giriş yap.";return}
+ msg.textContent="Face ID / Passkey kaydı başlatılıyor…";
+ try{
+  const r=await s.auth.registerPasskey();
+  msg.textContent=r.error?r.error.message:"Bu cihaz için Face ID / Passkey etkinleştirildi.";
+ }catch(err){msg.textContent=err?.message||"Passkey kaydedilemedi."}
+});
