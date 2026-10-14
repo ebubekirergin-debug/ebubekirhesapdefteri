@@ -303,7 +303,7 @@ let COACH_LESSONS=[],COACH_PROGRESS=[],COACH_ENTRIES=[],COACH_CHECKINS=[],coachC
 function coachShowMode(mode){
  coachMode=mode;
  const coach=q("#coachView");
- const ledgerChildren=qa("#appView main > :not(#coachView)");
+ const ledgerChildren=qa("#appView main > :not(#coachView):not(#financeAcademyView):not(#journeyView)");
  if(mode==="coach"){
   ledgerChildren.forEach(x=>x.classList.add("mode-hidden"));
   coach?.classList.remove("hidden");
