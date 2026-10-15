@@ -1,0 +1,300 @@
+    2. Aracın tahmini değeri ile bankadaki para aynı derecede likit midir?
+
+ A) Hayır
+
+ B) Evet
+
+ C) Her koşulda
+
+    3. Finans fotoğrafında tarih niçin önemlidir?
+
+ A) Görünüş için
+
+ B) Vergi artırmak için
+
+ C) Karşılaştırılabilir veri için
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                                           9
+<PARSED TEXT FOR PAGE: 30 / 166>
+ Kendini değerlendir: Anlatımı kendi cümlelerinle 2-3 cümlede özetle. Ödevi tamamladığın tarihi kaydet.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                                10
+<PARSED TEXT FOR PAGE: 31 / 166>
+ GÜN 12
+
+
+ Borç haritası oluştur
+ Borçları yönetmek için önce kime, ne kadar, hangi maliyetle ve hangi tarihte ödeme yapılacağını
+ bilmelisin.
+
+
+ Konu anlatımı
+
+ Borç haritasında en az altı alan bulunur: alacaklı, kalan anapara, uygulanıyorsa faiz/maliyet, asgari veya
+ aylık ödeme, son ödeme günü, gecikme riski. Döviz cinsinden borçlar için kur riskini de ayrıca kaydet.
+
+ Borçların toplamı kadar ödeme takvimi önemlidir. Aynı ay içinde yığılan taksitler, toplam gelir yeterli
+ görünse bile ödeme krizi doğurabilir. Zorunlu giderler ile minimum borç ödemelerini karşılayacak nakit
+ bulunmuyorsa harcamaları azaltmak ve ilgili kuruluşla erkenden görüşmek gerekebilir.
+
+ Borç kapatma sıralamasında “çığ yöntemi” maliyeti yüksek borçları öncelemeye, “kartopu yöntemi”
+ küçük bakiyeleri kapatarak motivasyon sağlamaya odaklanır. Hangisi seçilirse seçilsin tüm borçların
+ asgari ödeme ve sözleşme yükümlülükleri göz ardı edilmemelidir.
+
+
+ TL üzerinden hesaplamalı örnek
+
+ Örnek: Kredi kartında 24.000 TL, ihtiyaç kredisinde 70.000 TL, arkadaşa olan borçta 6.000 TL bulunuyor.
+ Toplam borç 100.000 TL. Aylık net gelir 50.000 TL ve borç ödemeleri 16.000 TL ise ödeme/gelir oranı
+ %32’dir. Bu oran tek başına güvenli düzeyi söylemez; kira, gıda ve gelir istikrarı da değerlendirilir.
+
+
+ Günlük uygulama ödevi
+
+ Bütün borçlarını tek tabloda topla. Son ödeme günlerini takvime işle. Bu ay için asgari ödemelerin
+ toplamını ve gelirine oranını bul; bir ödeme gecikecekse önceden çözüm seçeneklerini araştır.
+
+
+ Üç soruluk mini test
+
+    1. Borç haritasında hangi bilgi gerekir?
+
+ A) Sadece banka logosu
+
+ B) Tutar, maliyet ve vade
+
+ C) Sadece geçmiş ödemeler
+
+    2. 16.000 TL ödeme / 50.000 TL gelir oranı kaçtır?
+
+ A) %32
+
+ B) %16
+
+ C) %50
+
+    3. Ödeme sıkışıklığında doğru yaklaşım hangisidir?
+
+ A) Bildirimleri silmek
+
+ B) Yeni borcu araştırmadan almak
+
+ C) Erken plan yapmak ve kuruluşla görüşmek
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                                    11
+<PARSED TEXT FOR PAGE: 32 / 166>
+ Kendini değerlendir: Anlatımı kendi cümlelerinle 2-3 cümlede özetle. Ödevi tamamladığın tarihi kaydet.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                                12
+<PARSED TEXT FOR PAGE: 33 / 166>
+ GÜN 13
+
+
+ İlk nakit tampon hedefi
+ Nakit tamponu, sürpriz bir masraf veya geçici gelir kaybında borca başvurma ihtiyacını azaltmak için
+ tutulan erişilebilir paradır.
+
+
+ Konu anlatımı
+
+ Acil durum fonunun amacı en yüksek getiriyi kovalamak değil, ihtiyaç anında kullanılabilir olmaktır. Kısa
+ vadede nakde dönüşmeyen veya değeri sert değişebilen yatırımlar bu görevi tam karşılamayabilir.
+
+ İlk hedefi küçük ve uygulanabilir seçmek motivasyon sağlar. Örneğin önce bir haftalık zorunlu gideri,
+ sonra bir aylık zorunlu gideri, ardından koşullara göre birkaç aylık gideri karşılayabilecek miktarı hedefle.
+ Uygun fon büyüklüğü iş güvencesine, bakmakla yükümlü olunan kişilere ve sağlık giderlerine göre
+ değişir.
+
+ Fonla günlük harcama hesabını ayrı tutmak işe yarar. Beklenen yıllık giderler (örneğin yıllık sigorta
+ yenilemesi) acil durum değildir; bunlar için ayrı bir birikim kalemi oluştur. Acil fon kullanıldığında ilk
+ uygun fırsatta yeniden doldurma planı yap.
+
+
+ TL üzerinden hesaplamalı örnek
+
+ Aylık zorunlu harcaman 30.000 TL ise bir haftalık yaklaşık hedef 7.500 TL, bir aylık hedef 30.000 TL, üç
+ aylık hedef 90.000 TL’dir. Ayda 5.000 TL ayırabiliyorsan 30.000 TL’ye ulaşmak başlangıç bakiyesi sıfır ve
+ getiri yok varsayımıyla altı ay sürer. Hesap örneği enflasyon ve fiyat değişimlerini içermez.
+
+
+ Günlük uygulama ödevi
+
+ Zorunlu giderlerini topla. Bir haftalık ve bir aylık tampon hedefini hesapla. Her maaş günü
+ aktarabileceğin gerçekçi bir tutar seç ve otomatik aktarım için hatırlatıcı koy.
+
+
+ Üç soruluk mini test
+
+    1. Acil fonun temel amacı nedir?
+
+ A) Her ay en yüksek getiriyi sağlamak
+
+ B) Beklenmedik durumda erişilebilir kaynak sunmak
+
+ C) Hisse seçmek
+
+    2. 30.000 TL aylık zorunlu gider için üç aylık hedef kaçtır?
+
+ A) 90.000 TL
+
+ B) 10.000 TL
+
+ C) 30.000 TL
+
+    3. Planlanmış yıllık sigorta ödemesi ne tür giderdir?
+
+ A) Her zaman acil durum
+
+ B) Yatırım getirisi
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                                    13
+<PARSED TEXT FOR PAGE: 34 / 166>
+ C) Önceden biriktirilebilen düzenli yük
+
+ Kendini değerlendir: Anlatımı kendi cümlelerinle 2-3 cümlede özetle. Ödevi tamamladığın tarihi kaydet.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                                14
+<PARSED TEXT FOR PAGE: 35 / 166>
+ GÜN 14
+
+
+ Tasarruf oranı ve gerçek ilerleme
+ Tasarruf oranı, eline geçen gelirin ne kadarını gelecekteki hedeflerin için ayırabildiğini gösteren basit bir
+ ölçüdür.
+
+
+ Konu anlatımı
+
+ Temel formül: Tasarruf oranı = (Tasarruf edilen tutar / Net gelir) × 100. Örneğin net gelir 50.000 TL,
+ tüketim giderleri 42.000 TL ise 8.000 TL ayırabiliyor ve %16 oranında tasarruf ediyorsun. Borç anapara
+ geri ödemelerini nasıl sınıflandırdığını tutarlı belirle; aksi hâlde aylar arasında oran karşılaştırması
+ yanıltıcı olur.
+
+ Bir ayın yüksek tasarruf oranı sürdürülebilir olmayabilir. Prim alınan, hediye gelen veya olağandışı düşük
+ harcama yapılan dönemleri not et. Üç veya altı aylık eğilime bakarak ilerlemeyi değerlendir. Nominal
+ birikimin yükselmesi enflasyondan arındırılmış satın alma gücünün de arttığı anlamına gelmez.
+
+ İyi hedef, başkasının oranını kopyalamak değil kendi koşullarında sürdürülebilir bir yöntem kurmaktır.
+ Gelir artışının tamamını yeni tüketime dönüştürmek yerine belirli bölümünü otomatik birikime
+ yönlendirmek uzun vadede fark yaratabilir.
+
+
+ TL üzerinden hesaplamalı örnek
+
+ Örnek: Birinci ay net gelir 40.000 TL, birikim 4.000 TL: %10. İkinci ay gelir 45.000 TL, birikim 6.750 TL:
+ %15. Oran 5 yüzde puanı artmıştır; artış “%5” olarak söylenirse belirsiz olur. Birikim tutarındaki değişim
+ ise 2.750 TL’dir.
+
+
+ Günlük uygulama ödevi
+
+ Son üç aylık net gelir ve tasarruf tutarlarını yaz. Her ayın oranını hesapla. Tasarruf edilebilen tutarı
+ artırmak için tek bir somut alışkanlık belirle ve sonraki hafta yeniden ölç.
+
+
+ Üç soruluk mini test
+
+    1. Tasarruf oranı nasıl hesaplanır?
+
+ A) Borç / varlık
+
+ B) Gider × 100
+
+ C) Tasarruf / net gelir × 100
+
+    2. 6.750 TL / 45.000 TL oranı nedir?
+
+ A) %15
+
+ B) %10
+
+ C) %20
+
+    3. Nominal birikim artışı neyi kesin göstermez?
+
+ A) Hesapta TL arttığını
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                                       15
+<PARSED TEXT FOR PAGE: 36 / 166>
+ B) Reel satın alma gücünün arttığını
+
+ C) Bakiye hareketini
+
+ Kendini değerlendir: Anlatımı kendi cümlelerinle 2-3 cümlede özetle. Ödevi tamamladığın tarihi kaydet.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                                16
+<PARSED TEXT FOR PAGE: 37 / 166>
+ 2. HAFTA DEĞERLENDİRME SINAVI
+
+
+ 15 soruluk haftalık sınav
+ Önce cevap anahtarına bakmadan çöz. Her doğru cevap 1 puandır. 12 veya daha fazla doğru güçlü
+ kavrayışa işaret eder; düşük puanda ilgili dersi yeniden gözden geçir.
+
+    1. Çeşitlendirme ile ilgili hangisi daha doğru?
+
+ A) Her varlığın getirisi eşittir
+
+ B) Tek bir riskin toplam etki gücünü azaltabilir
+
+ C) Zararı tamamen önler
+
+    2. Yakında ödenecek para için öncelik hangisidir?
+
+ A) Erişilebilirlik
+
+ B) Maksimum kaldıraç
+
+ C) Yüksek oynaklık
+
+    3. Bilanço temel eşitliği nedir?
+
+ A) Gelir - gider = varlık
+
+ B) Borç = satış + fiyat
+
+ C) Varlık = borç + özkaynak
+
+    4. 800.000 TL varlık ve 500.000 TL borç için özkaynak kaçtır?
+
+ A) 300.000
+
+ B) 1.300.000
+
+ C) 500.000
+
+    5. Vadeli satış gerçekleştiğinde hangisi mümkündür?
+
+ A) Anında tüm nakit tahsil edilir
+
+ B) Kâr kaydı olurken nakit gelmeyebilir
+
+ C) Borç sıfırlanır
+
+    6. Net servet 250.000 TL varlık ve 280.000 TL borçla kaçtır?
+
+ A) 30.000
