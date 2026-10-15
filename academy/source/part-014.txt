@@ -1,0 +1,299 @@
+ azaltırken yaşam kalitesi ve zaman maliyetini de hesaba kat.
+
+
+ TL ile çözümlü örnek
+
+ Aylık 45.000 TL giderin 27.000 TL’si sabit, 18.000 TL’si değişken olsun. Değişken giderlerde %10 azalma
+ 1.800 TL tasarruf yaratır. İptal edilen 350 TL’lik abonelikle aylık toplam iyileşme 2.150 TL olur; 12 ayda
+ 25.800 TL (fiyat değişmezse).
+
+
+ Günlük uygulama
+
+ Son 30 günlük harcamalarını dört gruba ayır: sabit-zorunlu, sabit-isteğe bağlı, değişken-zorunlu,
+ değişken-isteğe bağlı.
+
+
+ Üç soruluk mini test
+
+ 1. Elektrik faturası hangi sınıfa girebilir?
+
+ A) Değişken ve zorunlu B) Her zaman sabit C) Her zaman isteğe bağlı
+
+ 2. Abonelik gideri için hangisi doğrudur?
+
+ A) Sabit ve isteğe bağlı olabilir B) Asla iptal edilemez C) Daima değişkendir
+
+ 3. Bütçede iki ayrı sınıflama neden yararlıdır?
+
+ A) Kesinti önceliğini gösterir B) Enflasyonu bitirir C) Geliri garanti eder
+
+
+ Kendini değerlendir
+
+ Bu dersin hangi hesaplamasını kendi bütçende kullanabilirsin? Hesaplamanın varsayımlarını ve
+ doğrulaman gereken bilgileri not et.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 6. Hafta                                                                     3
+<PARSED TEXT FOR PAGE: 84 / 166>
+ GÜN 38 | Küçük sızıntılar
+ Öğrenme hedefi: Tekrarlanan küçük harcamaların yıllık etkisini görmek.
+
+
+ Konu anlatımı
+
+ Küçük harcamaların tek tek tutarı önemsiz görünebilir; ancak tekrar sıklığı toplam maliyeti büyütür. Yine
+ de finansal sorunların tamamını kahve veya küçük keyiflere bağlamak yanlıştır. Kira, gelir düzeyi ve borç
+ faizi gibi büyük kalemler çoğu zaman daha belirleyicidir.
+
+ Önce tekrar eden ve değer üretmeyen harcamaları bul. Kullanılmayan abonelik, fark edilmeyen teslimat
+ ücreti veya sık yinelenen komisyonlar örnek olabilir. Harcama günlüğünde tutarın yanında neden
+ harcadığını da yaz; stres, kolaylık veya alışkanlık etkisini gör.
+
+ Amaç kendini sürekli kısıtlamak değil, bilinçli tercih yapmaktır. Keyif veren bir harcama bütçeye
+ uygunsa sürdürmek mantıklı olabilir. Tasarruf hedefi koyarken sürdürülebilir küçük değişiklikler seç ve
+ ortaya çıkan tutarı otomatik olarak belirli bir hedef hesabına yönlendir.
+
+
+ TL ile çözümlü örnek
+
+ Haftada dört kez 90 TL’lik plansız harcama: 4 × 90 × 52 = 18.720 TL/yıl. Bunun yarısını azaltmak yılda
+ 9.360 TL bırakır. Ancak gerçek sonuç fiyat artışı ve alışkanlık değişimine göre farklılaşabilir.
+
+
+ Günlük uygulama
+
+ Bir hafta boyunca plansız harcamalarını kaydet; yalnızca gerçekten gereksiz gördüğün bir kalemi azalt
+ ve tasarrufu hedef hesabına aktar.
+
+
+ Üç soruluk mini test
+
+ 1. Küçük harcamalarda kritik unsur nedir?
+
+ A) Tekrar sıklığı B) Yalnızca ürün markası C) Bankanın adı
+
+ 2. Bütün finans sorunlarını küçük harcamalara bağlamak doğru mu?
+
+ A) Hayır B) Evet C) Her zaman
+
+ 3. Tasarrufu kalıcı kılmak için ne yapılabilir?
+
+ A) Hedefe otomatik aktarım B) Harcamaları hiç izlememek C) Sürekli borçlanmak
+
+
+ Kendini değerlendir
+
+ Bu dersin hangi hesaplamasını kendi bütçende kullanabilirsin? Hesaplamanın varsayımlarını ve
+ doğrulaman gereken bilgileri not et.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 6. Hafta                                                                   4
+<PARSED TEXT FOR PAGE: 85 / 166>
+ GÜN 39 | Sigorta ve risk transferi
+ Öğrenme hedefi: Büyük ve beklenmedik kayıpları sigorta ile yönetmenin mantığını anlamak.
+
+
+ Konu anlatımı
+
+ Sigorta, belirli risklerin finansal sonucunu prim karşılığında sigortacıya devretmeye yarar. Riskin tamamı
+ her poliçede devredilmez: muafiyet, teminat limiti, istisna ve bekleme süresi olabilir. Bu nedenle
+ yalnızca prim fiyatına bakmak yetersizdir.
+
+ Sigorta önceliğini belirlerken kaybın gerçekleşme olasılığı kadar büyüklüğünü de değerlendir. Küçük ve
+ karşılanabilir zararlar için birikim kullanılabilirken, hane bütçesini sarsabilecek zararlar için uygun
+ teminat önem kazanabilir. Poliçe seçimi kişisel ihtiyaçlara ve yasal zorunluluklara bağlıdır.
+
+ Poliçenin kapsamını, teminat limitini, istisnaları, yenileme şartlarını ve hasar sürecini incele. Aynı olayın
+ iki poliçede nasıl ele alındığını karşılaştır. Bu ders herhangi bir sigorta ürününü satın alma önerisi
+ değildir; karar öncesi güncel sözleşme metnini oku.
+
+
+ TL ile çözümlü örnek
+
+ Yıllık prim 6.000 TL ve poliçedeki örnek hasar muafiyeti 5.000 TL olsun. Kapsama giren 80.000 TL’lik bir
+ zarar için diğer koşullar sağlanıyorsa sigortanın karşıladığı tutar örnek olarak 75.000 TL olabilir. Gerçek
+ ödeme limit ve istisnalara bağlıdır.
+
+
+ Günlük uygulama
+
+ Hayatındaki üç büyük finansal riski yaz. Her biri için mevcut korumanı, olası kaybı ve poliçede kontrol
+ etmen gereken maddeyi belirle.
+
+
+ Üç soruluk mini test
+
+ 1. Sigorta poliçesinde istisna ne demektir?
+
+ A) Kapsam dışı durum B) Kesin kâr C) Ek gelir
+
+ 2. Prim en düşük diye poliçe seçmek yeterli midir?
+
+ A) Hayır B) Evet C) Her zaman
+
+ 3. Muafiyet neyle ilgilidir?
+
+ A) Hasarda sigortalının üstlendiği bölümle B) Enflasyon oranıyla C) Yatırım getirisiyle
+
+
+ Kendini değerlendir
+
+ Bu dersin hangi hesaplamasını kendi bütçende kullanabilirsin? Hesaplamanın varsayımlarını ve
+ doğrulaman gereken bilgileri not et.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 6. Hafta                                                                       5
+<PARSED TEXT FOR PAGE: 86 / 166>
+ GÜN 40 | Enflasyon döneminde bütçe
+ Öğrenme hedefi: Fiyat artışları karşısında satın alma gücünü ve bütçeyi yeniden planlamak.
+
+
+ Konu anlatımı
+
+ Enflasyon genel fiyat düzeyinin artışını ifade eder; her ürün aynı oranda zamlanmaz. Bu nedenle
+ açıklanan genel oran ile kendi harcama sepetinin maliyet artışı farklı olabilir. Kendi enflasyonunu ölçmek
+ için aynı kategori ve miktarları dönemler arasında karşılaştır.
+
+ Nominal gelir artsa bile fiyatlar daha hızlı artıyorsa reel satın alma gücü azalabilir. Yaklaşık reel gelir
+ değişimi, nominal artıştan enflasyonun çıkarılmasıyla düşünülebilir; daha doğru hesap (1 + nominal
+ artış) / (1 + enflasyon) - 1 formülüdür.
+
+ Bütçeyi yalnızca yıl başında kurup bırakma. Gıda, ulaşım, kira gibi kalemlerde aylık güncelleme yap;
+ yıllık ödemeler için ayrıca birikim ayır. Nakit tamponunu güncel zorunlu giderler üzerinden yeniden
+ hesapla.
+
+
+ TL ile çözümlü örnek
+
+ Gelir 40.000 TL’den 48.000 TL’ye (%20) çıkarken aynı tüketim sepeti %30 pahalanırsa reel değişim 1,20
+ / 1,30 - 1 = yaklaşık -%7,69’dur. Gelir artmış görünse de satın alma gücü azalmıştır.
+
+
+ Günlük uygulama
+
+ Geçen ay ve bu ay aynı 10 temel ürünün fiyatını karşılaştır; kendi sepet enflasyonunu hesapla ve
+ bütçede iki düzenleme yap.
+
+
+ Üç soruluk mini test
+
+ 1. Nominal gelir artışı reel refahı her zaman artırır mı?
+
+ A) Hayır B) Evet C) Kesinlikle
+
+ 2. Kişisel enflasyon neden genel orandan farklı olabilir?
+
+ A) Harcama sepeti farklıdır B) Para birimi yoktur C) Faiz sabittir
+
+ 3. Acil fon hedefi enflasyonda neye göre güncellenir?
+
+ A) Güncel zorunlu giderlere B) Eski maaşa C) Hisse fiyatına
+
+
+ Kendini değerlendir
+
+ Bu dersin hangi hesaplamasını kendi bütçende kullanabilirsin? Hesaplamanın varsayımlarını ve
+ doğrulaman gereken bilgileri not et.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 6. Hafta                                                                     6
+<PARSED TEXT FOR PAGE: 87 / 166>
+ GÜN 41 | Brüt ve net sonuç
+ Öğrenme hedefi: Vergi, ücret ve enflasyon sonrası elde kalan sonucu ayırt etmek.
+
+
+ Konu anlatımı
+
+ Brüt getiri, maliyetler ve vergiler hesaba katılmadan önceki performansı ifade eder. Net sonuçta işlem
+ ücretleri, yönetim giderleri, vergi ve varsa kur dönüşüm maliyetleri önemlidir. Bir ürünün ekranda
+ görülen getirisinin cebine geçen tutarla aynı olduğunu varsayma.
+
+ Enflasyon sonrası reel getiri ayrı bir ölçüdür. Örneğin nominal %25 kazanç, fiyatların %20 yükseldiği
+ dönemde yaklaşık %4,17 reel getiri anlamına gelir: 1,25 / 1,20 - 1. Vergi ve masraflar düşüldüğünde reel
+ sonuç daha düşük olabilir.
+
+ Karşılaştırma yaparken aynı dönem, aynı para birimi ve aynı vergi/maliyet varsayımlarını kullan. Vergi
+ oranları ve uygulamaları ürünlere ve tarihe göre değişebilir; güncel resmi kaynaklardan doğrula.
+
+
+ TL ile çözümlü örnek
+
+ 100.000 TL tutarındaki örnek yatırım %20 brüt kazançla 120.000 TL olsun. 1.000 TL toplam masraf ve
+ varsayımsal 2.000 TL vergi sonrası 117.000 TL kalır; net nominal getiri %17’dir. Dönem enflasyonu %15
+ ise net reel getiri 1,17 / 1,15 - 1 ≈ %1,74 olur.
+
+
+ Günlük uygulama
+
+ Üç farklı hayalî yatırım senaryosu için brüt tutar, masraf, vergi, net tutar ve reel getiriyi ayrı ayrı
+ hesapla.
+
+
+ Üç soruluk mini test
+
+ 1. Brüt getiri hangi kalemleri içermeyebilir?
+
+ A) Ücret ve vergileri B) Başlangıç tutarını C) Dönem uzunluğunu
+
+ 2. %20 nominal, %20 enflasyonda reel getiri yaklaşık kaçtır?
+
+ A) %0 B) %20 C) %40
+
+ 3. İki yatırımı karşılaştırırken hangisi önemlidir?
+
+ A) Aynı dönem ve maliyet varsayımı B) Sadece renkleri C) Sadece reklamları
+
+
+ Kendini değerlendir
+
+ Bu dersin hangi hesaplamasını kendi bütçende kullanabilirsin? Hesaplamanın varsayımlarını ve
+ doğrulaman gereken bilgileri not et.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 6. Hafta                                                                  7
+<PARSED TEXT FOR PAGE: 88 / 166>
+ GÜN 42 | Yatırım maliyetleri
+ Öğrenme hedefi: Görünmeyen işlem ve yönetim giderlerinin uzun vadeli etkisini ölçmek.
+
+
+ Konu anlatımı
+
+ Yatırım maliyetleri işlem komisyonu, alış-satış farkı, fon yönetim gideri, saklama ücreti ve olası vergi gibi
+ kalemlerden oluşabilir. Her üründe aynı maliyetler yoktur. Düşük maliyet tek başına iyi yatırım demek
+ değildir; fakat benzer özellikteki iki ürün arasında maliyet farkı uzun vadede büyüyebilir.
+
+ Sık işlem yapmak, her işlemde küçük görünen komisyonları ve fiyat farklarını biriktirebilir. Alış ve satış
+ fiyatı arasındaki fark özellikle düşük likiditeli ürünlerde önem kazanır. İşlem yapmadan önce toplam
+ maliyetin tahmini getirinin ne kadarını tüketebileceğini hesapla.
+
+ Yıllık gider farkı bileşik etkilerle zaman içinde büyür. Getiri varsayımlarını garanti olarak değil, senaryo
+ olarak kullan. Fon belgelerinde açıklanan toplam gider oranını ve varsa diğer masrafları güncel olarak
+ kontrol et.
+
+
+ TL ile çözümlü örnek
+
+ 100.000 TL başlangıç tutarı 10 yıl boyunca varsayımsal yıllık %8 brüt büyüsün. Yıllık %1 maliyet sonrası
+ %7 net varsayımıyla sonuç yaklaşık 196.715 TL; yıllık %2 maliyet sonrası %6 net varsayımıyla 179.085
+ TL olur. Yaklaşık 17.630 TL fark, yalnızca sadeleştirilmiş senaryo sonucudur.
+
+
+ Günlük uygulama
+
+ Bir fon veya yatırım ürününün ücret tablosunu bul; alım-satım farkını, yönetim giderini ve varsa diğer
+ ücretleri tek sayfada özetle.
+
+
+ Üç soruluk mini test
