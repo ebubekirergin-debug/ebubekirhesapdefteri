@@ -1,0 +1,300 @@
+
+ TL ile çözümlü örnek
+
+ 50.000 TL net gelir: 27.000 TL zorunlu gider, 7.000 TL borç taksiti, 5.000 TL değişken harcama, 4.000
+ TL yıllık giderler fonu, 5.000 TL acil fon, 2.000 TL hesap tamponu. Toplam tam 50.000 TL’dir. Yıllık gider
+ fonuna her ay 4.000 TL ayırmak, 12 ayda 48.000 TL’lik planlı yük için hazırlık sağlar.
+
+
+ Günlük uygulama ödevi
+
+ Son üç ayın harcamalarını altı kategoriye ayır. Gelecek ayın gelirini bu kategorilere dağıt ve toplamın
+ gelirle eşleştiğini doğrula.
+
+
+ Mini test: 3 soru
+ 1. Para yönlendirme ne zaman yapılır?
+
+ A) Gelir gelmeden veya geldiğinde
+
+ B) Sadece yıl sonunda
+
+ C) Yalnız borç bitince
+
+ 2. Yıllık sigorta ödemesi nasıl ele alınır?
+
+ A) Görmezden gelinir
+
+ B) Aylık karşılık ayrılır
+
+ C) Kredi kartına bırakılır
+
+ 3. Sıfır bazlı plan ne anlama gelir?
+
+ A) Hesapta sıfır para olmalı
+
+ B) Bütün para harcanmalı
+
+ C) Her tutara görev atanmalı
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                                                    6
+<PARSED TEXT FOR PAGE: 69 / 166>
+ Kendi notun
+
+ Bugün hangi davranışımı değiştireceğim? Hangi hesaplamayı tekrar kontrol etmeliyim?
+
+
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                             7
+<PARSED TEXT FOR PAGE: 70 / 166>
+ GÜN 32 | Maaş günü protokolü
+ Öğrenme hedefi: Gelirin hesaba yattığı gün uygulanacak sıralı para planı kurmak.
+
+
+ Ayrıntılı konu anlatımı
+
+ Maaş günü, finansal kararların en kolay otomatikleştiği zamandır. Gelir hesaba geçince önce
+ önümüzdeki dönemin zorunlu ödemelerini karşılayacak tutarı korumaya al; sonra borç, acil fon ve
+ hedefler için ayırma yap. Kalan para günlük harcamalara açılır.
+
+ Protokolün ilk adımı hesap bakiyesini değil, ödeme takvimini görmektir. Örneğin kira ayın 5’inde, kart
+ ekstresi 12’sinde ödenecekse bu tutarları maaşın geldiği gün kullanılabilir harcama parası gibi görmek
+ yanıltıcıdır. Otomatik ödeme kullanılsa bile hesapta yeterli bakiye bırakılmalıdır.
+
+ İkinci adım borçların asgari ve sözleşmesel ödemelerini güvenceye almaktır. Daha yüksek faizli borca
+ ek ödeme yapılacaksa bunun acil durum likiditesini aşırı zayıflatmamasına dikkat et. Üçüncü adım
+ birikim aktarımıdır. Dördüncü adım ise haftalık harcama limiti belirlemektir.
+
+ Gelir düzensizse maaş günü yerine “gelir girişi protokolü” kullan: gelen her tutarın önce belirli yüzdesi
+ zorunlu ödemelere ve güvenlik payına gider. Protokolü üç ayda bir gözden geçirmek, değişen koşullara
+ uyum sağlar.
+
+
+ TL ile çözümlü örnek
+
+ Maaşı 48.000 TL olan biri 25.000 TL sabit ödeme, 8.000 TL planlı borç, 5.000 TL acil fon ve 2.000 TL
+ yıllık masraf karşılığı ayırırsa 8.000 TL günlük yaşam için kalır. Dört haftalık örnek limit 2.000 TL’dir;
+ ayların tam dört hafta olmadığını unutma ve takvime göre düzelt.
+
+
+ Günlük uygulama ödevi
+
+ Kendi maaş günün için beş maddelik kontrol listesi oluştur; her aktarımın tutarını ve ödeme tarihini
+ yaz.
+
+
+ Mini test: 3 soru
+ 1. Maaş günü ilk kontrol nedir?
+
+ A) Ödeme takvimi
+
+ B) Yeni yatırım haberi
+
+ C) Alışveriş kampanyası
+
+ 2. Otomatik ödeme için ne gerekir?
+
+ A) Yeterli hesap bakiyesi
+
+ B) Sürekli kredi kullanımı
+
+ C) Taksit erteleme
+
+ 3. Düzensiz gelirde uygun yaklaşım nedir?
+
+ A) Plan yapmamak
+
+ B) Gelir girişine göre oranlı ayırmak
+
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                                                    8
+<PARSED TEXT FOR PAGE: 71 / 166>
+ C) Her ay aynı tutarı zorlamak
+
+
+ Kendi notun
+
+ Bugün hangi davranışımı değiştireceğim? Hangi hesaplamayı tekrar kontrol etmeliyim?
+
+
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                             9
+<PARSED TEXT FOR PAGE: 72 / 166>
+ GÜN 33 | Para harcatıcı tetikleyiciler
+ Öğrenme hedefi: Duygusal ve çevresel harcama dürtülerini tanıyıp önlem almak.
+
+
+ Ayrıntılı konu anlatımı
+
+ Harcama kararı yalnızca ihtiyaç ve fiyatla açıklanmaz. Yorgunluk, stres, ödül beklentisi, sosyal
+ karşılaştırma ve indirim mesajları davranışı etkiler. Tetikleyici, satın alma isteğini başlatan olaydır;
+ bunu fark etmek iradeye sürekli yüklenmeden önlem geliştirmeyi sağlar.
+
+ Bir hafta boyunca plan dışı harcama isteği doğduğunda saati, duyguyu, bulunduğun ortamı ve ürünü
+ not et. Örneğin gece geç saatte alışveriş uygulaması açmak veya maaş günü kendini ödüllendirmek
+ tekrar eden bir örüntü olabilir. Kayıt tutmak kendini suçlamak için değil, düzeni görmek içindir.
+
+ Sürtünme eklemek etkili olabilir: alışveriş bildirimlerini kapatmak, kart bilgisini uygulamadan silmek,
+ belirli tutarın üzerindeki alımlar için 24 saat beklemek ve alışveriş listesinden sapmaları not etmek.
+ Buna karşılık gerçekten gerekli harcamaları sürekli ertelemek de sorun yaratabilir; amaç bilinçli
+ seçimdir.
+
+ Bir ürünü değerlendirirken toplam sahip olma maliyetini düşün: abonelik, bakım, aksesuar, faiz veya
+ teslimat ücreti. “%40 indirim” ifadesi, ürüne ihtiyacın yoksa otomatik tasarruf anlamına gelmez.
+
+
+ TL ile çözümlü örnek
+
+ 1.800 TL’lik plansız alışveriş ayda iki kez yapılırsa yıllık toplam 43.200 TL’ye ulaşır. Bunun yarısını
+ önlemek 21.600 TL serbest nakit yaratır. Ancak her keyif harcamasını sıfırlamak zorunda değilsin;
+ önceden belirlenmiş eğlence bütçesi sürdürülebilirliği artırabilir.
+
+
+ Günlük uygulama ödevi
+
+ Yedi günlük tetikleyici günlüğü tut. En sık görülen iki tetikleyici için birer önleyici kural yaz.
+
+
+ Mini test: 3 soru
+ 1. Tetikleyici nedir?
+
+ A) Satın alma dürtüsünü başlatan etken
+
+ B) Sadece fiyat etiketi
+
+ C) Banka faizi
+
+ 2. 24 saat kuralının amacı nedir?
+
+ A) Fiyatı sabitlemek
+
+ B) Dürtü ile karar arasına zaman koymak
+
+ C) Her ürünü almak
+
+ 3. İndirim hangi durumda tasarruf değildir?
+
+ A) İhtiyaç dışı alımda
+
+ B) Planlı alımda
+
+ C) Fiyat karşılaştırmasında
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                                                  10
+<PARSED TEXT FOR PAGE: 73 / 166>
+ Kendi notun
+
+ Bugün hangi davranışımı değiştireceğim? Hangi hesaplamayı tekrar kontrol etmeliyim?
+
+
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                             11
+<PARSED TEXT FOR PAGE: 74 / 166>
+ GÜN 34 | Yatırım bütçesi
+ Öğrenme hedefi: Yatırım için ayrılabilecek tutarı borç, likidite ve hedeflerle uyumlu belirlemek.
+
+
+ Ayrıntılı konu anlatımı
+
+ Yatırım bütçesi, gelirden rastgele kalan para değildir. Önce zorunlu giderler, yaklaşan büyük ödemeler,
+ asgari borç yükümlülükleri ve acil durum fonu ihtiyacı hesaplanır. Bunlardan sonra risk alabilecek, kısa
+ sürede gerekmeyecek tutar belirlenir.
+
+ Zaman ufku belirleyicidir. Üç ay sonra ödenecek eğitim ücreti veya kira depozitosu gibi ihtiyaçlar
+ dalgalı yatırımlara bağlanırsa fiyatın düşük olduğu dönemde satış yapmak zorunda kalabilirsin. Beş yıl
+ ve daha uzun vadeli hedefler için dahi kayıp riski ortadan kalkmaz.
+
+ Yatırım bütçesini sabit oranla başlatmak kolaydır, ancak borç faizi ve nakit tamponu durumuna göre
+ oran değişebilir. Yüksek maliyetli borcu azaltmak, belirsiz yatırım getirisi kovalamaktan daha
+ öngörülebilir bir fayda sağlayabilir; sözleşme ve erken ödeme koşullarını kontrol et.
+
+ Yatırım bütçesi ile yatırım ürünü seçimi ayrı kararlardır. Önce ne kadar ve ne zaman yatırım
+ yapabileceğini belirle, ardından ürünün maliyetini, riskini ve vergi durumunu incele. Kaldıraçla yatırım
+ bütçesini yapay olarak büyütmek riski katlayabilir.
+
+
+ TL ile çözümlü örnek
+
+ Aylık 65.000 TL net gelirin 40.000 TL zorunlu gider, 10.000 TL borç, 5.000 TL yakın dönem hedef fonu
+ ve 4.000 TL acil fon katkısı olsun. Geriye 6.000 TL kalır. Bunun 4.000 TL’sini uzun vadeli yatırıma, 2.000
+ TL’sini esnek güvenlik payına ayırmak bir örnek plandır; herkes için doğru oran değildir.
+
+
+ Günlük uygulama ödevi
+
+ Üç farklı gelir senaryosu oluştur: normal, %20 düşük ve %20 yüksek. Her durumda yatırım bütçenin
+ nasıl değişeceğini hesapla.
+
+
+ Mini test: 3 soru
+ 1. Yatırım bütçesi ne zaman belirlenmeli?
+
+ A) Zorunlu ödemeler ve likidite sonrası
+
+ B) Önce tüm para yatırılarak
+
+ C) Sadece hisse fiyatına bakarak
+
+ 2. Yakın vadeli ödeme neden riskli yatırımda tutulmamalı?
+
+ A) Zorunlu satış riski
+
+ B) Faiz daima sıfırdır
+
+ C) Vergi yoktur
+
+ 3. Yatırım bütçesi ile ürün seçimi ilişkisi nedir?
+
+ A) Aynı karardır
+
+ B) Ayrı kararlardır
+
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                                                  12
+<PARSED TEXT FOR PAGE: 75 / 166>
+ C) Bütçe gereksizdir
+
+
+ Kendi notun
+
+ Bugün hangi davranışımı değiştireceğim? Hangi hesaplamayı tekrar kontrol etmeliyim?
+
+
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                             13
+<PARSED TEXT FOR PAGE: 76 / 166>
+ GÜN 35 | Acil fonu kademeli kurmak
+ Öğrenme hedefi: Beklenmedik giderlerde borca bağımlılığı azaltan erişilebilir nakit tamponu
+ oluşturmak.
+
+
+ Ayrıntılı konu anlatımı
+
+ Acil durum fonu; iş kaybı, sağlık dışı zorunlu onarım, beklenmedik seyahat veya gelir kesintisi gibi
+ olaylarda temel giderleri karşılamaya yardımcı olur. Bu fonun amacı en yüksek getiriyi sağlamak değil,
+ ihtiyaç anında değer kaybı ve erişim sorunu yaşamadan kullanılabilir olmaktır.
+
+ Hedef çoğu zaman zorunlu aylık giderlerin belirli sayıda ayıyla ifade edilir. Sık kullanılan üç ila altı ay
+ aralığı herkes için zorunlu standart değildir. Geliri düzensiz, bakmakla yükümlü olduğu kişi fazla veya iş
+ güvencesi düşük olan biri daha yüksek tampon isteyebilir. Sigorta kapsamı ve mevcut destek ağı da
+ hesaba katılmalıdır.
+
+ Kademeli yaklaşım motivasyonu artırır: önce küçük aciller için başlangıç tutarı, sonra bir aylık zorunlu
+ gider, ardından kişisel koşullara göre birkaç aylık hedef. Fonun bir kısmı hemen erişilebilir hesapta,
+ diğer kısmı uygun likiditeye sahip düşük riskli araçta tutulabilir; her aracın koşulları ayrıca kontrol
+ edilmelidir.
+
+ Fon kullanıldığında başarısız olmuş sayılmazsın: tam da bunun için vardır. Kullanımdan sonra yeni
+ birikim planı kur. Tatil veya planlı alışveriş gibi öngörülebilir harcamalar ise ayrı hedef fonlarında
+ tutulmalıdır.
+
+
+ TL ile çözümlü örnek
