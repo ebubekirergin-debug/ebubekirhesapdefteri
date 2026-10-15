@@ -1,0 +1,300 @@
+
+ Zorunlu aylık gider 28.000 TL ise bir aylık tampon 28.000 TL, üç aylık 84.000 TL, altı aylık 168.000 TL
+ olur. Sıfırdan başlayan biri ayda 7.000 TL ayırırsa, faiz ve fiyat değişimi yok varsayımıyla ilk 28.000
+ TL’ye dört ayda ulaşır. Altı aylık hedefe aynı hızla 24 ayda ulaşılır.
+
+
+ Günlük uygulama ödevi
+
+ Zorunlu aylık giderlerini topla. Bir aylık, üç aylık ve altı aylık tampon hedeflerini hesapla; ilk aşama için
+ gerçekçi aylık aktarım seç.
+
+
+ Mini test: 3 soru
+ 1. Acil fonun birincil amacı nedir?
+
+ A) En yüksek getiriyi yakalamak
+
+ B) Beklenmedik ihtiyaçta erişilebilir olmak
+
+ C) Spekülasyon yapmak
+
+ 2. Üç ila altı ay kuralı için doğru ifade hangisi?
+
+ A) Herkese aynen uygulanır
+
+ B) Yasal zorunluluktur
+
+ C) Koşullara göre uyarlanır
+
+ 3. Fon kullanıldıktan sonra ne yapılır?
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                                                     14
+<PARSED TEXT FOR PAGE: 77 / 166>
+ A) Yeniden oluşturma planı
+
+ B) Yatırımı borçla artırma
+
+ C) Takibi bırakma
+
+
+ Kendi notun
+
+ Bugün hangi davranışımı değiştireceğim? Hangi hesaplamayı tekrar kontrol etmeliyim?
+
+
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                             15
+<PARSED TEXT FOR PAGE: 78 / 166>
+ 5. HAFTA | 15 SORULUK DEĞERLENDİRME
+ Yanıtları önce kendin yaz. Her doğru yanıt 1 puan. Açık uçlu sorularda anlamca eşdeğer doğru cevaplar
+ kabul edilir.
+
+ 1. Fiyat ile değer arasındaki temel fark nedir?
+
+ Yanıt: ............................................................................................
+
+ 2. 12 TL kâr ve 8 F/K ile örnek değer kaç TL?
+
+ Yanıt: ............................................................................................
+
+ 3. Değerleme aralığı neden kullanılır?
+
+ Yanıt: ............................................................................................
+
+ 4. Finansal işletim sisteminin amacı nedir?
+
+ Yanıt: ............................................................................................
+
+ 5. Para yönlendirme yaklaşımı hangi soruya odaklanır?
+
+ Yanıt: ............................................................................................
+
+ 6. Sıfır bazlı planda her liraya ne yapılır?
+
+ Yanıt: ............................................................................................
+
+ 7. Yıllık 24.000 TL masraf için aylık kaç TL ayrılır?
+
+ Yanıt: ............................................................................................
+
+ 8. Maaş günü neden ödeme takvimi kontrol edilir?
+
+ Yanıt: ............................................................................................
+
+ 9. Düzensiz gelirde hangi protokol kullanılabilir?
+
+ Yanıt: ............................................................................................
+
+ 10. Harcama tetikleyicisine iki örnek ver.
+
+ Yanıt: ............................................................................................
+
+ 11. 24 saat kuralı ne işe yarar?
+
+ Yanıt: ............................................................................................
+
+ 12. Yatırım bütçesi belirlenmeden önce ne korunur?
+
+ Yanıt: ............................................................................................
+
+ 13. Yakın vadeli para neden dalgalı varlığa bağlanmamalı?
+
+ Yanıt: ............................................................................................
+
+ 14. 28.000 TL zorunlu giderin üç aylık tamponu kaç TL?
+
+
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                                             16
+<PARSED TEXT FOR PAGE: 79 / 166>
+ Yanıt: ............................................................................................
+
+ 15. Acil fon kullanıldığında ne yapılır?
+
+ Yanıt: ............................................................................................
+
+
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                                             17
+<PARSED TEXT FOR PAGE: 80 / 166>
+ CEVAP ANAHTARI
+ Günlük mini testler
+
+ Gün 29: 1-B, 2-A, 3-C
+
+ Gün 30: 1-B, 2-C, 3-A
+
+ Gün 31: 1-A, 2-B, 3-C
+
+ Gün 32: 1-A, 2-A, 3-B
+
+ Gün 33: 1-A, 2-B, 3-A
+
+ Gün 34: 1-A, 2-A, 3-B
+
+ Gün 35: 1-B, 2-C, 3-A
+
+
+ Haftalık sınav yanıtları
+ 1. Fiyat işlem sonucu, değer varsayıma dayalı tahmindir.
+
+ 2. 96 TL.
+
+ 3. Varsayımlar değiştikçe sonuç değişir.
+
+ 4. Tekrarlanabilir karar kuralları kurmak.
+
+ 5. Para nereye gidecek?
+
+ 6. Bir görev atanır; mutlaka harcanmaz.
+
+ 7. 2.000 TL.
+
+ 8. Yaklaşan yükümlülüklerin parası korunur.
+
+ 9. Gelir girişi bazlı oranlı ayırma.
+
+ 10. Stres ve bildirimler (başka doğru örnekler kabul).
+
+ 11. Dürtüsel alışverişi geciktirir.
+
+ 12. Zorunlu gider, borç ve likidite ihtiyaçları.
+
+ 13. Zorunlu satışta zarar riski.
+
+ 14. 84.000 TL.
+
+ 15. Fon kademeli olarak yeniden oluşturulur.
+
+
+ Puanını yorumla
+
+ 0–7 doğru: kavramları ve çözümlü örnekleri yeniden çalış. 8–11 doğru: yanlış cevapların hesaplarını
+ yeniden yap. 12–15 doğru: kuralları kişisel planına uygula. Bu puan yatırım başarısını ölçmez.
+
+
+ Hafta sonu projesi
+
+ Tek sayfalık finans işletim sistemi oluştur: (1) gelir ve ödeme takvimi, (2) para yönlendirme tablosu, (3)
+ yatırım bütçesi, (4) bir/üç/altı aylık acil fon hedefleri, (5) harcama tetikleyicileri için iki davranış kuralı.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                                                          18
+<PARSED TEXT FOR PAGE: 81 / 166>
+   91 GÜNLÜK FİNANSAL OKURYAZARLIK
+              AKADEMİSİ
+
+                       6. HAFTA | GÜNLER 36–42
+
+
+ Bu haftanın hedefi
+ Borç yükünü ölçmeyi, giderleri sınıflandırmayı, küçük harcama sızıntılarını görmeyi, sigorta mantığını,
+ enflasyona uyumlu bütçeyi ve yatırımlarda gerçek net getiriyi hesaplamayı öğreneceksin.
+
+ Her gün: 25–40 dakika okuma, çözümlü örnek, üç soruluk mini test ve uygulanabilir ödev. Haftanın
+ sonunda 15 soruluk değerlendirme vardır.
+
+ Not: Bütün TL tutarları ve oranlar eğitim için oluşturulmuş varsayımlardır. Yatırım, kredi veya sigorta
+ tavsiyesi değildir.
+
+
+ İçindekiler
+ Gün 36 — Borç ödeme / gelir oranı
+
+ Gün 37 — Sabit ve değişken gider
+
+ Gün 38 — Küçük sızıntılar
+
+ Gün 39 — Sigorta ve risk transferi
+
+ Gün 40 — Enflasyon döneminde bütçe
+
+ Gün 41 — Brüt ve net sonuç
+
+ Gün 42 — Yatırım maliyetleri
+
+
+
+
+Finansal Okuryazarlık Akademisi | 6. Hafta                                                                 1
+<PARSED TEXT FOR PAGE: 82 / 166>
+ GÜN 36 | Borç ödeme / gelir oranı
+ Öğrenme hedefi: Borç taksitlerinin aylık gelir üzerindeki baskısını ölçmek.
+
+
+ Konu anlatımı
+
+ Borç ödeme / gelir oranı, aynı ay ödenecek kredi ve diğer borç taksitlerinin düzenli aylık gelire
+ bölünmesiyle bulunur. Oran tek başına kredi onayı veya mali sağlık kararı değildir; gelir istikrarı, kira,
+ bakım giderleri ve acil durum birikimi de önemlidir.
+
+ Oranı hesaplarken brüt maaş yerine fiilen kullanılabilir net geliri esas almak daha ihtiyatlıdır. Kredi
+ kartının yalnızca asgari ödemesini hesaba katmak gerçek borç yükünü olduğundan hafif gösterebilir.
+ Düzensiz gelirlerde iyimser ay yerine temkinli bir gelir senaryosu kullan.
+
+ Oran yükseldikçe beklenmedik masrafı karşılama esnekliği daralabilir. Yeni kredi almadan önce
+ taksitlerin vadesini, toplam geri ödemeyi ve mevcut borçların bitiş tarihini aynı takvimde gör. Hedef
+ yalnızca oranı düşürmek değil, nakit akışını dayanıklı kılmaktır.
+
+
+ TL ile çözümlü örnek
+
+ Net gelir 50.000 TL, konut dışı kredi taksitleri 8.000 TL, kart taksitleri 4.000 TL olsun. Borç ödeme / gelir
+ oranı = 12.000 / 50.000 = %24. Gelir 40.000 TL’ye düşerse oran %30 olur. Aynı borç, gelir azalınca daha
+ ağır hale gelir.
+
+
+ Günlük uygulama
+
+ Üç aylık borç taksitlerini ve net gelirini listele. Bugünkü oranı ve gelir %20 azalırsa oluşacak oranı
+ hesapla.
+
+
+ Üç soruluk mini test
+
+ 1. Borç ödeme / gelir oranının payında ne vardır?
+
+ A) Aylık borç ödemeleri B) Toplam birikim C) Ev değeri
+
+ 2. Net gelir düşerse sabit taksitlerin oranı nasıl değişir?
+
+ A) Düşer B) Artar C) Değişmez
+
+ 3. Oran tek başına neyi belirlemez?
+
+ A) Bütün finansal sağlığı B) Borç yükünün bir bölümünü C) Aylık taksitleri
+
+
+ Kendini değerlendir
+
+ Bu dersin hangi hesaplamasını kendi bütçende kullanabilirsin? Hesaplamanın varsayımlarını ve
+ doğrulaman gereken bilgileri not et.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 6. Hafta                                                                       2
+<PARSED TEXT FOR PAGE: 83 / 166>
+ GÜN 37 | Sabit ve değişken gider
+ Öğrenme hedefi: Bütçede kontrol edilebilir ve zorunlu kalemleri ayırmak.
+
+
+ Konu anlatımı
+
+ Sabit gider, kısa dönemde tutarı görece öngörülebilen kira, aidat veya sözleşmeli ödeme gibi kalemdir.
+ Değişken gider, gıda, ulaşım ve eğlence gibi kullanım miktarıyla değişir. Ancak sabit gider sonsuza
+ kadar sabit kalmaz; kira artışı veya sözleşme yenilemesi tutarı değiştirebilir.
+
+ Zorunlu ve isteğe bağlı ayrımı, sabit-değişken ayrımından farklıdır. Elektrik faturası değişken ama
+ zorunlu olabilir. Dijital abonelik sabit ama vazgeçilebilir olabilir. Bu iki ekseni birlikte sınıflandırmak
+ bütçe kesintilerinde hangi kaleme önce bakacağını gösterir.
+
+ Değişken gideri sıfırlamayı hedeflemek yerine kategoriye gerçekçi sınır koy. Sabit giderlerde tasarruf
+ daha yavaş ama kalıcı olabilir: daha uygun tarife, gereksiz üyelik iptali veya yeniden pazarlık. Bir kalemi
