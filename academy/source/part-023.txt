@@ -1,0 +1,299 @@
+Finansal Okuryazarlık Akademisi • 11. Hafta                                         11
+<PARSED TEXT FOR PAGE: 146 / 166>
+ 91 GÜNLÜK FİNANSAL OKURYAZARLIK AKADEMİSİ
+
+
+ 12. HAFTA
+ Gün 78–84 | Planlama, risk ve finansal sistemin
+ sürdürülebilirliği
+
+ 7 ayrıntılı ders • 7 hesaplamalı örnek • 7 günlük uygulama • 21 mini test sorusu • 15 soruluk hafta sonu
+ sınavı • cevap anahtarı
+
+ Eğitim amaçlıdır; kişisel yatırım, kredi, hukuk veya vergi danışmanlığı değildir. Örnek rakamlar varsayımsaldır.
+
+
+
+
+Finansal Okuryazarlık Akademisi • 12. Hafta                                                                         1
+<PARSED TEXT FOR PAGE: 147 / 166>
+ Haftanın çalışma planı
+ Gün 78 | Finansal hedefleri somut plana dönüştürmek
+
+ Gün 79 | Nakit akışı tahmini ve ödeme takvimi
+
+ Gün 80 | Riskleri önceliklendirmek: olasılık ve etki
+
+ Gün 81 | Portföy performansını doğru yorumlamak
+
+ Gün 82 | Finansal kararlar için kontrol protokolü
+
+ Gün 83 | Yıllık finansal bakım ve belge düzeni
+
+ Gün 84 | 12. hafta değerlendirmesi: sistemini test et
+
+ Her gün konuyu oku, örneği yeniden hesapla, görevi kendi koşullarına uyarla ve üç soruluk mini testi
+ çöz. Son gün haftalık değerlendirmeyi tamamla.
+
+
+
+
+Finansal Okuryazarlık Akademisi • 12. Hafta                                                             2
+<PARSED TEXT FOR PAGE: 148 / 166>
+ GÜN 78
+
+
+ Finansal hedefleri somut plana dönüştürmek
+ Konu anlatımı
+
+ İyi bir hedef yalnızca “para biriktireceğim” demez; tutarı, tarihi, amacı ve aylık katkıyı belirtir. Hedefin
+ net olması, gereksiz risk alma baskısını azaltır.
+
+ Hedefleri kısa (0–12 ay), orta (1–5 yıl) ve uzun (5 yıl üzeri) vadede ayır. Bu sınıflar kesin kurallar değildir;
+ ödeme tarihine yaklaştıkça erişilebilirlik ve değer istikrarı daha önemli hâle gelir.
+
+ Planını yalnız ideal senaryoya göre kurma. Gelir kaybı veya beklenmedik gider gerçekleştiğinde hangi
+ hedefi erteleyeceğini önceden belirle. Hedefler arasında öncelik sıralaması yap.
+
+ TL üzerinden örnek
+
+ 12 ay sonra 72.000 TL eğitim gideri hedefliyorsun ve başlangıç birikimin sıfır. Getiri ve fiyat artışı yok
+ varsayımıyla ayda 72.000 / 12 = 6.000 TL ayırmalısın. Ayda yalnız 4.000 TL ayırabiliyorsan hedef
+ süresini, kapsamını veya ek gelir seçeneğini gözden geçir.
+
+ Günlük uygulama
+
+ Bir hedef için tutar, son tarih, mevcut birikim, aylık katkı ve B planı yaz.
+
+ Mini test
+
+ 1. Ölçülebilir hedef hangisidir?
+
+ A) Bir gün zengin olmak
+
+ B) 12 ayda 72.000 TL biriktirmek
+
+ C) Daha iyi hissetmek
+
+ 2. Yakın vadeli hedefte hangi özellik daha önemlidir?
+
+ A) Erişilebilirlik
+
+ B) Yüksek kaldıraç
+
+ C) Günlük spekülasyon
+
+ 3. Hedef planında hangi senaryo bulunmalı?
+
+ A) Sadece en iyi sonuç
+
+ B) Kesin kazanç
+
+ C) Gelir azalması
+
+ Not: Yanıtlarını cevap anahtarından kontrol et; yanlışlarını nedenleriyle yeniden değerlendir.
+
+
+
+
+Finansal Okuryazarlık Akademisi • 12. Hafta                                                                         3
+<PARSED TEXT FOR PAGE: 149 / 166>
+ GÜN 79
+
+
+ Nakit akışı tahmini ve ödeme takvimi
+ Konu anlatımı
+
+ Aylık bütçe toplam gelir ve gideri gösterir; nakit akışı takvimi paranın hangi gün hesaba girdiğini ve
+ hangi gün çıktığını da gösterir. Tarihler uyuşmadığında ay sonu artıda olsan bile geçici ödeme açığı
+ oluşabilir.
+
+ Sabit ödemeleri maaş gününe göre sırala. Kira, fatura, kredi taksidi, kart son ödeme günü ve yıllık
+ yenilemeler için takvim oluştur. Gelmesi beklenen ama henüz kesinleşmemiş parayı garanti nakit
+ sayma.
+
+ Her hafta gelecek 30 güne bakarak en düşük tahmini hesap bakiyeni hesapla. Ödeme tarihlerini
+ düzenlemek veya önceden birikim ayırmak geçici açıkları azaltabilir.
+
+ TL üzerinden örnek
+
+ Ay başı bakiye 8.000 TL. 5. gün 15.000 TL kira ödenecek, 10. gün 35.000 TL maaş yatacak. Ay sonunda
+ para kalacak olsa da 5. günde 7.000 TL açık oluşur. Sorun toplam gelir değil ödeme zamanlamasıdır.
+
+ Günlük uygulama
+
+ Gelecek 30 günün giriş ve çıkışlarını tarihe göre yaz; en düşük tahmini bakiyeyi bul.
+
+ Mini test
+
+ 1. Nakit takvimi neyi gösterir?
+
+ A) Sadece toplam serveti
+
+ B) Giriş çıkışların tarihini
+
+ C) Hisse fiyatını
+
+ 2. Ay sonunda artı bakiye olması neyi garanti etmez?
+
+ A) Ara günlerde ödeme açığı olmayacağını
+
+ B) Gelirin varlığını
+
+ C) Kiranın tutarını
+
+ 3. Kesinleşmemiş tahsilat nasıl ele alınmalı?
+
+ A) Kesin gelir
+
+ B) Yok saymadan garanti sayılmayan olasılık
+
+ C) Banka borcu
+
+ Not: Yanıtlarını cevap anahtarından kontrol et; yanlışlarını nedenleriyle yeniden değerlendir.
+
+
+
+
+Finansal Okuryazarlık Akademisi • 12. Hafta                                                               4
+<PARSED TEXT FOR PAGE: 150 / 166>
+ GÜN 80
+
+
+ Riskleri önceliklendirmek: olasılık ve etki
+ Konu anlatımı
+
+ Her finansal risk aynı derecede önemli değildir. Bir olayın gerçekleşme olasılığı ile gerçekleştiğinde
+ yaratacağı kaybı ayrı ayrı değerlendir. Düşük olasılıklı fakat yıkıcı sonuçlu riskler de korunma
+ gerektirebilir.
+
+ Risk azaltma yöntemleri arasında nakit tamponu, uygun sigorta, borç yükünü sınırlama, gelir
+ kaynaklarını çeşitlendirme ve dijital hesap güvenliği bulunur. Hiçbiri bütün riskleri sıfırlamaz.
+
+ Basit risk matrisi karar vermeyi kolaylaştırır; fakat verilen puanlar kişisel tahmindir, gerçek olasılık
+ hesabı değildir. Kontrol edebildiğin ve etkisi büyük riskleri önce ele al.
+
+ TL üzerinden örnek
+
+ Bir riskin olasılığını 1–5, etkisini 1–5 arasında puanladın. İş kaybı için 3 × 5 = 15, küçük cihaz arızası için
+ 4 × 2 = 8. Bu puanlama yalnızca karşılaştırma aracıdır; kesin gerçekleşme tahmini değildir.
+
+ Günlük uygulama
+
+ En önemli beş finansal riskini, olasılık ve etki puanlarını ve her biri için önlemi yaz.
+
+ Mini test
+
+ 1. Risk önceliğinde hangi iki boyut yararlıdır?
+
+ A) Olasılık ve etki
+
+ B) Reklam ve logo
+
+ C) Yaş ve renk
+
+ 2. Risk matrisi puanı ne değildir?
+
+ A) Karşılaştırma yardımı
+
+ B) Kesin olasılık ölçümü
+
+ C) Öncelik aracı
+
+ 3. Yıkıcı sonuçlu düşük olasılıklı riskler için ne yapılır?
+
+ A) Daima görmezden gelinir
+
+ B) Kaldıraç artırılır
+
+ C) Korunma seçenekleri incelenir
+
+ Not: Yanıtlarını cevap anahtarından kontrol et; yanlışlarını nedenleriyle yeniden değerlendir.
+
+
+
+
+Finansal Okuryazarlık Akademisi • 12. Hafta                                                                        5
+<PARSED TEXT FOR PAGE: 151 / 166>
+ GÜN 81
+
+
+ Portföy performansını doğru yorumlamak
+ Konu anlatımı
+
+ Bir yatırımın nominal getirisi, başlangıç ve bitiş değeri arasındaki değişimi gösterir; para ekleme ve
+ çekme işlemleri varsa basit karşılaştırma yanıltıcı olabilir.
+
+ Performansı yorumlarken aynı dönemin enflasyonunu, işlem masraflarını, vergileri ve alınan riski birlikte
+ düşün. Bir yılın yüksek getirisi gelecekte aynı sonucun alınacağını garanti etmez.
+
+ Karşılaştırma için hedefe uygun bir ölçüt seç. Çok farklı risk düzeyindeki iki yatırımın yalnız yüzdesel
+ getirilerini yan yana koymak yeterli değildir. Zaman ufku ve likidite ihtiyacı da önemlidir.
+
+ TL üzerinden örnek
+
+ 100.000 TL yatırım 112.000 TL olduysa, başka giriş çıkış yoksa nominal getiri %12’dir. Aynı dönemde
+ varsayımsal enflasyon %15 ise reel getiri yaklaşık (1,12 / 1,15) − 1 = −%2,61’dir. İşlem masrafı varsa
+ net sonuç daha düşük olabilir.
+
+ Günlük uygulama
+
+ Bir yatırım örneği için nominal getiri, maliyet sonrası getiri ve varsayımsal reel getiri hesapla.
+
+ Mini test
+
+ 1. Nominal getiri neyi tek başına göstermez?
+
+ A) Fiyat değişimini
+
+ B) Reel alım gücü artışını
+
+ C) Yüzde değişimini
+
+ 2. 112.000 / 100.000 − 1 kaçtır?
+
+ A) %12
+
+ B) %15
+
+ C) −%12
+
+ 3. Performans kıyaslamasında neye dikkat edilir?
+
+ A) Yalnız reklam
+
+ B) Sadece son hafta
+
+ C) Risk ve zaman ufku
+
+ Not: Yanıtlarını cevap anahtarından kontrol et; yanlışlarını nedenleriyle yeniden değerlendir.
+
+
+
+
+Finansal Okuryazarlık Akademisi • 12. Hafta                                                                  6
+<PARSED TEXT FOR PAGE: 152 / 166>
+ GÜN 82
+
+
+ Finansal kararlar için kontrol protokolü
+ Konu anlatımı
+
+ Büyük finansal kararlarda acele etmek, satış baskısı ve kaybetme korkusu hatalı sonuç doğurabilir. Karar
+ öncesi yazılı bir kontrol protokolü kullanmak tutarlılık sağlar.
+
+ Bir ürün için amaç, toplam maliyet, olası zarar, likidite, vade, sözleşme şartları, alternatifler ve kararın
+ ters gitmesi durumunda ne yapılacağını not et. Anlamadığın ürüne para bağlamak zorunda değilsin.
+
+ Sosyal medya iddialarını birincil kaynakla doğrula. “Garantili yüksek kazanç”, gizli komisyon, hızlı ödeme
+ baskısı ve hesap erişimi talebi gibi işaretlerde işlemi durdur.
+
+ TL üzerinden örnek
+
+ 50.000 TL tutarında bir finansal ürünün giriş masrafı %2, yıllık gideri varsayımsal %1 olsun. Girişte 1.000
+ TL masraf doğar. Yıllık giderin hangi değer üzerinden, ne zaman ve nasıl kesildiği sözleşmeden
+ doğrulanmalıdır; yüzdeleri doğrudan toplayarak kesin net getiri hesaplanamaz.
+
+ Günlük uygulama
+
+ Karar vermeden önce soracağın en az sekiz sorudan oluşan kişisel kontrol listesi hazırla.
