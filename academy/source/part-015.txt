@@ -1,0 +1,300 @@
+ 1. Alış-satış farkı neyi ifade eder?
+
+ A) Alış ve satış fiyatı arasındaki farkı B) Faizsiz borcu C) Enflasyonu
+
+ 2. Yıllık maliyet farkı uzun vadede ne yapabilir?
+
+ A) Bileşik etkiyle büyüyebilir B) Daima sıfırlanır C) Getiriyi garanti eder
+
+ 3. Sık işlemin riski nedir?
+
+ A) Maliyet birikimi B) Maliyetin yok olması C) Verginin kesin sıfır olması
+
+
+ Kendini değerlendir
+
+ Bu dersin hangi hesaplamasını kendi bütçende kullanabilirsin? Hesaplamanın varsayımlarını ve
+ doğrulaman gereken bilgileri not et.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 6. Hafta                                                                       8
+<PARSED TEXT FOR PAGE: 89 / 166>
+ 6. HAFTA | 15 SORULUK DEĞERLENDİRME
+ Soruları cevap anahtarına bakmadan çöz. Her doğru cevap 1 puan.
+
+ 1. Borç ödeme / gelir oranı nasıl hesaplanır?
+
+ Yanıtım: ........................................................................
+
+ 2. 12.000 TL borç ödemesi ve 60.000 TL net gelir için oran nedir?
+
+ Yanıtım: ........................................................................
+
+ 3. Gelir azalırken sabit taksitlerin oranı ne olur?
+
+ Yanıtım: ........................................................................
+
+ 4. Kira hangi gider türüne örnek olabilir?
+
+ Yanıtım: ........................................................................
+
+ 5. Elektrik faturası hangi iki sınıfa girebilir?
+
+ Yanıtım: ........................................................................
+
+ 6. Haftada 200 TL harcama 52 haftada kaç TL eder?
+
+ Yanıtım: ........................................................................
+
+ 7. Küçük harcamaları azaltırken amaç nedir?
+
+ Yanıtım: ........................................................................
+
+ 8. Poliçede istisna ne anlama gelir?
+
+ Yanıtım: ........................................................................
+
+ 9. Sigortada muafiyet neyle ilgilidir?
+
+ Yanıtım: ........................................................................
+
+ 10. Enflasyonda nominal gelir artışı reel gücü garanti eder mi?
+
+ Yanıtım: ........................................................................
+
+ 11. Gelir %10 artıp fiyatlar %20 artarsa reel değişim yaklaşık nedir?
+
+ Yanıtım: ........................................................................
+
+ 12. Brüt getiri ile net getiri farkı neden oluşur?
+
+ Yanıtım: ........................................................................
+
+ 13. 100.000 TL %10 büyüyüp 2.000 TL maliyet olursa net tutar kaç TL?
+
+ Yanıtım: ........................................................................
+
+ 14. Alış-satış farkı hangi maliyettir?
+
+ Yanıtım: ........................................................................
+
+ 15. Benzer yatırımlarda yıllık gider farkı neden önemlidir?
+
+
+
+
+Finansal Okuryazarlık Akademisi | 6. Hafta                                           9
+<PARSED TEXT FOR PAGE: 90 / 166>
+ Yanıtım: ........................................................................
+
+
+
+
+Finansal Okuryazarlık Akademisi | 6. Hafta                                           10
+<PARSED TEXT FOR PAGE: 91 / 166>
+ CEVAP ANAHTARLARI
+ Günlük mini testler
+
+ Gün 36: 1-A, 2-B, 3-A
+
+ Gün 37: 1-A, 2-A, 3-A
+
+ Gün 38: 1-A, 2-A, 3-A
+
+ Gün 39: 1-A, 2-A, 3-A
+
+ Gün 40: 1-A, 2-A, 3-A
+
+ Gün 41: 1-A, 2-A, 3-A
+
+ Gün 42: 1-A, 2-A, 3-A
+
+
+ Haftalık değerlendirme - örnek doğru cevaplar
+
+ 1. Aylık borç ödemeleri / net gelir
+
+ 2. %20
+
+ 3. Artar
+
+ 4. Kısa dönemde sabit ve zorunlu
+
+ 5. Değişken ve zorunlu
+
+ 6. 10.400 TL
+
+ 7. Bilinçli ve sürdürülebilir tercih
+
+ 8. Kapsam dışı durum
+
+ 9. Hasarın sigortalı tarafından üstlenilen kısmı
+
+ 10. Hayır
+
+ 11. 1,10 / 1,20 - 1 = -%8,33
+
+ 12. Masraf ve vergiler
+
+ 13. 108.000 TL
+
+ 14. İşlem fiyatları arasındaki fark
+
+ 15. Uzun vadede bileşik etki yaratabilir
+
+
+ Puanını yorumla
+
+ 0–7: Konu anlatımlarını tekrar oku. 8–11: Hesaplama örneklerini yeniden çöz. 12–15: Kendi bütçe planını
+ uygulamaya geç ve varsayımlarını gözden geçir.
+
+
+ Hafta sonu uygulaması
+
+ Tek sayfalık finans kontrol tablosu oluştur: net gelir, borç taksitleri, sabit ve değişken giderler, küçük
+ sızıntılar, sigorta açıkları ve net tasarruf. Ardından gelecek ay için üç somut karar yaz.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 6. Hafta                                                                    11
+<PARSED TEXT FOR PAGE: 92 / 166>
+                    91 GÜNLÜK FİNANSAL
+                  OKURYAZARLIK AKADEMİSİ
+
+                           7. HAFTA | GÜN 43–49
+
+  Risk kapasitesi • Hedefe uygun yatırım • Kaldıraç • Davranışsal finans • Finansal güvenlik • Birikim
+  matematiği
+
+
+
+  Bu bölüm özgün eğitim anlatımıdır. TL örnekleri öğretim amaçlıdır; yatırım tavsiyesi veya getiri garantisi değildir.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 7. Hafta                                                                               1
+<PARSED TEXT FOR PAGE: 93 / 166>
+  Bu haftanın öğrenme hedefleri
+  Bu haftanın sonunda kendi risk kapasiteni değerlendirecek, hedefin vadesine göre para ayıracak,
+  kaldıraçlı işlemlerin etkisini hesaplayacak, karar yanlılıklarını tanıyacak, dolandırıcılık işaretlerini ayırt
+  edecek ve düzenli birikim için senaryo hesabı yapabileceksin.
+
+
+  Çalışma yöntemi
+  Her gün önce anlatımı oku, çözümlü örneği kendi başına yeniden hesapla, ödevi uygula ve üç soruluk
+  testi çöz. 49. gün sonunda haftalık sınavı tamamla. Yanıt anahtarı kitabın sonundadır.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 7. Hafta                                                                         2
+<PARSED TEXT FOR PAGE: 94 / 166>
+  GÜN 43 | Risk toleransı değil, risk kapasitesi
+  Temel kavram
+  Risk toleransı duygusal olarak ne kadar dalgalanmaya dayanabildiğini; risk kapasitesi ise mali
+  durumunun ne kadar kaybı kaldırabildiğini anlatır. İkisi aynı değildir. Çok cesur hisseden biri, üç ay
+  sonra ödeyeceği ev peşinatını yüksek oynaklıklı bir varlıkta tutarsa finansal açıdan savunmasız
+  kalabilir.
+
+
+  Ayrıntılı anlatım
+  Risk kapasitesini belirlerken hedefe kalan süreyi, gelir güvenliğini, borçları, nakit tamponunu ve
+  bakmakla yükümlü olduğun kişileri değerlendir. Kısa vadede gerekli para için likidite ve anapara
+  korunması, uzun vadeli hedeflerde ise çeşitlendirilmiş risk alma kapasitesi ön plana çıkar. Yatırım kararı
+  sadece “ne kadar kazanabilirim?” sorusuna değil “kötü senaryoda ne olur?” sorusuna da yanıt
+  vermelidir.
+
+
+  TL ile çözümlü örnek
+  Aylık zorunlu gideri 30.000 TL olan kişinin 90.000 TL acil fonu var. Altı aylık hedef 180.000 TL ise açık
+  90.000 TL’dir. Bu kişi elindeki 100.000 TL’nin tamamını dalgalı bir varlığa yatırırsa, %30 düşüşte 30.000
+  TL kayıp yaşar ve acil durum ihtiyacında satış yapmak zorunda kalabilir.
+
+
+  Günlük uygulama ödevi
+  Bir sayfada üç hedef yaz: 12 ay, 3 yıl ve 10 yıl. Her biri için tutar, vade, ihtiyaç anındaki esneklik ve
+  kabul edilebilir kayıp aralığını not et.
+
+
+  Üç soruluk mini test
+    1. Risk kapasitesini en çok hangisi etkiler? A) Sadece yaş B) Nakit ihtiyacı ve gelir güvenliği C) Sosyal
+    medya yorumları
+
+    2. Kısa vadeli zorunlu ödeme için hangi özellik önemlidir? A) Yüksek oynaklık B) Likidite ve öngörülebilirlik
+    C) En yüksek geçmiş getiri
+
+    3. Risk toleransı neyi anlatır? A) Duygusal dalgalanma dayanıklılığı B) Vergi oranını C) Hisse sayısını
+
+  Günün notu: Kararını ve varsayımlarını yazılı hale getir; gelecekte sonuçları değerlendirebilirsin.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 7. Hafta                                                                          3
+<PARSED TEXT FOR PAGE: 95 / 166>
+  GÜN 44 | Hedefe uygun yatırım
+  Temel kavram
+  Doğru ürün tek başına yoktur; hedefe uygun ürün vardır. Eğitim gideri, ev peşinatı ve emeklilik birikimi
+  farklı zaman ufuklarına sahiptir. Hedefin süresi kısaldıkça büyük fiyat dalgalanmalarını telafi etmek için
+  zaman azalır.
+
+
+  Ayrıntılı anlatım
+  Hedefi ölçülebilir tanımla: tutar, tarih, mevcut birikim, aylık katkı ve enflasyon varsayımı. Hedefi
+  finanse eden varlığın para birimi ile harcamanın para birimi arasındaki fark da risk yaratır. Örneğin TL
+  ile ödenecek altı aylık okul taksidini tamamen döviz dalgalanmasına bağlamak hedefin tutarını
+  belirsizleştirir. Düzenli aralıklarla hedefin ilerleyişini ölç; gerekirse katkıyı veya süreyi değiştir.
+
+
+  TL ile çözümlü örnek
+  İki yıl sonra 240.000 TL gereken ve bugün 120.000 TL biriktirmiş biri, getiri varsaymadan kalan
+  120.000 TL için 24 ay boyunca aylık 5.000 TL ayırmalıdır. Getiri beklemek yerine katkı planını bu temel
+  hesap üzerine kurmak daha temkinlidir. Enflasyon nedeniyle gerçek hedef tutarının artabileceği ayrıca
+  kontrol edilmelidir.
+
+
+  Günlük uygulama ödevi
+  Bir hedef kartı oluştur: hedef tutarı, tarih, mevcut para, aylık katkı, risk sınırı. Üç ayda bir gözden
+  geçirme tarihi ekle.
+
+
+  Üç soruluk mini test
+    1. Hedefe uygun yatırımda ilk soru nedir? A) Hedefin zamanı ve tutarı B) En popüler hisse C) Arkadaşın ne
+    aldığı
+
+    2. 24 ayda 120.000 TL ek birikim için getirisiz aylık katkı? A) 2.500 TL B) 5.000 TL C) 10.000 TL
+
+    3. Harcama ve yatırım para birimi farklıysa ne doğar? A) Kur riski B) Risk sıfırlanır C) Vergi kalkar
+
+  Günün notu: Kararını ve varsayımlarını yazılı hale getir; gelecekte sonuçları değerlendirebilirsin.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 7. Hafta                                                                      4
+<PARSED TEXT FOR PAGE: 96 / 166>
+  GÜN 45 | Kaldıraç neden tehlikeli?
+  Temel kavram
+  Kaldıraç, sahip olduğun özkaynağın üzerinde pozisyon almak demektir. Yükselişte getiriyi büyüttüğü
+  gibi düşüşte kaybı da büyütür. Ayrıca teminat tamamlama veya zorunlu tasfiye riski yaratabilir.
+
+
+  Ayrıntılı anlatım
+  Borçla yatırım yapmak, yatırım sonucundan bağımsız bir ödeme yükümlülüğü doğurur. Pozisyonun
+  değeri düşse bile borcun ve faiz maliyetinin devam etmesi mümkündür. Özellikle oynak varlıklarda
+  küçük fiyat hareketleri özkaynağın büyük bölümünü silebilir. Kaldıraç oranını hesaplarken toplam
+  pozisyon değerini özkaynağa böl. Kaybı hesaplarken yalnız fiyat değişimini değil işlem, finansman ve
+  tasfiye maliyetlerini de düşün.
+
+
+  TL ile çözümlü örnek
+  20.000 TL özkaynak ve 80.000 TL borçla 100.000 TL pozisyon açıldığını varsay. Varlık %15 düşerse
+  değeri 85.000 TL olur. Borç 80.000 TL kabul edildiğinde özkaynak 5.000 TL’ye iner: 15.000 TL kayıp,
+  başlangıç özkaynağının %75’idir. Faiz ve masraflar bu örneğe dahil değildir.
+
+
+  Günlük uygulama ödevi
