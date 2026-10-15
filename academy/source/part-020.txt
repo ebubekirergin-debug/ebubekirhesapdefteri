@@ -1,0 +1,299 @@
+ Günlük uygulama
+
+ Bu hafta vermeyi düşündüğün bir para kararı için amaç, iki alternatif, toplam maliyet, risk ve karar
+ tarihini kaydet.
+
+
+ Mini test — 3 soru
+ 1. Karar günlüğünde ne yer alır?
+
+ A) Varsayımlar ve alternatifler B) Yalnız sonuç C) Sadece reklam
+
+ 2. 20.400 ile 18.000 TL farkı kaçtır?
+
+ A) 1.400 TL B) 2.400 TL C) 3.400 TL
+
+ 3. İyi sonuç her zaman iyi süreç kanıtı mı?
+
+ A) Evet B) Kesinlikle C) Hayır
+
+ Kendine sor: Bugünkü bilgiyi önümüzdeki 30 gün içinde nerede kullanacağım?
+
+
+
+
+Finansal Okuryazarlık Akademisi • 9. Hafta                                                                 3
+<PARSED TEXT FOR PAGE: 127 / 166>
+ GÜN 65
+
+
+ Finansal hedefleri önceliklendirmek
+ Konu anlatımı
+
+ Aynı anda bütün hedeflere kaynak ayırmak zor olabilir. Hedefleri aciliyet, zorunluluk, maliyet ve
+ zaman ufkuna göre sıralamak daha gerçekçi bir plandır.
+
+ Gecikmiş zorunlu ödemeler ve kısa vadeli nakit ihtiyacı, uzun vadeli isteğe bağlı harcamalardan farklı
+ değerlendirilmelidir. Her hedefin son tarihi ve gereken aylık katkısı belirlenmelidir.
+
+ Öncelikler sabit değildir: gelir azalması, ailede yeni sorumluluk veya faiz koşullarındaki değişim planı
+ yeniden düzenlemeyi gerektirebilir.
+
+
+ TL üzerinden örnek
+
+ Örnek: Üç ayda 24.000 TL acil fon biriktirmek için ayda 8.000 TL gerekir. Aynı dönemde 15.000 TL tatil
+ bütçesi hedefi ayda 5.000 TL daha ister. Ayda 9.000 TL kaynak varsa iki hedefi aynı takvimde
+ tamamlamak mümkün değildir.
+
+
+ Günlük uygulama
+
+ Üç hedefini önem ve son tarih açısından sırala; aylık kaynakla karşılaştır ve bir hedefin tarihini
+ gerektiğinde güncelle.
+
+
+ Mini test — 3 soru
+ 1. Önceliklendirmede hangi unsur önemlidir?
+
+ A) Son tarih ve zorunluluk B) Sosyal medya beğenisi C) Rastgele sıra
+
+ 2. 24.000 TL / 3 ay kaçtır?
+
+ A) 6.000 TL B) 8.000 TL C) 12.000 TL
+
+ 3. Kaynak yetersizse ne yapılır?
+
+ A) Borç otomatik artırılır B) Hedef gizlenir C) Takvim yeniden planlanır
+
+ Kendine sor: Bugünkü bilgiyi önümüzdeki 30 gün içinde nerede kullanacağım?
+
+
+
+
+Finansal Okuryazarlık Akademisi • 9. Hafta                                                                  4
+<PARSED TEXT FOR PAGE: 128 / 166>
+ GÜN 66
+
+
+ Faiz, enflasyon ve reel getiri
+ Konu anlatımı
+
+ Nominal getiri hesabındaki TL artışını gösterir; reel getiri satın alma gücündeki değişimi ölçmeyi
+ amaçlar. Enflasyon yüksekse nominal kazanç reel kayba dönüşebilir.
+
+ Yaklaşık reel getiri nominal oran eksi enflasyondur; daha doğru hesap (1 + nominal oran) / (1 +
+ enflasyon oranı) - 1 formülüdür. Aynı dönem ve aynı para birimi kullanılmalıdır.
+
+ Vergi, fon gideri ve işlem maliyetleri yatırımcının eline geçen net getiriyi etkiler. Geçmiş performans
+ geleceği garanti etmez.
+
+
+ TL üzerinden örnek
+
+ Örnek: Bir yıl nominal getiri %25, aynı dönemde enflasyon %30 olsun. Reel getiri 1,25 / 1,30 - 1 =
+ yaklaşık -%3,85 olur. 100.000 TL 125.000 TL’ye yükselse de alım gücü azalmıştır.
+
+
+ Günlük uygulama
+
+ İki varsayımsal nominal getiri ve enflasyon oranı seç; reel getiriyi formülle hesapla.
+
+
+ Mini test — 3 soru
+ 1. Reel getiri neyi dikkate alır?
+
+ A) Enflasyonu B) Yalnız hesap numarasını C) Sadece brüt tutarı
+
+ 2. 1,25 / 1,30 - 1 yaklaşık kaçtır?
+
+ A) +%5 B) -%3,85 C) +%25
+
+ 3. Geçmiş getiri geleceği garanti eder mi?
+
+ A) Her zaman B) Yasal olarak C) Hayır
+
+ Kendine sor: Bugünkü bilgiyi önümüzdeki 30 gün içinde nerede kullanacağım?
+
+
+
+
+Finansal Okuryazarlık Akademisi • 9. Hafta                                                                 5
+<PARSED TEXT FOR PAGE: 129 / 166>
+ GÜN 67
+
+
+ Portföyde risk bütçesi
+ Konu anlatımı
+
+ Risk bütçesi, bir hedef için ne kadar değer dalgalanmasına dayanabileceğini önceden tanımlamaktır.
+ Yalnız beklenen kazancı değil, olası kaybın yaşam planına etkisini de değerlendir.
+
+ Kısa vadede gerekli olan paranın büyük dalgalanmaya açık ürünlere ayrılması nakit ihtiyacında
+ zorunlu satış riski yaratabilir. Risk kapasitesi ile psikolojik risk toleransı aynı şey değildir.
+
+ Tek varlığa yoğunlaşma, kaldıraç ve kur uyumsuzluğu riski büyütebilir. Portföy ağırlıklarını ve kayıp
+ senaryolarını belirli aralıklarla gözden geçir.
+
+
+ TL üzerinden örnek
+
+ Örnek: 200.000 TL portföyün %15’i tek bir riskli varlıkta, yani 30.000 TL. Bu varlık %40 düşerse
+ diğerleri sabit varsayımıyla kayıp 12.000 TL, toplam portföyün %6’sıdır.
+
+
+ Günlük uygulama
+
+ Varsayımsal portföyünde en büyük üç pozisyonu ve her birinin %30 düşüşünün toplam portföye
+ etkisini hesapla.
+
+
+ Mini test — 3 soru
+ 1. Risk bütçesi neyi tanımlar?
+
+ A) Katlanılabilir kayıp ve dalgalanmayı B) Garantili kazancı C) Vergi oranını
+
+ 2. 30.000 TL’nin %40 kaybı?
+
+ A) 6.000 TL B) 12.000 TL C) 18.000 TL
+
+ 3. Kısa vadeli ihtiyaç parası için temel risk?
+
+ A) Kesin kazanç B) Bedava kredi C) Zorunlu satış
+
+ Kendine sor: Bugünkü bilgiyi önümüzdeki 30 gün içinde nerede kullanacağım?
+
+
+
+
+Finansal Okuryazarlık Akademisi • 9. Hafta                                                               6
+<PARSED TEXT FOR PAGE: 130 / 166>
+ GÜN 68
+
+
+ Düzenli kontrol ve yeniden dengeleme
+ Konu anlatımı
+
+ Portföyde varlık fiyatları farklı hızlarda değiştiğinde başlangıçta belirlenen dağılım kayabilir. Yeniden
+ dengeleme, dağılımı hedef ağırlıklara yaklaştırma işlemidir.
+
+ Bu işlem otomatik kazanç sağlamaz; alım-satım maliyetleri ve vergisel sonuçlar olabilir. Yeni
+ tasarrufları düşük ağırlıkta kalan bölümlere yönlendirmek bazı durumlarda işlem sayısını azaltabilir.
+
+ Takvim esaslı veya önceden belirlenmiş sapma eşiğine dayalı kontrol yöntemleri kullanılabilir. Sık
+ işlem yapmak her zaman daha iyi değildir.
+
+
+ TL üzerinden örnek
+
+ Örnek: 100.000 TL portföyde hedef %60 A, %40 B. Değişim sonrası toplam 110.000 TL ve A 77.000
+ TL, B 33.000 TL olsun. Yeni oranlar %70/%30 olur. Hedefe dönüş için maliyet yok varsayımıyla A’dan
+ 11.000 TL B’ye kaydırılır.
+
+
+ Günlük uygulama
+
+ İki varlıklı örnek portföy oluştur; hedef ve mevcut yüzdeleri hesaplayıp sapmayı yaz.
+
+
+ Mini test — 3 soru
+ 1. Yeniden dengeleme neyi amaçlar?
+
+ A) Hedef ağırlıklara yaklaşmayı B) Kesin kârı C) Sıfır riski
+
+ 2. 77.000 / 110.000 oranı?
+
+ A) %60 B) %70 C) %80
+
+ 3. İşlem maliyetleri önemli mi?
+
+ A) Hayır B) Asla C) Evet
+
+ Kendine sor: Bugünkü bilgiyi önümüzdeki 30 gün içinde nerede kullanacağım?
+
+
+
+
+Finansal Okuryazarlık Akademisi • 9. Hafta                                                                   7
+<PARSED TEXT FOR PAGE: 131 / 166>
+ GÜN 69
+
+
+ Finansal güvenlik ve dijital dolandırıcılık
+ Konu anlatımı
+
+ Finansal güvenlik yalnız yatırım seçimi değil, hesaplara erişimi koruma ve sahte talepleri ayırt etme
+ becerisidir. Şifre ve doğrulama kodları üçüncü kişilerle paylaşılmamalıdır.
+
+ Banka veya aracı kurum adına gelen beklenmedik bağlantılara tıklamak yerine uygulamayı doğrudan
+ açıp resmî kanaldan doğrula. Acele ettirme ve garantili kazanç vaadi önemli uyarı işaretleridir.
+
+ Hesap hareketlerini düzenli kontrol et; tanımadığın işlemde bankanın resmî destek kanalıyla hızla
+ iletişime geç. Güçlü ve benzersiz parolalarla çok faktörlü doğrulamayı kullan.
+
+
+ TL üzerinden örnek
+
+ Örnek: 50.000 TL yatırıp bir ayda kesin %20 kazanç vaat eden mesaj, 10.000 TL garanti kâr iddia
+ eder. Finansal piyasalarda bu tür kesin vaatlere temkinli yaklaşılmalı; kurumun yetkisi ve teklifin
+ kaynağı bağımsız doğrulanmalıdır.
+
+
+ Günlük uygulama
+
+ Finans hesaplarının güvenlik kontrolünü yap: benzersiz parola, çok faktörlü doğrulama, bildirimler ve
+ resmî destek kanalı.
+
+
+ Mini test — 3 soru
+ 1. Doğrulama kodu kimle paylaşılır?
+
+ A) Kimseyle B) Arayan herkesle C) Sosyal medyada
+
+ 2. 50.000 TL’nin %20’si kaç TL?
+
+ A) 5.000 TL B) 10.000 TL C) 20.000 TL
+
+ 3. Şüpheli işlemde ne yapılır?
+
+ A) Beklenir B) Link yayılır C) Resmî kanala başvurulur
+
+ Kendine sor: Bugünkü bilgiyi önümüzdeki 30 gün içinde nerede kullanacağım?
+
+
+
+
+Finansal Okuryazarlık Akademisi • 9. Hafta                                                               8
+<PARSED TEXT FOR PAGE: 132 / 166>
+ GÜN 70
+
+
+ 10. hafta kapanışı: finansal sistem denetimi
+ Konu anlatımı
+
+ Sürdürülebilir finansal ilerleme için yalnız birikim tutarını değil karar süreçlerini, riskleri ve güvenlik
+ alışkanlıklarını da gözden geçirmek gerekir.
+
+ Aylık denetimde net gelir, zorunlu gider, toplam borç, acil fon, tasarruf oranı ve hedef ilerlemesini aynı
+ tanımlarla ölç. Tek aylık dalgalanma yerine eğilimi incele.
+
+ Denetim sonunda yalnız üç uygulanabilir değişiklik seç. Çok sayıda belirsiz hedef yerine tarihli,
+ ölçülebilir adımlar daha kolay takip edilir.
+
+
+ TL üzerinden örnek
+
+ Örnek: Net gelir 60.000 TL, zorunlu gider 35.000 TL, borç ödemesi 15.000 TL ve diğer harcamalar
+ 5.000 TL ise kalan 5.000 TL’dir. Aylık birikim oranı 5.000 / 60.000 = %8,33 olur; borç anapara
+ ödemeleri ayrı izlenmelidir.
+
+
+ Günlük uygulama
+
+ Bir sayfalık aylık denetim hazırla: altı gösterge, üç risk, üç düzeltici adım ve sonraki kontrol tarihi.
+
+
+ Mini test — 3 soru
+ 1. Denetimde neye bakılır?
+
+ A) Tutarlı göstergelere B) Yalnız hisse fiyatına C) Sadece reklama
