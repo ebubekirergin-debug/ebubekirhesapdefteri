@@ -1,0 +1,299 @@
+ A) Fiyat boşluğu B) Birikim disiplini C) Vade
+
+ Kendine sor: Bugünkü bilgiyi gerçek bir kararda kullanmak için hangi veriyi doğrulamalıyım?
+
+
+
+
+Finansal Okuryazarlık Akademisi • 4. Hafta                                                                    3
+<PARSED TEXT FOR PAGE: 56 / 166>
+ GÜN 24 | Çeşitlendirme ve korelasyon
+ Öğrenme hedefi: Birden fazla varlık tutmanın neden her zaman gerçek çeşitlendirme anlamına
+ gelmediğini görmek.
+
+
+ Konu anlatımı
+
+ Çeşitlendirme, portföyü farklı risk kaynaklarına dağıtmaktır. Beş ayrı teknoloji hissesi almak isim sayısını
+ artırır; ancak hepsi aynı faiz, sektör ve piyasa beklentisinden etkileniyorsa riskler birlikte hareket edebilir.
+ Önemli olan varlık sayısı değil, ortak risklerin büyüklüğüdür.
+
+ Korelasyon iki varlığın getirilerinin birlikte hareket etme eğilimini ölçer. +1 mükemmel aynı yönü, -1
+ mükemmel ters yönü, 0 ise doğrusal ilişki olmadığını ifade eder. Korelasyon geçmiş veriden hesaplanır ve
+ kriz dönemlerinde değişebilir; sabit bir koruma sözü değildir.
+
+ Çeşitlendirmeyi varlık sınıfı, sektör, para birimi, vade ve likidite açısından değerlendir. Fakat farklı para
+ birimlerinde varlık tutmak da kur riskini yok etmez; yalnızca riskin biçimini değiştirir. Hedefe göre denge
+ kurmak, rastgele çok sayıda ürün almaktan daha yararlıdır.
+
+
+ TL ile çözümlü örnek
+
+ 100.000 TL portföyün 70.000 TL’si aynı sektördeki hisselerde, 20.000 TL’si nakitte ve 10.000 TL’si kısa
+ vadeli araçlarda olsun. Sektör hisseleri %30 düşerse yalnızca bu bölümden 21.000 TL kayıp gelir. “Üç
+ farklı hissem var” ifadesi bu yoğunlaşmayı gizleyebilir.
+
+
+ Günlük uygulama
+
+ Sanal portföyündeki varlıkları sektör, para birimi, vade ve likidite açısından sınıflandır; ortak risklerini not
+ et.
+
+
+ Mini test
+
+ 1. Beş aynı sektör hissesi neden yeterli çeşitlendirme olmayabilir?
+
+ A) Ortak riskleri vardır B) İsimleri farklıdır C) Hepsi temettü verir
+
+ 2. Korelasyon +1 neyi ifade eder?
+
+ A) Tam ters hareket B) Doğrusal aynı yönlü hareket C) Risksizlik
+
+ 3. Krizde korelasyon için hangisi doğrudur?
+
+ A) Asla değişmez B) Değişebilir C) Daima sıfır olur
+
+ Kendine sor: Bugünkü bilgiyi gerçek bir kararda kullanmak için hangi veriyi doğrulamalıyım?
+
+
+
+
+Finansal Okuryazarlık Akademisi • 4. Hafta                                                                          4
+<PARSED TEXT FOR PAGE: 57 / 166>
+ GÜN 25 | Fon ve ETF okuma
+ Öğrenme hedefi: Yatırım fonu ve borsa yatırım fonunda strateji, ücret, risk ve likiditeyi incelemek.
+
+
+ Konu anlatımı
+
+ Yatırım fonu birçok yatırımcının parasını belirli kurallar çerçevesinde yönetir. ETF (borsa yatırım fonu)
+ borsada işlem gören fon türüdür. Fonun adı tek başına yeterli bilgi vermez; hangi varlıklara yatırım
+ yaptığı, hangi endeksi izlediği veya nasıl aktif yönetildiği okunmalıdır.
+
+ Fon seçiminde yatırımcı bilgi formu, izahname, toplam gider oranı, yönetim stratejisi, risk göstergesi,
+ geçmiş performansın dönemi ve karşılaştırma ölçütü önemlidir. Geçmiş getiri gelecek getiri garantisi
+ değildir. Vergi ve alım-satım kuralları ürün ve mevzuata göre değişebileceğinden güncel resmi belgeler
+ kontrol edilmelidir.
+
+ ETF fiyatı gün içinde piyasa koşullarına göre işlem görebilir; işlem fiyatı ile fonun gösterge niteliğindeki
+ değeri arasında fark oluşabilir. Likidite, alış-satış farkı ve komisyonlar toplam maliyeti etkiler. Fon alırken
+ yalnızca son bir yılın kazananını seçmek yerine hedefe ve risk kapasitesine uyumu değerlendir.
+
+
+ TL ile çözümlü örnek
+
+ İki fonun yıllık brüt getirisi varsayımsal %15 olsun. Birinin toplam yıllık maliyeti %1, diğerinin %2,5 ise,
+ diğer tüm koşullar aynı kabul edildiğinde yaklaşık net getiri sırasıyla %14 ve %12,5 olur. Gerçekte
+ ücretler günlük yansıyabilir; bu sadeleştirilmiş karşılaştırmadır.
+
+
+ Günlük uygulama
+
+ İki hayalî fon için strateji, varlık dağılımı, gider oranı, risk ve likidite başlıklarından oluşan karşılaştırma
+ tablosu hazırla.
+
+
+ Mini test
+
+ 1. Fon adı neden tek başına yeterli değildir?
+
+ A) Strateji ve maliyet gizli kalabilir B) İsimler hukuken geçersizdir C) Her fon aynıdır
+
+ 2. Geçmiş getiri için hangisi doğrudur?
+
+ A) Geleceği garanti eder B) Tek başına karar ölçütü değildir C) Maliyeti yok eder
+
+ 3. ETF alımında hangi maliyet önemlidir?
+
+ A) Alış-satış farkı B) Sadece logo C) Fonun kuruluş yılı
+
+ Kendine sor: Bugünkü bilgiyi gerçek bir kararda kullanmak için hangi veriyi doğrulamalıyım?
+
+
+
+
+Finansal Okuryazarlık Akademisi • 4. Hafta                                                                          5
+<PARSED TEXT FOR PAGE: 58 / 166>
+ GÜN 26 | Gelir tablosu okumak
+ Öğrenme hedefi: Satış, maliyet, faaliyet kârı ve net kârın birbirinden farkını anlamak.
+
+
+ Konu anlatımı
+
+ Gelir tablosu belirli dönemde şirketin ne kadar satış yaptığını ve bu satışlardan sonra hangi giderlerle
+ karşılaştığını gösterir. Satış hasılatı ile net kâr aynı değildir. Brüt kâr, satıştan satışların maliyetinin
+ çıkarılmasıyla; faaliyet kârı ise faaliyet giderlerinin de düşülmesiyle hesaplanır.
+
+ Net kârı yorumlarken finansman gideri, vergi, kur etkileri ve tek seferlik gelir-giderler incelenmelidir. Bir
+ şirketin satışları büyürken brüt kâr marjı daralabilir. Bunun nedeni fiyat baskısı, hammadde maliyeti, ürün
+ karması veya rekabet olabilir. Yalnızca net kârın yükselmesi, operasyonların kalıcı biçimde güçlendiğini
+ kanıtlamaz.
+
+ Tek dönem yerine birkaç dönemi karşılaştır. Satış büyümesi, brüt marj, faaliyet marjı ve net marjın
+ yönünü izle. Sektörler arasında marj yapıları çok farklı olabileceğinden doğrudan kıyas yaparken iş
+ modelini dikkate al.
+
+
+ TL ile çözümlü örnek
+
+ Varsayımsal şirket: satış 10 milyon TL, satış maliyeti 6 milyon TL, faaliyet gideri 2 milyon TL, finansman
+ gideri 0,5 milyon TL, vergi 0,3 milyon TL. Brüt kâr 4 milyon TL (%40), faaliyet kârı 2 milyon TL (%20), net
+ kâr 1,2 milyon TL (%12) olur.
+
+
+ Günlük uygulama
+
+ Hayalî bir şirket için beş satırlık gelir tablosu oluştur; brüt, faaliyet ve net kâr marjlarını hesapla.
+
+
+ Mini test
+
+ 1. Brüt kâr nasıl hesaplanır?
+
+ A) Satış eksi satış maliyeti B) Satış artı vergi C) Net kâr artı nakit
+
+ 2. Satış artışı tek başına neyi kanıtlamaz?
+
+ A) Marjların iyileştiğini B) Hasılatın büyüdüğünü C) Faaliyet olduğunu
+
+ 3. Net kâr hangi kalemden etkilenebilir?
+
+ A) Finansman gideri B) Sadece çalışan sayısı C) Hisse fiyatı doğrudan
+
+ Kendine sor: Bugünkü bilgiyi gerçek bir kararda kullanmak için hangi veriyi doğrulamalıyım?
+
+
+
+
+Finansal Okuryazarlık Akademisi • 4. Hafta                                                                       6
+<PARSED TEXT FOR PAGE: 59 / 166>
+ GÜN 27 | Kârın nakde dönüşmesi
+ Öğrenme hedefi: Muhasebe kârı ile işletmenin kasasına giren parayı ayırt etmek.
+
+
+ Konu anlatımı
+
+ Muhasebe esaslarında satış, müşteri henüz ödeme yapmamış olsa da gelir olarak kaydedilebilir. Bu
+ nedenle kâr eden bir şirket aynı dönemde nakit sıkışıklığı yaşayabilir. Alacakların büyümesi, stok birikimi
+ ve tedarikçilere erken ödeme yapılması işletme sermayesi ihtiyacını artırabilir.
+
+ Nakit akış tablosunda işletme faaliyetlerinden nakit akışı, yatırım faaliyetleri ve finansman faaliyetleri ayrı
+ gösterilir. İşletme faaliyetlerinden sürekli negatif nakit akışı, kârın niteliğini sorgulatır; ancak büyüme
+ dönemlerinde geçici nedenler de olabilir. Bir dönemin rakamıyla kesin hüküm vermek yerine açıklamaları
+ ve birkaç dönemi incele.
+
+ Serbest nakit akışı kabaca işletme faaliyetlerinden nakit akışından sermaye harcamalarının çıkarılmasıyla
+ düşünülür. Tanımlar şirket analizlerinde değişebilir. Amaç, faaliyetlerden gelen nakdin varlıkları sürdürme
+ ve büyütme yatırımlarından sonra ne kadar kaldığını anlamaktır.
+
+
+ TL ile çözümlü örnek
+
+ Bir işletme 500.000 TL muhasebe kârı açıkladı. Müşterilerden tahsil edilemeyen alacak artışı 300.000 TL,
+ stok artışı 150.000 TL ve diğer etkiler toplam +50.000 TL ise işletme nakdi yaklaşık 100.000 TL olabilir.
+ 80.000 TL makine harcaması sonrası sadeleştirilmiş serbest nakit 20.000 TL kalır.
+
+
+ Günlük uygulama
+
+ Bir örnek şirket için kâr, alacak değişimi, stok değişimi ve yatırım harcaması rakamlarını kullanarak nakit
+ köprüsü oluştur.
+
+
+ Mini test
+
+ 1. Kârlı şirket neden nakit sıkışıklığı yaşayabilir?
+
+ A) Tahsilatlar gecikebilir B) Kâr her zaman nakittir C) Vergi hiç yoktur
+
+ 2. İşletme nakit akışı neyi gösterir?
+
+ A) Ana faaliyetlerden nakit hareketini B) Sadece hisse fiyatını C) Piyasa değerini
+
+ 3. Serbest nakit akışı için yaygın yaklaşık yaklaşım nedir?
+
+ A) Faaliyet nakdi eksi sermaye harcaması B) Satış artı stok C) Net kâr çarpı hisse sayısı
+
+ Kendine sor: Bugünkü bilgiyi gerçek bir kararda kullanmak için hangi veriyi doğrulamalıyım?
+
+
+
+
+Finansal Okuryazarlık Akademisi • 4. Hafta                                                                         7
+<PARSED TEXT FOR PAGE: 60 / 166>
+ GÜN 28 | Şirket borçluluğu
+ Öğrenme hedefi: Borç miktarından çok borcu ödeme gücünü, vadeyi ve para birimini değerlendirmek.
+
+
+ Konu anlatımı
+
+ Şirket borcunun tek başına yüksek olması her zaman aynı düzeyde risk anlamına gelmez. Borcun hangi
+ para biriminde olduğu, ne zaman ödeneceği, faizinin sabit mi değişken mi olduğu ve faaliyetlerden ne
+ kadar nakit üretildiği birlikte incelenmelidir. Kısa vadeli borç yoğunluğu yeniden finansman riskini
+ artırabilir.
+
+ Net borç çoğu analizde finansal borçlardan nakit ve nakit benzerlerinin çıkarılmasıyla hesaplanır;
+ kullanılan tanım rapordan rapora farklılaşabilir. Net borç/FAVÖK oranı yaygın bir ölçüdür ama FAVÖK nakit
+ akışının aynısı değildir. Faiz karşılama oranı da şirketin faiz yükünü karşılayabilme kapasitesi hakkında
+ fikir verir.
+
+ Döviz geliri sınırlı şirketin döviz borcu, kur artışında daha zor yönetilebilir. Borç analizi yaparken bilanço
+ dipnotları, nakit akışı, kredi sözleşmesi şartları ve borç vade tablosu okunmalıdır. Finansal oranlar sektör
+ ve iş modeli bağlamında değerlendirilmelidir.
+
+
+ TL ile çözümlü örnek
+
+ Varsayımsal şirketin finansal borcu 18 milyon TL, nakdi 3 milyon TL ve yıllık FAVÖK’ü 5 milyon TL olsun.
+ Net borç 15 milyon TL; net borç/FAVÖK yaklaşık 3,0’dır. Bu sayı tek başına “iyi” veya “kötü” kararı
+ verdirmez; faiz, vade ve nakit üretimiyle birlikte yorumlanır.
+
+
+ Günlük uygulama
+
+ Hayalî bir şirket için borç vade çizelgesi oluştur; döviz borcu ve faiz artışı senaryolarında iki risk yaz.
+
+
+ Mini test
+
+ 1. Net borç kabaca nasıl hesaplanır?
+
+ A) Finansal borç eksi nakit B) Satış eksi gider C) Öz kaynak artı kâr
+
+ 2. FAVÖK için hangisi doğrudur?
+
+ A) Nakit akışıyla birebir aynıdır B) Yararlı fakat sınırlı göstergedir C) Borç riskini yok eder
+
+ 3. Döviz borcunda hangi unsur kritiktir?
+
+ A) Gelirin para birimi B) Şirket logosu C) Borsa seansı
+
+ Kendine sor: Bugünkü bilgiyi gerçek bir kararda kullanmak için hangi veriyi doğrulamalıyım?
+
+
+
+
+Finansal Okuryazarlık Akademisi • 4. Hafta                                                                        8
+<PARSED TEXT FOR PAGE: 61 / 166>
+ 4. HAFTA DEĞERLENDİRME SINAVI
+ 15 soru | Her doğru cevap 1 puan. Yanıtlarını cevap anahtarına bakmadan yaz. Bu bölüm kavramları
+ anlama düzeyini ölçer; yatırım kararı değildir.
+
+ 1. Yatırım tezinde yanlışlanma koşulu neden yazılır? ........................................................................
+
+ 2. Bir varlığın portföydeki ağırlığı neyi etkiler? ........................................................................
+
+ 3. 100.000 TL portföyde %10 ağırlık kaç TL’dir? ........................................................................
+
+ 4. Korelasyon +1 neyi ifade eder? ........................................................................
+
+ 5. Krizlerde korelasyon sabit kalır mı? ........................................................................
+
+ 6. ETF alırken alış-satış farkı neden önemlidir? ........................................................................
+
+ 7. Fon seçerken hangi belge okunmalıdır? ........................................................................
+
+ 8. Brüt kârın formülü nedir? ........................................................................
+
+ 9. Net kârı hangi gider etkileyebilir? ........................................................................
