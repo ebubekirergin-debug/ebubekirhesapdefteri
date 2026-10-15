@@ -1,0 +1,300 @@
+ Öğrendiğin kavramı kalıcı hâle getirmek için haftada bir kez 15 dakikalık finans kontrolü yap. Hesap
+ bakiyelerini doğrula, yaklaşan ödemeleri yaz, harcamaları sınıflandır ve bir sonraki haftanın önceliğini
+ seç. Aynı gün ve saatte tekrar etmek alışkanlık oluşturmayı kolaylaştırır. Büyük bir planın uygulanması,
+ her hafta tamamlanan küçük ve ölçülebilir adımlara bağlıdır.
+
+
+ Uygulamalı örnek ve hesaplama
+
+ A borcu 20.000 TL ve aylık maliyeti yüzde 4; B borcu 50.000 TL ve aylık maliyeti yüzde 2 olsun.
+ Basitleştirilmiş ilk ay maliyeti A için 800 TL, B için 1.000 TL’dir. 10.000 TL ek ödeme A’ya yapılırsa takip
+ eden ay A üzerindeki yaklaşık maliyet 400 TL azalır. Aynı ödeme B’ye yapılırsa yaklaşık 200 TL azalır.
+ Diğer şartlar eşitse A’ya yönelmek daha fazla faiz tasarrufu sağlar. Gerçek kredi sözleşmelerinde vergi,
+ ücret, günlük hesaplama ve erken ödeme koşulları sonucu değiştirebilir.
+
+ Örneği yeniden hesaplarken önce bütün tutarların aynı döneme ait olduğunu doğrula. Aylık rakamı yıllık
+ rakamla doğrudan karşılaştırmak yanıltıcıdır. Her tutarın hangi varsayıma dayandığını yaz; varsayım
+ değiştiğinde sonucun nasıl değiştiğini de incele.
+
+ İkinci bir senaryo kur: gelirin yüzde 10 düşmesi, giderin yüzde 10 artması veya beklenmedik bir ödeme
+ çıkması durumunu hesapla. Bu küçük stres testi, tek bir sonuca güvenmek yerine kararının ne kadar
+ dayanıklı olduğunu gösterir. Sonucu bir tabloya yaz ve hangi kalemin en çok etkilendiğini belirle.
+
+ Son olarak kendi koşullarına uyarlama yap. Gerçek tutarlarını paylaşman gerekmez; yalnızca kendin için
+ hesapla. Sonuçlar beklentinden farklıysa önce veri girişini, sonra formülü, ardından varsayımları kontrol
+ et. Finansal beceri doğru cevabı ezberlemekten çok tutarlı hesap yapabilmektir.
+
+
+ Günlük ödev
+
+ Bütün borçların için bakiye, aylık maliyet, asgari ödeme ve son ödeme tarihini içeren bir tablo oluştur.
+
+
+ 3 soruluk mini test
+
+ 1. Çığ yöntemi hangi borca öncelik verir? A) En düşük bakiyeli B) En yüksek maliyetli C) En yeni açılan
+
+ 2. Asgari ödemeleri geciktirmek neye yol açabilir? A) Gecikme maliyetine B) Garantili getiriye C) Daha
+ düşük riske
+
+ 3. Borç kapatırken nakit tamponu neden önemlidir? A) Yeniden borçlanmayı azaltabilir B) Faizi otomatik
+ sıfırlar C) Geliri iki katına çıkarır
+
+ Cevap anahtarı: 1: B, 2: A, 3: A
+
+
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                                      8
+<PARSED TEXT FOR PAGE: 11 / 166>
+ GÜN 4 | Acil durum fonu ve likidite
+ Öğrenme hedefi
+
+ Beklenmedik giderler için erişilebilir ve düşük riskli bir güvenlik payı oluşturmak.
+
+
+ Konu anlatımı
+
+ Acil durum fonu bir yatırım yarışması değil, finansal dayanıklılık aracıdır. İş kaybı, sağlık harcaması, cihaz
+ arızası veya zorunlu taşınma gibi durumlarda hızlı erişilebilen paraya ihtiyaç duyulur. Fon büyüklüğü
+ kişiye göre değişir: düzenli maaş, bakmakla yükümlü olunan kişiler, gelir oynaklığı ve sigorta kapsamı
+ önemlidir. Yaygın başlangıç yaklaşımı temel giderlerin üç ila altı aylık karşılığıdır; düzensiz geliri olanlar
+ daha uzun süre hedefleyebilir. Acil fon, günlük harcamalardan ayrı izlenmeli ve riskli, fiyatı çok oynak
+ araçlara bütünüyle bağlanmamalıdır. Fon kullanıldığında yeniden tamamlama planı yapılmalıdır.
+
+
+ Kavramı günlük hayata uygulama
+
+ Bir finansal kavramı öğrenirken yalnızca tanımına bakma. O kavramın senin maaşında, faturanda, banka
+ hesabında ve gelecek planında hangi davranışı değiştirdiğini düşün. Bir kayıt doğru olsa bile karar
+ vermeye yardım etmiyorsa eksiktir. Örneğin bir fiyat artışı karşısında hemen paniklemek yerine hangi
+ giderin zorunlu olduğunu, hangisinin ertelenebileceğini ve eldeki kaynağın kaç hafta yeteceğini
+ hesaplamak daha yararlıdır.
+
+
+ Karar öncesi kontrol
+
+ Her para kararını dört soruyla test et: Bu kararın amacı ne? En kötü makul senaryoda ne kaybederim?
+ Paraya ne zaman yeniden ihtiyacım olacak? Aynı hedefe daha düşük maliyetle ulaşabilir miyim? Bu
+ soruların yanıtı net değilse karar vermeden önce bilgi toplamak çoğu zaman daha güvenlidir. Belirsizlik
+ varken küçük denemeler ve yazılı planlar hataların maliyetini azaltabilir.
+
+
+ Sık yapılan hata
+
+ Yeni başlayanların sık hatası tek bir rakama odaklanmaktır. Sadece aylık taksite bakmak toplam borç
+ maliyetini, sadece yüksek getiriye bakmak riski, sadece maaşa bakmak düzensiz giderleri gizler. Sağlıklı
+ değerlendirme tutar, zaman ve olasılığı birlikte ele alır. Farklı seçenekleri aynı dönem ve aynı para birimi
+ üzerinden karşılaştırmaya çalış. Böylece görünüşte cazip olan bir kararın gerçekte bütçeni zorlayıp
+ zorlamadığını görebilirsin.
+
+
+ Kayıt tutma disiplini
+
+ Bir defter veya elektronik tablo kullanarak başlangıç değerini, varsayımı ve gerçekleşen sonucu ayrı
+ sütunlarda sakla. Varsayımları sonuç gibi yazma. Tahminin gerçekleşmediğinde kendini suçlamak yerine
+ hangi varsayımın yanlış çıktığını incele. Bir ayın verisi eğilim göstermek için yeterli olmayabilir; üç veya
+ altı aylık gözlem daha sağlam karar vermene yardım eder. Kayıtların amacı geçmişi yargılamak değil
+ gelecekteki seçimi iyileştirmektir.
+
+
+ Türkiye bağlamı
+
+ TL ile plan yaparken fiyatların değişebileceğini, bazı sözleşmelerin dönemsel yenilendiğini ve bankacılık
+ ürünlerinde koşulların kuruma göre farklılaşabileceğini unutma. Oranları ve ücretleri güncel sözleşmeden
+ doğrula. Buradaki hesaplar öğretici varsayımlardır; vergi, kesinti ve özel sözleşme hükümlerini
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                                        9
+<PARSED TEXT FOR PAGE: 12 / 166>
+ içermeyebilir. Herhangi bir ürün seçmeden önce resmî açıklamayı incelemek ve kendi nakit akışını esas
+ almak gerekir.
+
+
+ Haftalık küçük alışkanlık
+
+ Öğrendiğin kavramı kalıcı hâle getirmek için haftada bir kez 15 dakikalık finans kontrolü yap. Hesap
+ bakiyelerini doğrula, yaklaşan ödemeleri yaz, harcamaları sınıflandır ve bir sonraki haftanın önceliğini
+ seç. Aynı gün ve saatte tekrar etmek alışkanlık oluşturmayı kolaylaştırır. Büyük bir planın uygulanması,
+ her hafta tamamlanan küçük ve ölçülebilir adımlara bağlıdır.
+
+
+ Uygulamalı örnek ve hesaplama
+
+ Temel aylık gideri 32.000 TL olan biri için üç aylık hedef 96.000 TL, altı aylık hedef 192.000 TL’dir.
+ Başlangıçta 24.000 TL birikimi varsa altı aylık hedefe ulaşmak için 168.000 TL daha gerekir. Her ay 7.000
+ TL ayırırsa getiri ve fiyat değişimi yok varsayımıyla 24 ayda tamamlar. Bu hesap hedefin zaman içinde
+ enflasyona göre güncellenmesi gerektiğini de gösterir. İlk 24.000 TL’nin ayrı tutulması, ani bir masrafta
+ kredi kartına yüklenme ihtimalini azaltabilir.
+
+ Örneği yeniden hesaplarken önce bütün tutarların aynı döneme ait olduğunu doğrula. Aylık rakamı yıllık
+ rakamla doğrudan karşılaştırmak yanıltıcıdır. Her tutarın hangi varsayıma dayandığını yaz; varsayım
+ değiştiğinde sonucun nasıl değiştiğini de incele.
+
+ İkinci bir senaryo kur: gelirin yüzde 10 düşmesi, giderin yüzde 10 artması veya beklenmedik bir ödeme
+ çıkması durumunu hesapla. Bu küçük stres testi, tek bir sonuca güvenmek yerine kararının ne kadar
+ dayanıklı olduğunu gösterir. Sonucu bir tabloya yaz ve hangi kalemin en çok etkilendiğini belirle.
+
+ Son olarak kendi koşullarına uyarlama yap. Gerçek tutarlarını paylaşman gerekmez; yalnızca kendin için
+ hesapla. Sonuçlar beklentinden farklıysa önce veri girişini, sonra formülü, ardından varsayımları kontrol
+ et. Finansal beceri doğru cevabı ezberlemekten çok tutarlı hesap yapabilmektir.
+
+
+ Günlük ödev
+
+ Temel aylık giderlerini belirle ve 1, 3, 6 aylık acil fon hedeflerini hesapla.
+
+
+ 3 soruluk mini test
+
+ 1. Acil durum fonunun ilk amacı nedir? A) Yüksek getiri kovalamak B) Beklenmedik gideri karşılamak C)
+ Spekülasyon yapmak
+
+ 2. Temel gider 20.000 TL ise üç aylık hedef kaçtır? A) 20.000 TL B) 40.000 TL C) 60.000 TL
+
+ 3. Fon kullanıldıktan sonra ne yapılmalı? A) Yeniden tamamlama planı B) Tamamen unutma C) Borçla
+ yatırım yapma
+
+ Cevap anahtarı: 1: B, 2: C, 3: A
+
+
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                                   10
+<PARSED TEXT FOR PAGE: 13 / 166>
+ GÜN 5 | Enflasyon, faiz ve reel getiri
+ Öğrenme hedefi
+
+ Nominal ve reel sonuçları ayırmak ve satın alma gücünü ölçmek.
+
+
+ Konu anlatımı
+
+ Nominal getiri, hesabın TL olarak ne kadar büyüdüğünü gösterir. Reel getiri ise fiyat artışları dikkate
+ alındıktan sonra satın alma gücünün ne ölçüde değiştiğini anlatır. Basit yaklaşım nominal getiri eksi
+ enflasyondur; daha doğru hesap (1 + nominal getiri) / (1 + enflasyon) - 1 formülüdür. Faiz de tek başına
+ değerlendirilmemelidir: vergi, masraf, vade, likidite ve risk gerçek sonucu etkiler. Aynı oranların aylık mı
+ yıllık mı olduğu kontrol edilmelidir. Aylık yüzde 3 oranını doğrudan yıllık yüzde 36 kabul etmek bileşik
+ etkiyi göz ardı eder.
+
+
+ Kavramı günlük hayata uygulama
+
+ Bir finansal kavramı öğrenirken yalnızca tanımına bakma. O kavramın senin maaşında, faturanda, banka
+ hesabında ve gelecek planında hangi davranışı değiştirdiğini düşün. Bir kayıt doğru olsa bile karar
+ vermeye yardım etmiyorsa eksiktir. Örneğin bir fiyat artışı karşısında hemen paniklemek yerine hangi
+ giderin zorunlu olduğunu, hangisinin ertelenebileceğini ve eldeki kaynağın kaç hafta yeteceğini
+ hesaplamak daha yararlıdır.
+
+
+ Karar öncesi kontrol
+
+ Her para kararını dört soruyla test et: Bu kararın amacı ne? En kötü makul senaryoda ne kaybederim?
+ Paraya ne zaman yeniden ihtiyacım olacak? Aynı hedefe daha düşük maliyetle ulaşabilir miyim? Bu
+ soruların yanıtı net değilse karar vermeden önce bilgi toplamak çoğu zaman daha güvenlidir. Belirsizlik
+ varken küçük denemeler ve yazılı planlar hataların maliyetini azaltabilir.
+
+
+ Sık yapılan hata
+
+ Yeni başlayanların sık hatası tek bir rakama odaklanmaktır. Sadece aylık taksite bakmak toplam borç
+ maliyetini, sadece yüksek getiriye bakmak riski, sadece maaşa bakmak düzensiz giderleri gizler. Sağlıklı
+ değerlendirme tutar, zaman ve olasılığı birlikte ele alır. Farklı seçenekleri aynı dönem ve aynı para birimi
+ üzerinden karşılaştırmaya çalış. Böylece görünüşte cazip olan bir kararın gerçekte bütçeni zorlayıp
+ zorlamadığını görebilirsin.
+
+
+ Kayıt tutma disiplini
+
+ Bir defter veya elektronik tablo kullanarak başlangıç değerini, varsayımı ve gerçekleşen sonucu ayrı
+ sütunlarda sakla. Varsayımları sonuç gibi yazma. Tahminin gerçekleşmediğinde kendini suçlamak yerine
+ hangi varsayımın yanlış çıktığını incele. Bir ayın verisi eğilim göstermek için yeterli olmayabilir; üç veya
+ altı aylık gözlem daha sağlam karar vermene yardım eder. Kayıtların amacı geçmişi yargılamak değil
+ gelecekteki seçimi iyileştirmektir.
+
+
+ Türkiye bağlamı
+
+ TL ile plan yaparken fiyatların değişebileceğini, bazı sözleşmelerin dönemsel yenilendiğini ve bankacılık
+ ürünlerinde koşulların kuruma göre farklılaşabileceğini unutma. Oranları ve ücretleri güncel sözleşmeden
+ doğrula. Buradaki hesaplar öğretici varsayımlardır; vergi, kesinti ve özel sözleşme hükümlerini
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                                      11
+<PARSED TEXT FOR PAGE: 14 / 166>
+ içermeyebilir. Herhangi bir ürün seçmeden önce resmî açıklamayı incelemek ve kendi nakit akışını esas
+ almak gerekir.
+
+
+ Haftalık küçük alışkanlık
+
+ Öğrendiğin kavramı kalıcı hâle getirmek için haftada bir kez 15 dakikalık finans kontrolü yap. Hesap
+ bakiyelerini doğrula, yaklaşan ödemeleri yaz, harcamaları sınıflandır ve bir sonraki haftanın önceliğini
+ seç. Aynı gün ve saatte tekrar etmek alışkanlık oluşturmayı kolaylaştırır. Büyük bir planın uygulanması,
+ her hafta tamamlanan küçük ve ölçülebilir adımlara bağlıdır.
+
+
+ Uygulamalı örnek ve hesaplama
+
+ 100.000 TL’nin bir yılda yüzde 40 nominal getiriyle 140.000 TL’ye yükseldiğini varsayalım. Aynı dönemde
+ fiyatlar yüzde 50 arttıysa reel getiri 1,40 / 1,50 - 1 = eksi yüzde 6,67 olur. Yani hesap bakiyesi artmış olsa
+ da satın alma gücü azalmıştır. Aylık yüzde 3 bileşik getiri varsayımında yıllık çarpan 1,03 üzeri 12 =
+ yaklaşık 1,4258’dir; etkin yıllık oran yaklaşık yüzde 42,58’dir. Bu hesap örnektir; gerçek finansal ürünlerin
+ koşulları ve vergileri farklıdır.
+
+ Örneği yeniden hesaplarken önce bütün tutarların aynı döneme ait olduğunu doğrula. Aylık rakamı yıllık
+ rakamla doğrudan karşılaştırmak yanıltıcıdır. Her tutarın hangi varsayıma dayandığını yaz; varsayım
+ değiştiğinde sonucun nasıl değiştiğini de incele.
+
+ İkinci bir senaryo kur: gelirin yüzde 10 düşmesi, giderin yüzde 10 artması veya beklenmedik bir ödeme
+ çıkması durumunu hesapla. Bu küçük stres testi, tek bir sonuca güvenmek yerine kararının ne kadar
+ dayanıklı olduğunu gösterir. Sonucu bir tabloya yaz ve hangi kalemin en çok etkilendiğini belirle.
+
+ Son olarak kendi koşullarına uyarlama yap. Gerçek tutarlarını paylaşman gerekmez; yalnızca kendin için
+ hesapla. Sonuçlar beklentinden farklıysa önce veri girişini, sonra formülü, ardından varsayımları kontrol
+ et. Finansal beceri doğru cevabı ezberlemekten çok tutarlı hesap yapabilmektir.
+
+
+ Günlük ödev
+
+ İki farklı varsayımsal nominal getiri ve enflasyon oranı seçip reel sonuçları hesapla.
+
+
+ 3 soruluk mini test
+
+ 1. Reel getiri neyi ölçer? A) Satın alma gücü değişimini B) Sadece hesap bakiyesini C) Yalnızca vergiyi
+
+ 2. Nominal getiri %40, enflasyon %50 ise reel getiri? A) Pozitiftir B) Negatiftir C) Sıfırdır
+
+ 3. Aylık oranları yıllıklaştırırken ne önemlidir? A) Bileşik etki B) Yalnızca döviz kuru C) Kart limiti
+
+ Cevap anahtarı: 1: A, 2: B, 3: A
+
+
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                                    12
+<PARSED TEXT FOR PAGE: 15 / 166>
+ GÜN 6 | Risk, getiri ve çeşitlendirme
+ Öğrenme hedefi
+
+ Yüksek getiri beklentisinin belirsizlikle ilişkisini ve dağılımın sınırlarını anlamak.
+
+
+ Konu anlatımı
+
+ Yatırım riski yalnızca fiyatın günlük düşmesi değildir. Kalıcı sermaye kaybı, likidite yetersizliği, kur
+ değişimi, enflasyon karşısında erime ve yanlış zamanda satış zorunluluğu da risktir. Getiri vaatleri
+ değerlendirilirken garantiliymiş gibi sunulan yüksek kazançlara şüpheyle yaklaşılmalıdır. Çeşitlendirme,
+ bütün varlığı tek şirkete veya tek varlık türüne bağlamamaktır. Bununla birlikte birbiriyle aynı yönde
+ hareket eden araçları çoğaltmak gerçek çeşitlendirme sağlamayabilir. Zaman ufku önemlidir: gelecek ay
+ ödenecek kira ile on yıl sonraki emeklilik hedefinin risk taşıma kapasitesi aynı değildir.
+
+
+ Kavramı günlük hayata uygulama
+
+ Bir finansal kavramı öğrenirken yalnızca tanımına bakma. O kavramın senin maaşında, faturanda, banka
+ hesabında ve gelecek planında hangi davranışı değiştirdiğini düşün. Bir kayıt doğru olsa bile karar
+ vermeye yardım etmiyorsa eksiktir. Örneğin bir fiyat artışı karşısında hemen paniklemek yerine hangi
+ giderin zorunlu olduğunu, hangisinin ertelenebileceğini ve eldeki kaynağın kaç hafta yeteceğini
+ hesaplamak daha yararlıdır.
