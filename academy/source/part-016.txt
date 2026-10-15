@@ -1,0 +1,299 @@
+  Kaldıraç kullanmadan da kayıp yaşayabileceğin üç senaryo yaz. Ardından kaldıraç eklenirse nakit ve
+  borç yükünün nasıl değişeceğini hesapla.
+
+
+  Üç soruluk mini test
+    1. 5 kat pozisyonda %10 düşüş, maliyetler hariç özkaynağı yaklaşık ne kadar azaltır? A) %10 B) %50 C)
+    %5
+
+    2. Kaldıraçta borç ne olur? A) Piyasa düşerse kendiliğinden silinir B) Geri ödeme yükümlülüğü sürer C)
+    Daima faizsizdir
+
+    3. Zorunlu tasfiye riski hangi durumda artar? A) Teminat yetersizliğinde B) Bütçe yapınca C) Portföyü
+    izleyince
+
+  Günün notu: Kararını ve varsayımlarını yazılı hale getir; gelecekte sonuçları değerlendirebilirsin.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 7. Hafta                                                                   5
+<PARSED TEXT FOR PAGE: 97 / 166>
+  GÜN 46 | Zihinsel tuzaklar
+  Temel kavram
+  Finansal kararlarımız yalnız hesapla değil alışkanlık, korku ve beklentilerle şekillenir. Aşırı özgüven,
+  sürü davranışı, yakın geçmişe aşırı ağırlık verme ve doğrulama yanlılığı sık görülen hatalardır.
+
+
+  Ayrıntılı anlatım
+  Aşırı özgüven yatırımcının bildiğinden fazlasını bildiğini sanmasına yol açabilir. Sürü davranışında bir
+  varlık yalnız herkes konuştuğu için cazip görünür. Doğrulama yanlılığı, satın aldıktan sonra yalnız
+  olumlu haberleri takip etmektir. Yakın geçmiş yanlılığı ise son birkaç ayın yükselişini kalıcı sanmaktır.
+  Karar günlüğü tutmak ve karşı görüş aramak bu etkileri azaltabilir. Bir karardan önce tezini, ters
+  senaryoyu, zarar sınırını ve gözden geçirme tarihini yaz.
+
+
+  TL ile çözümlü örnek
+  Bir yatırımcının 100.000 TL portföyü geçen yıl %25 artmış olsun. Bu sonuç sonraki yılın da %25
+  olacağını göstermez. Ertesi yıl %20 kayıp yaşanırsa 125.000 TL, 100.000 TL’ye döner. “Geçen yıl
+  kazandım, hep kazanırım” çıkarımı yanlıştır.
+
+
+  Günlük uygulama ödevi
+  Geçmişte yaptığın bir finans kararını seç. Karar anındaki varsayımını, seni etkileyen duyguyu ve bugün
+  kullanacağın karşı kontrol sorusunu yaz.
+
+
+  Üç soruluk mini test
+    1. Yalnız fikrini destekleyen haberleri aramak nedir? A) Çeşitlendirme B) Doğrulama yanlılığı C) Likidite
+
+    2. Son üç ayın getirisini geleceğe aynen taşımak hangi hatadır? A) Yakın geçmiş yanlılığı B) Bütçe disiplini
+    C) Vade eşleştirme
+
+    3. Karar günlüğü ne sağlar? A) Hataları görünür kılar B) Getiriyi garanti eder C) Vergiyi sıfırlar
+
+  Günün notu: Kararını ve varsayımlarını yazılı hale getir; gelecekte sonuçları değerlendirebilirsin.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 7. Hafta                                                                         6
+<PARSED TEXT FOR PAGE: 98 / 166>
+  GÜN 47 | Batık maliyet yanılgısı
+  Temel kavram
+  Geçmişte harcanan ve geri alınamayacak para, bugünkü kararın tek gerekçesi olmamalıdır. Batık
+  maliyet yanılgısı “bu kadar para yatırdım, artık vazgeçemem” düşüncesidir.
+
+
+  Ayrıntılı anlatım
+  Bir projeyi sürdürme kararında bugünden sonraki beklenen fayda ve maliyetler karşılaştırılmalıdır.
+  Geçmiş harcama zaten yapılmıştır; karar verirken onu geri alabilecekmiş gibi davranmak yanıltır. Bu
+  yaklaşım, zarar eden her varlığın satılması gerektiği anlamına gelmez. Gelecekteki nakit akışı,
+  alternatif kullanım ve riskler değerlendirilmelidir. “Bugün bu yatırımı sıfırdan yapar mıydım?” sorusu
+  yararlı bir filtredir.
+
+
+  TL ile çözümlü örnek
+  Bir kişi kullanılmayan bir kursa 12.000 TL ödemiştir. Devam etmek için 4.000 TL yol ve zaman maliyeti
+  daha doğacak; beklenen fayda ise yalnız 1.000 TL değerindedir. İlk 12.000 TL geri alınamıyorsa, devam
+  kararı kalan 4.000 TL maliyet ile 1.000 TL fayda üzerinden düşünülmelidir.
+
+
+  Günlük uygulama ödevi
+  Bitirmediğin bir abonelik, kurs veya yatırım kararını incele. Bugünden itibaren devam etmenin maliyet
+  ve faydasını ayrı yaz.
+
+
+  Üç soruluk mini test
+    1. Batık maliyet nedir? A) Geri alınamayan geçmiş harcama B) Gelecek gelir C) Acil fon
+
+    2. Bugünkü karar hangi veriye dayanmalı? A) Geçmişte ne kadar harcandığına B) Gelecek fayda ve
+    maliyete C) Çevrenin yorumuna
+
+    3. Yararlı kontrol sorusu hangisi? A) Bugün sıfırdan başlar mıydım? B) Ne kadar zaman harcadım? C)
+    Herkes yapıyor mu?
+
+  Günün notu: Kararını ve varsayımlarını yazılı hale getir; gelecekte sonuçları değerlendirebilirsin.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 7. Hafta                                                                 7
+<PARSED TEXT FOR PAGE: 99 / 166>
+  GÜN 48 | Dolandırıcılık kırmızı bayrakları
+  Temel kavram
+  Yüksek ve garantili getiri vaadi, acele karar baskısı, belirsiz lisans bilgisi ve yalnız referans getirerek
+  para kazanma modeli önemli uyarı işaretleridir. Finansal güvenlik de finansal okuryazarlığın parçasıdır.
+
+
+  Ayrıntılı anlatım
+  Bir teklifin kim tarafından yapıldığını, düzenleyici kaydını, sözleşmesini, ücretlerini ve paranın nereye
+  gönderildiğini doğrula. Şifre, tek kullanımlık kod ve uzaktan erişim iznini kimseyle paylaşma. “Bugün
+  yatırmazsan fırsat kaçar” baskısı varsa karar süresini uzat. Bir şirketin adının veya logosunun
+  kullanılması tek başına yetki kanıtı değildir; resmi kaynaklardan bağımsız doğrulama yap. Dolandırıcılık
+  şüphesinde para transferini durdur, bankanla iletişime geç ve uygun resmi kanallara başvur.
+
+
+  TL ile çözümlü örnek
+  Bir mesaj “aylık %15 garantili getiri” vaat ediyor. Basitçe on iki ayda %180 gibi görünse de aylık bileşik
+  varsayımla (1,15)^12 - 1 yaklaşık %435 yıllık artış anlamına gelir. Böylesi sıra dışı, risksiz diye sunulan
+  vaatler özellikle şüpheyle karşılanmalıdır; bu örnek gerçek bir getiri önerisi değildir.
+
+
+  Günlük uygulama ödevi
+  Bir yatırım teklifi kontrol listesi yaz: kurum doğrulaması, sözleşme, para gönderilen hesap, risk
+  açıklaması, ücretler ve karar için bekleme süresi.
+
+
+  Üç soruluk mini test
+    1. Hangisi ciddi kırmızı bayraktır? A) Risk açıklaması B) Garantili yüksek kazanç vaadi C) Yazılı sözleşme
+
+    2. Tek kullanımlık doğrulama kodu kime verilir? A) Danışmana B) Kimseye C) Sosyal medya hesabına
+
+    3. Baskı altında doğru ilk adım nedir? A) Hemen para göndermek B) Bağımsız doğrulama ve beklemek C)
+    Şifre paylaşmak
+
+  Günün notu: Kararını ve varsayımlarını yazılı hale getir; gelecekte sonuçları değerlendirebilirsin.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 7. Hafta                                                                       8
+<PARSED TEXT FOR PAGE: 100 / 166>
+  GÜN 49 | Uzun vadeli birikim matematiği
+  Temel kavram
+  Uzun vadeli birikimde süre, düzenli katkı, maliyetler ve getirilerin sırası önemlidir. Bileşik büyüme
+  zamanla etkili olabilir; ancak hiçbir varsayımsal oran gelecekte garanti değildir.
+
+
+  Ayrıntılı anlatım
+  Aylık katkıyla hedef hesabı yaparken önce getiri sıfırmış gibi gereken tasarrufu hesapla. Ardından farklı
+  getiri senaryoları oluştur; ücret, vergi ve enflasyon etkilerini ayrıca düşün. Nominal büyüme satın alma
+  gücünün aynı ölçüde arttığını göstermez. Aylık katkıyı artırmak, yalnız yüksek getiri aramaktan daha
+  kontrol edilebilir bir araçtır. Dönem sonunda hedefin gerçek fiyatını yeniden tahmin et.
+
+
+  TL ile çözümlü örnek
+  Her ay 2.000 TL ayıran biri 10 yılda getirisiz 240.000 TL biriktirir. Varsayımsal aylık %0,5 getiri ve ay
+  sonu katkı kabul edilirse gelecek değer 2.000 × [((1,005)^120 - 1) / 0,005] ≈ 327.759 TL olur. Bu
+  nominal ve varsayımsal değerdir; enflasyon, vergi ve ücretler düşülmemiştir.
+
+
+  Günlük uygulama ödevi
+  10 yıllık bir hedef için aylık 1.000, 2.000 ve 3.000 TL katkı senaryolarını getiriyi sıfır kabul ederek
+  hesapla; sonra olası enflasyon etkisini tartış.
+
+
+  Üç soruluk mini test
+    1. 2.000 TL aylık katkı, 120 ayda getirisiz kaç TL? A) 120.000 B) 240.000 C) 360.000
+
+    2. Nominal getiri hangi etkiyi otomatik düzeltmez? A) Enflasyonu B) Katkı sayısını C) Ay sayısını
+
+    3. En kontrol edilebilir birikim değişkeni hangisidir? A) Piyasanın yıllık getirisi B) Düzenli katkı miktarı C)
+    Kurun yarınki değeri
+
+  Günün notu: Kararını ve varsayımlarını yazılı hale getir; gelecekte sonuçları değerlendirebilirsin.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 7. Hafta                                                                            9
+<PARSED TEXT FOR PAGE: 101 / 166>
+  7. HAFTA DEĞERLENDİRME SINAVI
+  15 soru • Her soru 1 puan • Önerilen süre 25 dakika. Önce yanıtla, sonra cevap anahtarına bak.
+
+
+    1. Risk kapasitesini belirlerken hangisi önceliklidir?
+
+  A) Nakit ihtiyacı ve gelir istikrarı B) Sosyal medya beğenisi C) En yüksek günlük fiyat
+
+    2. Altı ay sonra ödenecek borç için hangi yaklaşım uygundur?
+
+  A) Yüksek kaldıraç B) Likiditeyi korumak C) Tek hisseye yoğunlaşmak
+
+    3. Getirisiz 36 ayda 180.000 TL hedef için aylık katkı?
+
+  A) 3.000 TL B) 5.000 TL C) 7.500 TL
+
+    4. Kaldıraç en çok neyi büyütür?
+
+  A) Sadece kazancı B) Kazanç ve kaybı C) Vergi indirimini
+
+    5. 100.000 TL pozisyon %10 düşünce kayıp?
+
+  A) 1.000 TL B) 10.000 TL C) 100.000 TL
+
+    6. Aşırı özgüvenin olası sonucu?
+
+  A) Riskleri küçümsemek B) Kesin kâr C) Riskin yok olması
+
+    7. Sürü davranışı nedir?
+
+  A) Bağımsız analiz B) Başkaları alıyor diye almak C) Bütçe planlamak
+
+    8. Batık maliyet hangi harcamadır?
+
+  A) Gelecek yatırım B) Geri alınamayan geçmiş harcama C) Beklenen maaş
+
+    9. Devam kararı hangi temelde verilmelidir?
+
+  A) Gelecekteki maliyet-fayda B) Geçmiş harcamanın büyüklüğü C) Arkadaş yorumu
+
+    10. Dolandırıcılık işareti hangisidir?
+
+  A) Açık risk bildirimi B) Garantili yüksek getiri C) Resmi doğrulama
+
+    11. Tek kullanımlık banka kodu için doğru davranış?
+
+  A) Kimseyle paylaşmamak B) Arayana vermek C) Mesajla göndermek
+
+    12. Ayda 2.000 TL, 12 ay, getirisiz birikim?
+
+  A) 12.000 TL B) 24.000 TL C) 36.000 TL
+
+    13. Nominal getiri hangi unsuru dışarıda bırakabilir?
+
+  A) Enflasyon B) Ay sayısı C) Katkı tutarı
+
+    14. Hedefe kalan süre kısaldıkça ne önem kazanır?
+
+  A) Likidite ve değer koruma B) Kaldıraç C) Rastgele seçim
+
+    15. Karar günlüğü neye yarar?
+
+  A) Hataları incelemeye B) Kârı garanti etmeye C) Riski sıfırlamaya
+
+
+
+
+Finansal Okuryazarlık Akademisi | 7. Hafta                                                         10
+<PARSED TEXT FOR PAGE: 102 / 166>
+  CEVAP ANAHTARI VE KAPANIŞ
+  Gün 43: 1-B, 2-B, 3-A
+
+  Gün 44: 1-A, 2-B, 3-A
+
+  Gün 45: 1-B, 2-B, 3-A
+
+  Gün 46: 1-B, 2-A, 3-A
+
+  Gün 47: 1-A, 2-B, 3-A
+
+  Gün 48: 1-B, 2-B, 3-B
+
+  Gün 49: 1-B, 2-A, 3-B
+
+  Haftalık sınav: 1-A, 2-B, 3-B, 4-B, 5-B, 6-A, 7-B, 8-B, 9-A, 10-B, 11-A, 12-B, 13-A, 14-A, 15-A
+
+
+  Öz değerlendirme
+  0–8 doğru: İlgili dersleri yeniden oku. 9–12 doğru: Hesaplama ve risk senaryolarını tekrar et. 13–15
+  doğru: Uygulama ödevlerini kendi verilerinle tamamla. Puan tek başına finansal karar yeterliliğini
+  göstermez.
+
+
+  Hafta sonu çıktısı
+  Bir sayfalık kişisel yatırım ilkeleri taslağı hazırla: hedeflerim, vadelerim, acil fonum, borç durumum,
+  kabul edemeyeceğim kayıp, karar kontrol listem ve dolandırıcılıktan korunma kurallarım.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 7. Hafta                                                                  11
+<PARSED TEXT FOR PAGE: 103 / 166>
+                 91 GÜNLÜK FİNANSAL
+               OKURYAZARLIK AKADEMİSİ
+                                       8. HAFTA | 50–56. GÜNLER
+
+
+
+ Bu hafta: finansal hedefler, varlık dağılımı, getiri hesabı, düzenli yatırım, maliyetler, bilgi doğrulama ve
+ aylık kontrol sistemi.
+
+ Her gün: kavramsal anlatım, TL örneği, uygulama ödevi ve 3 soruluk mini test. Haftanın sonunda 15
+ soruluk değerlendirme ve cevap anahtarı bulunur.
+
+
+
+ Eğitim amaçlıdır; kişiye özel yatırım tavsiyesi değildir.
+
