@@ -1,0 +1,300 @@
+
+ B) 530.000
+
+ C) -30.000
+
+    7. Bir aracın satılma süresi hangi kavramla ilgilidir?
+
+ A) Likidite
+
+ B) Kâr marjı
+
+ C) Tasarruf oranı
+
+    8. Borç listesinde mutlaka hangi bilgi yer almalıdır?
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                       17
+<PARSED TEXT FOR PAGE: 38 / 166>
+ A) Bankanın rengi
+
+ B) Vade, bakiye, maliyet
+
+ C) Reklam sloganı
+
+    9. Aylık net gelir 60.000 TL ve borç ödemesi 12.000 TL ise oran kaçtır?
+
+ A) %12
+
+ B) %50
+
+ C) %20
+
+    10. Acil durum fonu öncelikle ne içindir?
+
+ A) Beklenmedik gider/gelir kesintisi
+
+ B) Yüksek riskli spekülasyon
+
+ C) Her ay tatil
+
+    11. Aylık zorunlu gider 20.000 TL ise dört aylık tampon kaçtır?
+
+ A) 5.000
+
+ B) 80.000
+
+ C) 40.000
+
+    12. Planlı yıllık harcamalar için hangi yöntem uygundur?
+
+ A) Acil fonu sürekli tüketmek
+
+ B) Tamamını krediyle ödemek
+
+ C) Ayrı bir birikim kalemi ayırmak
+
+    13. 50.000 TL net gelirin 7.500 TL’si birikirse oran kaçtır?
+
+ A) %15
+
+ B) %7,5
+
+ C) %25
+
+    14. Tasarruf oranı 10’dan 15’e çıkarsa nasıl ifade edilir?
+
+ A) 5 TL arttı
+
+ B) 5 yüzde puanı arttı
+
+ C) %50 puan arttı
+
+    15. Birkaç aylık karşılaştırmada neye dikkat edilir?
+
+ A) Tüm verileri farklı tarihlerden almak
+
+ B) Olağan dışı gelirleri gizlemek
+
+ C) Tutarlı tanımlar ve dönemler kullanmak
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                    18
+<PARSED TEXT FOR PAGE: 39 / 166>
+ Cevap anahtarı ve açıklamalar
+ Gün 8 — B, A, C
+
+ Gün 9 — A, B, C
+
+ Gün 10 — B, A, C
+
+ Gün 11 — B, A, C
+
+ Gün 12 — B, A, C
+
+ Gün 13 — B, A, C
+
+ Gün 14 — C, A, B
+
+
+ Haftalık sınav
+
+ 1. B — Tek bir riskin toplam etki gücünü azaltabilir
+
+ 2. A — Erişilebilirlik
+
+ 3. C — Varlık = borç + özkaynak
+
+ 4. A — 300.000
+
+ 5. B — Kâr kaydı olurken nakit gelmeyebilir
+
+ 6. C — -30.000
+
+ 7. A — Likidite
+
+ 8. B — Vade, bakiye, maliyet
+
+ 9. C — %20
+
+ 10. A — Beklenmedik gider/gelir kesintisi
+
+ 11. B — 80.000
+
+ 12. C — Ayrı bir birikim kalemi ayırmak
+
+ 13. A — %15
+
+ 14. B — 5 yüzde puanı arttı
+
+ 15. C — Tutarlı tanımlar ve dönemler kullanmak
+
+
+ Haftalık kapanış
+
+ • Bu haftanın en faydalı kavramı neydi?
+
+ • Borç takvimimde hangi riski fark ettim?
+
+ • Acil durum fonumun ilk hedefi kaç TL?
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta              19
+<PARSED TEXT FOR PAGE: 40 / 166>
+ • Gelecek hafta hangi tek alışkanlığı sürdüreceğim?
+
+ Not: Örnek oran ve hesaplamalar açıklama amaçlıdır; getiriler, faiz ve mevzuat zamanla değişebilir.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                             20
+<PARSED TEXT FOR PAGE: 41 / 166>
+                  91 GÜNLÜK FİNANSAL
+                OKURYAZARLIK AKADEMİSİ
+                                             3. HAFTA | GÜN 15-21
+
+
+
+
+                 Borç kararları, bileşik etki, likidite ve kişisel yatırım kuralları
+
+
+
+
+               7 ayrıntılı ders • 21 mini test sorusu • 15 soruluk haftalık sınav
+
+  Eğitim amaçlıdır; kişiye özel yatırım veya kredi tavsiyesi değildir. Örnek faiz ve kur oranları
+  varsayımsaldır.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 3. Hafta                                                          1
+<PARSED TEXT FOR PAGE: 42 / 166>
+  Bu haftanın yol haritası
+  Bu hafta bir finansal kararı yalnızca “kaç lira kazanırım?” sorusuyla değil; fırsat maliyeti, borç maliyeti,
+  nakit akışı, likidite ve risk kapasitesiyle değerlendirmeyi öğreneceksin.
+
+
+  Günlük çalışma düzeni
+
+  Her gün önce konuyu oku (15 dakika), ardından sayısal örneği kendi rakamlarınla tekrar et (10 dakika),
+  uygulama ödevini yap (15 dakika) ve mini testi cevapla (5 dakika). Toplam yaklaşık 45 dakika ayır.
+
+
+  İçindekiler
+  Gün 15 — Fırsat maliyeti
+
+  Gün 16 — Kartopu ve çığ yöntemi
+
+  Gün 17 — Yapılandırma nasıl değerlendirilir?
+
+  Gün 18 — Bileşik faiz ve bileşik kayıp
+
+  Gün 19 — Likidite riski
+
+  Gün 20 — Kur ve altın bazlı borç riski
+
+  Gün 21 — Kişisel yatırım politikası
+
+
+
+
+Finansal Okuryazarlık Akademisi | 3. Hafta                                                                       2
+<PARSED TEXT FOR PAGE: 43 / 166>
+  GÜN 15 | Fırsat maliyeti
+  Bugünün öğrenme hedefi
+
+  Konuyu kendi cümlelerinle açıklamak, bir hesaplama yapmak ve kişisel karar listene uygulanabilir bir
+  kural eklemek.
+
+
+  Konu anlatımı
+
+  Her finansal karar aynı anda başka bir seçeneği terk etmektir. Fırsat maliyeti yalnızca ödediğin para
+  değildir; vazgeçtiğin en iyi alternatifin değeridir. Zaman, risk, likidite ve psikolojik rahatlık da bu
+  değerin parçasıdır. Bir seçeneğin bedeli düşük görünse bile gelecekteki hedefini geciktirebilir.
+
+
+  Nasıl düşünmelisin?
+
+  Önce hedefini ve ödeme zamanını belirle. Sonra kararın nakit akışına etkisini, en kötü makul senaryoyu
+  ve vazgeçtiğin alternatifi hesapla. Kararını yalnızca tek bir oran veya fiyat üzerinden verme.
+  Maliyetlerin tamamını, belirsizliği ve gerektiğinde nakde erişimi dikkate al.
+
+
+  TL üzerinden çözümlü örnek
+
+  Ayda 2.000 TL gereksiz abonelik ve küçük harcamayı durdurup 12 ay biriktirirsen, getiri olmadan
+  24.000 TL kaynak yaratırsın. Bu para 20.000 TL tutarındaki eğitim için kullanılırsa kalan 4.000 TL acil
+  fona aktarılabilir. Ancak eğitimin getirisi kesin değildir; alternatifleri aynı süre ve riskle
+  karşılaştırmalısın.
+
+
+  Uygulama ödevi
+
+  Son 30 günde yaptığın üç harcamayı yaz. Her birinin karşısına aynı parayla yapılabilecek en iyi
+  alternatifini ve nedenini ekle.
+
+
+  Kendi kontrol soruların
+
+  Bu karar bugün bütçemi nasıl değiştiriyor? Beklenmedik bir masrafta ne olur? Hangi varsayım yanlış
+  çıkarsa planım bozulur? Karşılaştırma için başka hangi bilgiye ihtiyacım var?
+
+
+  3 soruluk mini test
+  1. Fırsat maliyeti neyi ölçer?
+
+  A) Yalnızca ürünün etiket fiyatını B) Sadece vergileri C) Vazgeçilen en iyi alternatifin değerini
+
+  2. Kararda hangisi önemlidir?
+
+  A) Sadece renk B) Zaman ve likidite C) Yalnızca reklam
+
+  3. 2.000 TL aylık bir yılda kaç TL eder?
+
+  A) 24.000 TL B) 12.000 TL C) 2.400 TL
+
+  Not alanı: ______________________________________________________________
+
+
+
+
+Finansal Okuryazarlık Akademisi | 3. Hafta                                                                  3
+<PARSED TEXT FOR PAGE: 44 / 166>
+  GÜN 16 | Kartopu ve çığ yöntemi
+  Bugünün öğrenme hedefi
+
+  Konuyu kendi cümlelerinle açıklamak, bir hesaplama yapmak ve kişisel karar listene uygulanabilir bir
+  kural eklemek.
+
+
+  Konu anlatımı
+
+  Borç kapatmada kartopu yöntemi en küçük bakiyeli borcu önce kapatır; hızlı kazanım duygusu
+  sağlayabilir. Çığ yöntemi ise en yüksek efektif faizli borca öncelik verir; diğer koşullar aynıysa toplam
+  faiz maliyetini düşürme eğilimindedir. Her iki yöntemde de asgari ödemeler ve gecikme riski ihmal
+  edilmez. Önceliklendirmeden önce yıllık maliyet oranı, komisyon, erken kapama koşulu ve değişken
+  faizleri kontrol et.
+
+
+  Nasıl düşünmelisin?
+
+  Önce hedefini ve ödeme zamanını belirle. Sonra kararın nakit akışına etkisini, en kötü makul senaryoyu
+  ve vazgeçtiğin alternatifi hesapla. Kararını yalnızca tek bir oran veya fiyat üzerinden verme.
+  Maliyetlerin tamamını, belirsizliği ve gerektiğinde nakde erişimi dikkate al.
+
+
+  TL üzerinden çözümlü örnek
+
+  A borcu 8.000 TL ve aylık %2, B borcu 20.000 TL ve aylık %4 varsayalım. Basit bir aylık yaklaşımda A
+  için 160 TL, B için 800 TL faiz oluşur. Ek ödeme için çığ yaklaşımı B borcuna öncelik verir. Kartopu ise A
+  borcunu önce kapatıp motivasyonu artırabilir. Gerçek sözleşmelerde günlük faiz, vergi ve ücretler
