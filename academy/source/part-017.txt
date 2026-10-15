@@ -1,0 +1,299 @@
+
+
+Finansal Okuryazarlık Akademisi • 8. Hafta                                                                      1
+<PARSED TEXT FOR PAGE: 104 / 166>
+ GÜN 50 | Finansal hedefleri ölçülebilir hâle getirmek
+ Konu anlatımı
+ Belirsiz bir “daha çok biriktireceğim” niyeti, karar anında yol göstermez. İyi hedefin tutarı, son tarihi ve
+ kullanım amacı bellidir. Örneğin “18 ay sonra eğitim için 90.000 TL” ifadesi hem birikim ihtiyacını hem
+ de uygun risk düzeyini düşünmeyi sağlar.
+
+ Hedefe ulaşmak için gerekli aylık tutar, hedef ile mevcut birikim arasındaki farkın kalan ay sayısına
+ bölünmesiyle kabaca hesaplanır. Bu basit hesap, getiri varsaymadan plan yapmaya yarar; enflasyon
+ nedeniyle hedef tutarının zamanla değişebileceği ayrıca izlenmelidir.
+
+ Yakın vadeli hedeflerde paranın korunması ve erişilebilirliği, yüksek getiri arzusundan daha önemli
+ olabilir. Uzun vadede ise risk kapasitesi, düzenli katkı ve masraflar birlikte değerlendirilmelidir.
+
+
+ TL ile çözümlü örnek
+ Bugün 12.000 TL birikimin var ve 12 ay sonra 60.000 TL’ye ulaşmak istiyorsun. Getiri varsaymadan
+ (60.000 − 12.000) / 12 = 4.000 TL aylık katkı gerekir.
+
+
+ Günlük uygulama
+ Üç hedef yaz: tutar, tarih, öncelik. Her biri için aylık gereken katkıyı hesapla.
+
+
+ Mini test
+   1. Ölçülebilir hedefin en önemli unsuru nedir? A) Tutar ve tarih B) Sadece heyecan C) Arkadaş önerisi
+
+   2. 12 ayda 24.000 TL birikim için sıfırdan aylık kaç TL gerekir? A) 1.000 B) 2.000 C) 4.000
+
+   3. Kısa vadeli hedefte hangisi önem kazanır? A) En yüksek risk B) Likidite ve güvenlik C) Kaldıraç
+
+ Not alanı: ______________________________________________________________
+
+
+
+
+Finansal Okuryazarlık Akademisi • 8. Hafta                                                                      2
+<PARSED TEXT FOR PAGE: 105 / 166>
+ GÜN 51 | Varlık dağılımı ve yeniden dengeleme
+ Konu anlatımı
+ Varlık dağılımı, birikimin farklı risk kaynaklarına hangi oranlarda ayrıldığını ifade eder. Nakit, borçlanma
+ araçları, hisse senedi ve diğer varlıkların davranışları farklı olabilir. Tek bir varlığa aşırı bağımlılık, kişisel
+ finans planını kırılganlaştırır.
+
+ Başlangıçta belirlenen ağırlıklar piyasa hareketleriyle değişir. Yeniden dengeleme, hedef oranlara
+ dönmek için bazı varlıkların azaltılması veya yeni katkıların eksik kalan varlıklara yönlendirilmesidir. Bu
+ işlem otomatik kâr garantisi vermez; disiplini ve risk kontrolünü destekler.
+
+ İşlem maliyetleri, vergiler, fon kesintileri ve nakit ihtiyacı yeniden dengeleme sıklığını etkiler. Sık işlem
+ yapmak yerine önceden belirlenen takvim veya sapma eşiğiyle hareket etmek daha tutarlı olabilir.
+
+
+ TL ile çözümlü örnek
+ 100.000 TL portföyde hedef %60 hisse, %40 düşük riskli araç olsun. Piyasa sonrası hisse 75.000 TL,
+ diğerleri 40.000 TL ise toplam 115.000 TL’dir; hisse oranı yaklaşık %65,2 olur.
+
+
+ Günlük uygulama
+ Kendi hedef dağılımını ve hangi koşulda gözden geçireceğini bir cümleyle yaz.
+
+
+ Mini test
+   1. Yeniden dengelemenin amacı nedir? A) Kesin getiri B) Risk dağılımını hedefe yaklaştırmak C) Her gün
+   işlem yapmak
+
+   2. 60/40 portföyde hisse %75 olursa ne olur? A) Hedef ağırlıktan sapar B) Hiçbir şey değişmez C) Borç
+   sıfırlanır
+
+   3. Yeniden dengelemede ne dikkate alınır? A) İşlem maliyetleri B) Sadece söylenti C) Yalnız fiyat etiketi
+
+ Not alanı: ______________________________________________________________
+
+
+
+
+Finansal Okuryazarlık Akademisi • 8. Hafta                                                                             3
+<PARSED TEXT FOR PAGE: 106 / 166>
+ GÜN 52 | Getiriyi doğru ölçmek
+ Konu anlatımı
+ Bir yatırımın getirisi değerlendirilirken yatırılan para, elde edilen gelir, alış-satış maliyeti ve dönem sonu
+ değer birlikte ele alınır. Yalnızca fiyatın artmış olması, yatırımcının cebine giren net getiriyi göstermez.
+
+ Nominal getiri ile satın alma gücündeki değişim farklıdır. Enflasyonun yüksek olduğu dönemlerde
+ yatırımın TL olarak artması, reel olarak zenginleşme anlamına gelmeyebilir. Yaklaşık reel getiri için (1 +
+ nominal getiri) / (1 + enflasyon) − 1 formülü kullanılabilir.
+
+ Farklı zamanlarda eklenen para, basit başlangıç-son karşılaştırmasını yanıltabilir. Düzenli katkılı
+ yatırımlarda para girişlerinin tarihini hesaba katan ölçümler gerekir. Bu yüzden “portföy büyüdü” ile
+ “yatırım performansı iyi” aynı ifade değildir.
+
+
+ TL ile çözümlü örnek
+ Yatırım %25 nominal getiri sağlarken enflasyon %20 ise reel getiri (1,25 / 1,20) − 1 ≈ %4,17 olur; %5
+ değildir.
+
+
+ Günlük uygulama
+ Bir yatırım örneğinde nominal, masraf sonrası ve yaklaşık reel getiriyi ayrı ayrı hesapla.
+
+
+ Mini test
+   1. Nominal %25, enflasyon %20 iken yaklaşık reel getiri nedir? A) %25 B) %4,17 C) %20
+
+   2. Portföye yeni para yatırılması neyi zorlaştırır? A) Performans karşılaştırmasını B) Hesap açmayı C)
+   Bütçe yazmayı
+
+   3. Net getiride ne dikkate alınır? A) Maliyetler B) Sadece brüt fiyat C) Sadece reklam
+
+ Not alanı: ______________________________________________________________
+
+
+
+
+Finansal Okuryazarlık Akademisi • 8. Hafta                                                                        4
+<PARSED TEXT FOR PAGE: 107 / 166>
+ GÜN 53 | Düzenli yatırım ve ortalama maliyet
+ Konu anlatımı
+ Düzenli yatırım, belirlenen aralıklarla önceden seçilmiş bir tutarı yatırıma yönlendirme disiplinidir.
+ Fiyatlar düşükken aynı tutarla daha fazla, yüksekken daha az birim alınır. Bu yaklaşım zamanlama
+ baskısını azaltabilir, ancak zarar riskini ortadan kaldırmaz.
+
+ Ortalama alış maliyeti, toplam ödenen tutarın alınan toplam birim sayısına bölünmesiyle hesaplanır.
+ Farklı fiyatlardan eşit miktarda para yatırıldığında basit fiyat ortalaması ile gerçek birim maliyeti aynı
+ olmayabilir.
+
+ Düzenli yatırımın işe yaraması için temel giderler ve acil durum tamponu ihmal edilmemelidir. Kısa
+ vadede lazım olacak parayı oynak araçlara bağlamak, düzenli yatırım yapılsa bile uygun olmayabilir.
+
+
+ TL ile çözümlü örnek
+ İlk ay 1.000 TL ile birim fiyatı 10 TL olan varlıktan 100 birim, ikinci ay fiyat 20 TL iken 50 birim alınır.
+ Toplam 2.000 TL / 150 birim = 13,33 TL ortalama maliyet.
+
+
+ Günlük uygulama
+ Varsayımsal üç aylık fiyat serisi oluştur; sabit katkıyla birim sayısı ve ortalama maliyeti hesapla.
+
+
+ Mini test
+   1. Ortalama maliyet nasıl bulunur? A) Toplam ödeme / toplam birim B) Fiyatların toplamı C) Son fiyat / ilk
+   fiyat
+
+   2. Fiyat düşünce sabit parayla ne olur? A) Daha az birim alınır B) Daha çok birim alınır C) Birim sayısı
+   değişmez
+
+   3. Düzenli yatırım neyi garanti eder? A) Kesin kâr B) Zararsızlık C) Hiçbirini
+
+ Not alanı: ______________________________________________________________
+
+
+
+
+Finansal Okuryazarlık Akademisi • 8. Hafta                                                                      5
+<PARSED TEXT FOR PAGE: 108 / 166>
+ GÜN 54 | Vergi, kesinti ve sözleşme okuryazarlığı
+ Konu anlatımı
+ Bir finansal ürünün görünen getirisi, yatırımcının eline geçen tutardan farklı olabilir. Yönetim ücreti,
+ işlem komisyonu, vergi ve diğer kesintiler toplam sonucu etkiler. Ürün seçmeden önce güncel resmî
+ dokümanlar incelenmelidir.
+
+ Sözleşmede özellikle erken çıkış koşulları, para çekme süreleri, değişken ücretler ve olası cezalar
+ okunmalıdır. “Ücretsiz” görünen bir hizmetin döviz kuru farkı veya başka dolaylı maliyetleri olabilir.
+
+ Vergi kuralları ürüne, yatırımcıya ve döneme göre değişebilir. Bu kitap belirli bir vergi oranı varsaymaz;
+ işlem öncesinde güncel mevzuatı ve yetkili kurum açıklamalarını doğrulamayı önerir.
+
+
+ TL ile çözümlü örnek
+ 10.000 TL tutarlı işlemde %0,2 komisyon 20 TL’dir. Alış ve satışta aynı komisyon uygulanırsa, fiyat
+ hareketi ve diğer masraflar hariç toplam komisyon 40 TL olur.
+
+
+ Günlük uygulama
+ Kullandığın bir finansal ürünün ücret tablosunu bul; toplam maliyeti ve para çekme koşulunu not et.
+
+
+ Mini test
+   1. Bir ürünün net sonucunu ne etkiler? A) Komisyon ve vergiler B) Sadece logo C) Sadece geçmiş başarı
+
+   2. %0,2 komisyonla 10.000 TL işlem ücreti kaç TL? A) 2 B) 20 C) 200
+
+   3. Vergi oranları için ne yapılmalı? A) Ezber oran kullanılmalı B) Güncel resmî kaynak kontrol edilmeli C)
+   Sosyal medya yeterli
+
+ Not alanı: ______________________________________________________________
+
+
+
+
+Finansal Okuryazarlık Akademisi • 8. Hafta                                                                      6
+<PARSED TEXT FOR PAGE: 109 / 166>
+ GÜN 55 | Finansal bilgi doğrulama ve kaynak seçimi
+ Konu anlatımı
+ Yatırım kararı verirken bilginin kimden geldiği, ne zaman yayımlandığı ve hangi kanıta dayandığı
+ sorgulanmalıdır. Çok kesin kazanç vaatleri, acele ettiren ifadeler ve kaynağı belirsiz ekran görüntüleri
+ güvenilirlik işareti değildir.
+
+ Bir iddiayı doğrulamak için birincil kaynaklara gidilebilir: şirketin yayımladığı finansal tablolar,
+ düzenleyici kurum duyuruları ve ürünün resmî bilgilendirme dokümanları. Bağımsız ikinci kaynakla
+ karşılaştırma, yanlış anlamaları azaltır.
+
+ Çıkar çatışması da önemlidir. İçeriği paylaşan kişinin reklam, ortaklık veya kişisel pozisyonu varsa bu
+ bilgi yorumun tarafsızlığını etkileyebilir. Bilgi doğrulama, “her söylenene karşı çıkmak” değil, iddiayı
+ kanıtla sınamaktır.
+
+
+ TL ile çözümlü örnek
+ “Bu fon bir yılda %50 kazandırdı” ifadesi için dönem tarihini, para birimini, kesintileri ve karşılaştırma
+ ölçütünü sor. Tek sayı, gelecekteki getiri tahmini değildir.
+
+
+ Günlük uygulama
+ Bir finansal iddia seç; kaynağını, tarihini, karşıt veriyi ve belirsizlikleri dört satırda değerlendir.
+
+
+ Mini test
+   1. İlk kontrol edilmesi gereken nedir? A) Kaynak ve tarih B) Paylaşım sayısı C) Ünlem sayısı
+
+   2. Kesin kazanç vaadi nasıl yorumlanmalı? A) Garanti B) Uyarı işareti C) Resmî onay
+
+   3. Birincil kaynak örneği hangisi? A) Şirket finansal tablosu B) Anonim yorum C) Söylenti
+
+ Not alanı: ______________________________________________________________
+
+
+
+
+Finansal Okuryazarlık Akademisi • 8. Hafta                                                                    7
+<PARSED TEXT FOR PAGE: 110 / 166>
+ GÜN 56 | Aylık finansal kontrol paneli
+ Konu anlatımı
+ Finansal ilerleme tek bir yatırımın fiyatıyla ölçülmez. Gelir-gider dengesi, tasarruf oranı, borç yükü, acil
+ durum birikimi ve hedeflere yaklaşma hızı birlikte izlenmelidir. Az sayıda ama anlamlı gösterge,
+ karmaşık bir tabloya göre daha sürdürülebilir olabilir.
+
+ Aylık kontrolün amacı kendini suçlamak değil, bir sonraki ayın kararını iyileştirmektir. Harcama
+ sapmasının nedenini belirlemek, gereksiz abonelikleri kapatmak veya otomatik birikimi ayarlamak gibi
+ somut aksiyonlar alınabilir.
+
+ Ölçümlerin aynı tanımlarla tekrarlanması önemlidir. Bir ay brüt, diğer ay net gelire göre tasarruf oranı
+ hesaplamak karşılaştırmayı bozar. Büyük tek seferlik giderler ayrıca not edilerek eğilim daha doğru
+ yorumlanır.
+
+
+ TL ile çözümlü örnek
+ Net gelir 40.000 TL, harcama 32.000 TL ise tasarruf 8.000 TL ve tasarruf oranı %20’dir. Acil fon 48.000
+ TL ve zorunlu gider 24.000 TL ise tampon 2 aylıktır.
+
+
+ Günlük uygulama
+ Bir sayfalık aylık panel oluştur: net gelir, gider, tasarruf oranı, borç, acil fon ayı ve sonraki ay aksiyonu.
+
+
+ Mini test
+   1. Tasarruf oranı nasıl hesaplanır? A) Tasarruf / net gelir B) Borç / yaş C) Gelir / fiyat
+
+   2. 48.000 TL fon, 24.000 TL zorunlu gider kaç ayı karşılar? A) 1 B) 2 C) 4
+
+   3. Aylık panelin amacı nedir? A) Kararı iyileştirmek B) Kusursuz tahmin C) Her gün işlem
+
+ Not alanı: ______________________________________________________________
+
+
+
+
+Finansal Okuryazarlık Akademisi • 8. Hafta                                                                        8
+<PARSED TEXT FOR PAGE: 111 / 166>
+ 8. HAFTA DEĞERLENDİRME SINAVI
+ Her soru 1 puandır. Önce yanıtla, sonra cevap anahtarına bak.
+
+   1. Ölçülebilir hedef hangi bilgileri içermelidir? A) Tutar ve tarih B) Yalnız dilek C) Yalnız getiri
+
+   2. Hedef 36.000 TL, süre 12 ay, birikim sıfırsa aylık katkı? A) 1.000 TL B) 3.000 TL C) 6.000 TL
+
+   3. Kısa vadeli hedef için öncelik? A) Likidite B) Kaldıraç C) Söylenti
+
+   4. Portföyde hedef ağırlıklardan sapma neyle yönetilir? A) Yeniden dengeleme B) Rastgele alım C) Kredi
+   çekme
+
+   5. Yeniden dengelemede hangi maliyet önemlidir? A) İşlem maliyeti B) Telefon markası C) Sosyal medya
+
+   6. Nominal getiri %10, enflasyon %10 ise reel getiri yaklaşık? A) %10 B) %0 C) %20
+
+   7. Portföye düzenli para eklemek hangi hesabı etkiler? A) Performans ölçümü B) Kimlik bilgisi C) IBAN
+   uzunluğu
+
+   8. Sabit katkıda fiyat düşerse alınan birim? A) Artar B) Azalır C) Sıfırlanır
+
+   9. Toplam 3.000 TL ile 150 birim alındıysa ortalama maliyet? A) 15 TL B) 20 TL C) 30 TL
+
+   10. Düzenli yatırımın garantisi nedir? A) Kesin kâr B) Zarar etmeme C) Hiçbiri
+
+   11. %1 kesinti 5.000 TL için kaç TL? A) 5 B) 50 C) 500
+
+   12. Ürün seçiminde hangi belge okunmalı? A) Resmî ücret ve koşullar B) Anonim yorum C) Reklam
+   sloganı
