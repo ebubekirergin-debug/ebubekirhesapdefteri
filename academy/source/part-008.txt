@@ -1,0 +1,300 @@
+  sonucu değiştirir.
+
+
+  Uygulama ödevi
+
+  Tüm borçlarını bakiye, faiz/maliyet, son ödeme ve asgari ödeme sütunlarıyla listele. Kartopu ve çığ
+  sırasını ayrı ayrı oluştur.
+
+
+  Kendi kontrol soruların
+
+  Bu karar bugün bütçemi nasıl değiştiriyor? Beklenmedik bir masrafta ne olur? Hangi varsayım yanlış
+  çıkarsa planım bozulur? Karşılaştırma için başka hangi bilgiye ihtiyacım var?
+
+
+  3 soruluk mini test
+  1. Çığ yöntemi önce hangi borcu hedefler?
+
+  A) En küçük borcu B) En yüksek maliyetli borcu C) En yeni borcu
+
+  2. Kartopu yönteminin güçlü yönü nedir?
+
+  A) Erken tamamlanma motivasyonu B) Faizi her durumda sıfırlaması C) Borcun silinmesi
+
+  3. B borcunun basit aylık faizi kaç TL?
+
+  A) 80 TL B) 8.000 TL C) 800 TL
+
+  Not alanı: ______________________________________________________________
+
+
+
+
+Finansal Okuryazarlık Akademisi | 3. Hafta                                                                     4
+<PARSED TEXT FOR PAGE: 45 / 166>
+  GÜN 17 | Yapılandırma nasıl değerlendirilir?
+  Bugünün öğrenme hedefi
+
+  Konuyu kendi cümlelerinle açıklamak, bir hesaplama yapmak ve kişisel karar listene uygulanabilir bir
+  kural eklemek.
+
+
+  Konu anlatımı
+
+  Borç yapılandırması taksiti azaltabilir ama toplam geri ödemeyi artırabilir. Karar verirken yalnızca aylık
+  taksit değil; vade, toplam ödeme, efektif faiz, masraflar, sigorta, erken kapama ve gecikme koşullarını
+  birlikte incele. Nakit akışını rahatlatan teklif bazen daha uzun süre borçlu kalmak anlamına gelir.
+  Ödeyemeyeceğin taksiti kabul etmek yerine yazılı ödeme planı iste ve karşılaştır.
+
+
+  Nasıl düşünmelisin?
+
+  Önce hedefini ve ödeme zamanını belirle. Sonra kararın nakit akışına etkisini, en kötü makul senaryoyu
+  ve vazgeçtiğin alternatifi hesapla. Kararını yalnızca tek bir oran veya fiyat üzerinden verme.
+  Maliyetlerin tamamını, belirsizliği ve gerektiğinde nakde erişimi dikkate al.
+
+
+  TL üzerinden çözümlü örnek
+
+  Kalan borcun 60.000 TL olduğunu varsay. Teklif A: 12 ay × 5.800 TL = 69.600 TL. Teklif B: 24 ay ×
+  3.300 TL = 79.200 TL. B aylık yükü 2.500 TL azaltır fakat toplamda 9.600 TL daha pahalıdır. Bu basit
+  toplam karşılaştırması paranın zaman değerini ve ek ücretleri içermez.
+
+
+  Uygulama ödevi
+
+  İki hayalî veya gerçek teklif için aylık taksit, vade, toplam maliyet ve bütçende kalan tutarı hesapla;
+  koşulları not et.
+
+
+  Kendi kontrol soruların
+
+  Bu karar bugün bütçemi nasıl değiştiriyor? Beklenmedik bir masrafta ne olur? Hangi varsayım yanlış
+  çıkarsa planım bozulur? Karşılaştırma için başka hangi bilgiye ihtiyacım var?
+
+
+  3 soruluk mini test
+  1. Düşük taksit neyi garanti etmez?
+
+  A) Düşük toplam maliyeti B) Daha uzun vadeyi C) Aylık rahatlamayı
+
+  2. B teklifinin toplam ödemesi nedir?
+
+  A) 69.600 TL B) 60.000 TL C) 79.200 TL
+
+  3. Teklifte hangi belge istenir?
+
+  A) Reklam görseli B) Yazılı ödeme planı C) Sözlü vaat
+
+  Not alanı: ______________________________________________________________
+
+
+
+
+Finansal Okuryazarlık Akademisi | 3. Hafta                                                                     5
+<PARSED TEXT FOR PAGE: 46 / 166>
+  GÜN 18 | Bileşik faiz ve bileşik kayıp
+  Bugünün öğrenme hedefi
+
+  Konuyu kendi cümlelerinle açıklamak, bir hesaplama yapmak ve kişisel karar listene uygulanabilir bir
+  kural eklemek.
+
+
+  Konu anlatımı
+
+  Bileşik getiri, kazancın da sonraki dönemlerde getiri üretmesidir. Ancak oranların sırası ve kayıplar
+  önemlidir: %20 düşen bir varlığın eski değerine ulaşması için %25 yükselmesi gerekir. Nominal büyüme
+  enflasyondan arındırılmadan satın alma gücündeki değişimi göstermez. Vergi ve ücretler de net sonucu
+  etkiler. Uzun vade avantaj yaratabilir ama getiriyi garanti etmez.
+
+
+  Nasıl düşünmelisin?
+
+  Önce hedefini ve ödeme zamanını belirle. Sonra kararın nakit akışına etkisini, en kötü makul senaryoyu
+  ve vazgeçtiğin alternatifi hesapla. Kararını yalnızca tek bir oran veya fiyat üzerinden verme.
+  Maliyetlerin tamamını, belirsizliği ve gerektiğinde nakde erişimi dikkate al.
+
+
+  TL üzerinden çözümlü örnek
+
+  10.000 TL, varsayımsal olarak iki yıl üst üste %10 artarsa 10.000 × 1,10² = 12.100 TL olur. Aynı tutar
+  ilk yıl %20 düşerse 8.000 TL kalır; ertesi yıl %20 artsa 9.600 TL olur. Başlangıç tutarına dönmek için
+  8.000 TL üzerinden %25 artış gerekir.
+
+
+  Uygulama ödevi
+
+  Başlangıç tutarını seç; üç farklı yıllık getiri senaryosu (%0, %5, %-10) için iki yıllık sonucu hesapla.
+  Bunları tahmin değil senaryo olarak yaz.
+
+
+  Kendi kontrol soruların
+
+  Bu karar bugün bütçemi nasıl değiştiriyor? Beklenmedik bir masrafta ne olur? Hangi varsayım yanlış
+  çıkarsa planım bozulur? Karşılaştırma için başka hangi bilgiye ihtiyacım var?
+
+
+  3 soruluk mini test
+  1. İki yıl %10 artışla 10.000 TL kaç olur?
+
+  A) 12.000 TL B) 11.000 TL C) 12.100 TL
+
+  2. %20 kayıp sonrası başa dönmek için gereken artış?
+
+  A) %10 B) %25 C) %20
+
+  3. Bileşik getiri neyi garanti eder?
+
+  A) Hiçbir getiriyi garanti etmez B) Sürekli yükselişi C) Enflasyonu yenmeyi
+
+  Not alanı: ______________________________________________________________
+
+
+
+
+Finansal Okuryazarlık Akademisi | 3. Hafta                                                                   6
+<PARSED TEXT FOR PAGE: 47 / 166>
+  GÜN 19 | Likidite riski
+  Bugünün öğrenme hedefi
+
+  Konuyu kendi cümlelerinle açıklamak, bir hesaplama yapmak ve kişisel karar listene uygulanabilir bir
+  kural eklemek.
+
+
+  Konu anlatımı
+
+  Likidite, bir varlığı ihtiyaç anında makul maliyetle nakde çevirebilme kapasitesidir. Satılabilir olmak ile
+  hemen, kayıpsız satılabilir olmak farklıdır. Acil ihtiyaç için ayrılan para yüksek dalgalanmalı veya satışı
+  zaman alan araçlarda tutulduğunda yanlış zamanda satış baskısı oluşabilir. Likidite planı oluştururken
+  erişim süresi, olası değer kaybı, işlem masrafı ve ödeme tarihlerini değerlendir.
+
+
+  Nasıl düşünmelisin?
+
+  Önce hedefini ve ödeme zamanını belirle. Sonra kararın nakit akışına etkisini, en kötü makul senaryoyu
+  ve vazgeçtiğin alternatifi hesapla. Kararını yalnızca tek bir oran veya fiyat üzerinden verme.
+  Maliyetlerin tamamını, belirsizliği ve gerektiğinde nakde erişimi dikkate al.
+
+
+  TL üzerinden çözümlü örnek
+
+  Üç ay sonra ödenecek 45.000 TL okul ücreti için birikiminin 50.000 TL olduğunu düşün. Varlık geçici
+  olarak %15 düşerse 42.500 TL kalır ve 2.500 TL açık oluşur. Aynı miktarın günlük erişilebilir ve düşük
+  oynaklıklı bölümde tutulması kısa vadeli ödeme riskini azaltabilir; yine de ürünün koşullarını incelemek
+  gerekir.
+
+
+  Uygulama ödevi
+
+  Önümüzdeki 90 günün zorunlu ödemelerini ve tarihlerini çıkar. Her ödeme için kullanılacak kaynağın
+  erişim süresini yaz.
+
+
+  Kendi kontrol soruların
+
+  Bu karar bugün bütçemi nasıl değiştiriyor? Beklenmedik bir masrafta ne olur? Hangi varsayım yanlış
+  çıkarsa planım bozulur? Karşılaştırma için başka hangi bilgiye ihtiyacım var?
+
+
+  3 soruluk mini test
+  1. Likidite riski nedir?
+
+  A) Yalnızca kur artışı B) İhtiyaç anında uygun fiyatla nakde dönememe C) Yalnızca vergi ödeme
+
+  2. 50.000 TL %15 düşerse kaç TL olur?
+
+  A) 42.500 TL B) 47.500 TL C) 35.000 TL
+
+  3. Kısa vadeli zorunlu ödeme için ne önemlidir?
+
+  A) En yüksek vaat edilen getiri B) Popülerlik C) Erişim süresi ve değer istikrarı
+
+  Not alanı: ______________________________________________________________
+
+
+
+
+Finansal Okuryazarlık Akademisi | 3. Hafta                                                                      7
+<PARSED TEXT FOR PAGE: 48 / 166>
+  GÜN 20 | Kur ve altın bazlı borç riski
+  Bugünün öğrenme hedefi
+
+  Konuyu kendi cümlelerinle açıklamak, bir hesaplama yapmak ve kişisel karar listene uygulanabilir bir
+  kural eklemek.
+
+
+  Konu anlatımı
+
+  Gelirin TL iken döviz veya altına endeksli borç taşımak kur ve fiyat oynaklığına açık pozisyon yaratır.
+  Borcun TL karşılığı, anapara aynı kalsa bile değişebilir. Bu durum özellikle ödeme günü yaklaştığında
+  bütçeyi zorlar. Borç para birimi ile gelir para birimi arasındaki uyumsuzluğu hesapla; tek bir kur
+  tahminine güvenme. Korunma stratejilerinin de maliyet ve riskleri vardır.
+
+
+  Nasıl düşünmelisin?
+
+  Önce hedefini ve ödeme zamanını belirle. Sonra kararın nakit akışına etkisini, en kötü makul senaryoyu
+  ve vazgeçtiğin alternatifi hesapla. Kararını yalnızca tek bir oran veya fiyat üzerinden verme.
+  Maliyetlerin tamamını, belirsizliği ve gerektiğinde nakde erişimi dikkate al.
+
+
+  TL üzerinden çözümlü örnek
+
+  1.000 birim döviz borcunun kurunu 35 TL varsayarsan yük 35.000 TL olur. Kur 42 TL olduğunda aynı
+  borç 42.000 TL eder: 7.000 TL veya %20 artış. Kur düşerse TL karşılığı azalabilir. Bu örnek tahmin değil,
+  hassasiyet analizidir; faiz ve masraf hariçtir.
+
+
+  Uygulama ödevi
+
+  Borçlarının hangi para birimine bağlı olduğunu listele. Döviz/altın borcu varsa fiyatın %10 ve %20
+  yükselmesi durumunda TL karşılığını hesapla.
+
+
+  Kendi kontrol soruların
+
+  Bu karar bugün bütçemi nasıl değiştiriyor? Beklenmedik bir masrafta ne olur? Hangi varsayım yanlış
+  çıkarsa planım bozulur? Karşılaştırma için başka hangi bilgiye ihtiyacım var?
+
+
+  3 soruluk mini test
+  1. Kur 35’ten 42’ye çıkarsa artış oranı?
+
+  A) %20 B) %7 C) %42
+
+  2. TL gelir ve döviz borcu hangi riski artırır?
+
+  A) Sıfır faiz B) Garantili getiri C) Para birimi uyumsuzluğu
+
+  3. Hassasiyet analizi nedir?
+
+  A) Geçmişi silmek B) Farklı fiyat senaryolarını hesaplamak C) Tek kur tahminini kesin saymak
+
+  Not alanı: ______________________________________________________________
+
+
+
+
+Finansal Okuryazarlık Akademisi | 3. Hafta                                                                    8
+<PARSED TEXT FOR PAGE: 49 / 166>
+  GÜN 21 | Kişisel yatırım politikası
+  Bugünün öğrenme hedefi
+
+  Konuyu kendi cümlelerinle açıklamak, bir hesaplama yapmak ve kişisel karar listene uygulanabilir bir
+  kural eklemek.
+
+
+  Konu anlatımı
+
+  Kişisel yatırım politikası, piyasa heyecanı yerine önceden belirlenmiş kurallarla hareket etmeyi
+  amaçlar. Hedef, süre, risk kapasitesi, acil fon, borç durumu, varlık dağılımı, yeniden dengeleme aralığı
+  ve hangi koşulda satış yapılacağı yazılı olmalıdır. Risk toleransı duygusal rahatlığı, risk kapasitesi ise
+  gerçek finansal dayanma gücünü anlatır. Politika düzenli gözden geçirilir ama her haberde
+  değiştirilmez.
+
+
+  Nasıl düşünmelisin?
+
+  Önce hedefini ve ödeme zamanını belirle. Sonra kararın nakit akışına etkisini, en kötü makul senaryoyu
+  ve vazgeçtiğin alternatifi hesapla. Kararını yalnızca tek bir oran veya fiyat üzerinden verme.
