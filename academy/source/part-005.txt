@@ -1,0 +1,299 @@
+
+ Eğitim amaçlıdır; kişisel yatırım, kredi, vergi veya hukuk danışmanlığı yerine geçmez. Bütün TL rakamları öğretici
+ varsayımlardır.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                                            1
+<PARSED TEXT FOR PAGE: 22 / 166>
+ 2. haftanın çalışma planı
+ Gün 8 | Portföy: Her şeyi tek sepete koymamak
+
+ Gün 9 | Bilanço: Bir işletmenin finansal fotoğrafı
+
+ Gün 10 | Kâr başka, nakit başka
+
+ Gün 11 | Finansal durum fotoğrafın
+
+ Gün 12 | Borç haritası oluştur
+
+ Gün 13 | İlk nakit tampon hedefi
+
+ Gün 14 | Tasarruf oranı ve gerçek ilerleme
+
+ Önerilen yöntem: Günde 25-35 dakika ayır. Konuyu oku, örneği kendi elinle yeniden hesapla, uygulama
+ görevini yap ve mini testi cevapla. Haftanın sonunda 15 soruluk değerlendirmeyi çöz.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                             2
+<PARSED TEXT FOR PAGE: 23 / 166>
+ GÜN 8
+
+
+ Portföy: Her şeyi tek sepete koymamak
+ Varlık çeşitleri birbirinden farklı risk taşır. Çeşitlendirme zarar ihtimalini ortadan kaldırmaz; tek bir
+ varlığın beklenmedik kaybının toplam birikime etkisini azaltmayı hedefler.
+
+
+ Konu anlatımı
+
+ Portföy, tek bir yatırım değil, elindeki finansal varlıkların tümüdür. Nakit, mevduat, yatırım fonu, hisse
+ senedi, altın ve borçlanma araçları farklı amaçlara hizmet eder. Hangi ürünün uygun olduğu, paraya ne
+ zaman ihtiyaç duyacağın ve kaybı karşılayabilme gücünle ilişkilidir.
+
+ Aynı sektörden beş hisse almak, mutlaka güçlü bir çeşitlendirme sağlamaz. Bir ekonomik gelişme bu
+ şirketlerin hepsini aynı yönde etkileyebilir. Riskleri karşılaştırırken yalnız ürün sayısını değil, fiyatlarının
+ benzer koşullarda nasıl hareket edebileceğini de düşün.
+
+ Acil durum fonunu riskli bir portföyle karıştırma. Yakın tarihte lazım olacak para için erişim hızı ve değer
+ istikrarı önemlidir. Uzun vadeli yatırım için bile tüm parayı tek seferde tek ürüne bağlamak yerine kurallı
+ bir plan oluşturmak daha anlaşılırdır.
+
+
+ TL üzerinden hesaplamalı örnek
+
+ Varsayalım 100.000 TL birikimin var. Tek bir hissede %30 düşüş yaşanırsa değer 70.000 TL olur. Bunun
+ yerine 20.000 TL tutarındaki hisse bölümünde aynı düşüş olursa, diğer varlıklar değişmemiş kabul
+ edildiğinde toplam kayıp 6.000 TL, portföy değeri 94.000 TL olur. Bu bir getiri vaadi değil, yoğunlaşma
+ riskinin aritmetiğidir.
+
+
+ Günlük uygulama ödevi
+
+ Birikimlerini “hemen gerekli”, “1-3 yılda gerekli” ve “uzun vadeli” şeklinde üç zaman dilimine ayır. Her
+ birinin neden farklı risk taşıması gerektiğini iki cümleyle yaz.
+
+
+ Üç soruluk mini test
+
+    1. Çeşitlendirme neyi garanti eder?
+
+ A) Hiç zarar olmayacağını
+
+ B) Tek varlık riskinin etkisini azaltmayı amaçlar
+
+ C) Yıllık %20 getiriyi
+
+    2. Aynı sektörden beş hisse almak neden yeterli olmayabilir?
+
+ A) Ortak risklere açık olabilirler
+
+ B) Hisse sayısı çoktur
+
+ C) İşlem ücretleri sıfırdır
+
+    3. Yakında ödenecek kira için hangi özellik önceliklidir?
+
+ A) Yüksek oynaklık
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                                          3
+<PARSED TEXT FOR PAGE: 24 / 166>
+ B) Kilitli uzun vade
+
+ C) Likidite ve erişilebilirlik
+
+ Kendini değerlendir: Anlatımı kendi cümlelerinle 2-3 cümlede özetle. Ödevi tamamladığın tarihi kaydet.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                                4
+<PARSED TEXT FOR PAGE: 25 / 166>
+ GÜN 9
+
+
+ Bilanço: Bir işletmenin finansal fotoğrafı
+ Bilanço, belirli bir tarihte şirketin neye sahip olduğunu ve bu varlıkların hangi kaynaklarla finanse
+ edildiğini gösterir.
+
+
+ Konu anlatımı
+
+ Bilanço eşitliği şöyledir: Varlıklar = Yükümlülükler + Özkaynaklar. Varlık, şirketin nakit, stok, alacak ve
+ makine gibi ekonomik değerlerini kapsar. Yükümlülük; banka borcu, tedarikçi borcu ve diğer ödenmesi
+ gereken tutarlardır.
+
+ Özkaynak, varlıklardan yükümlülükler çıkarıldığında kalan muhasebe değeridir. Bu, şirketin piyasadaki
+ fiyatına veya satışta elde edilecek paraya otomatik olarak eşit değildir. Bilanço tek günlük bir fotoğraftır;
+ değişimi anlamak için birkaç döneme bakılmalıdır.
+
+ Dönen varlıklar bir yıl içinde nakde dönüşmesi beklenen varlıklardır. Kısa vadeli yükümlülüklerle
+ karşılaştırmak ödeme gücünü anlamaya yardım eder. Ancak stokların satılması veya müşterilerin ödeme
+ yapması gecikebilir; rakamları tek başına yorumlamak yanıltıcı olabilir.
+
+
+ TL üzerinden hesaplamalı örnek
+
+ Örnek işletmenin 80.000 TL nakdi, 120.000 TL alacağı ve 300.000 TL ekipmanı var: toplam varlık
+ 500.000 TL. Banka ve tedarikçi borçları toplam 320.000 TL ise özkaynak 180.000 TL’dir. Başka bir
+ deyişle 500.000 = 320.000 + 180.000. Borcun miktarı kadar vadesi ve ödenebilme kapasitesi de
+ önemlidir.
+
+
+ Günlük uygulama ödevi
+
+ Bir market veya küçük işletme hayal et. Beş varlık ve üç yükümlülük örneği yaz. Toplam varlığı, toplam
+ borcu ve özkaynağı hesaplayan örnek bir bilanço oluştur.
+
+
+ Üç soruluk mini test
+
+    1. Bilanço hangi zamanı gösterir?
+
+ A) Belirli bir tarihteki durumu
+
+ B) Gelecek 10 yılın kesin kazancını
+
+ C) Sadece satışları
+
+    2. 500.000 TL varlık, 320.000 TL borç için özkaynak kaçtır?
+
+ A) 820.000 TL
+
+ B) 180.000 TL
+
+ C) 320.000 TL
+
+    3. Alacağın artması her zaman nakdin arttığını gösterir mi?
+
+ A) Evet
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                                       5
+<PARSED TEXT FOR PAGE: 26 / 166>
+ B) Her zaman
+
+ C) Hayır
+
+ Kendini değerlendir: Anlatımı kendi cümlelerinle 2-3 cümlede özetle. Ödevi tamamladığın tarihi kaydet.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                                6
+<PARSED TEXT FOR PAGE: 27 / 166>
+ GÜN 10
+
+
+ Kâr başka, nakit başka
+ Bir işletme kârlı göründüğü hâlde nakit sıkışıklığı yaşayabilir. Kâr ile tahsil edilen para farklı kavramlardır.
+
+
+ Konu anlatımı
+
+ Gelir tablosu, bir dönem içinde oluşan gelir ve giderleri gösterir. Satış yapılmış ama müşteri henüz
+ ödeme yapmamış olabilir. Muhasebe kârı bu nedenle banka hesabındaki tutarla aynı değildir.
+
+ Nakit akışı, paranın gerçekten ne zaman girip çıktığına bakar. Şirket kira ve maaş ödemesini bugün
+ yapmak zorundayken müşteriden alacağını iki ay sonra tahsil edebilir. Bu zamanlama uyumsuzluğu
+ sağlıklı işletmeleri bile zorlayabilir.
+
+ Stok alımı, taksitli satış, kredi geri ödemesi ve yatırım harcamaları nakdi etkiler. Şirket incelerken gelir
+ tablosu, bilanço ve nakit akış tablosunu birlikte okumak gerekir. Kâr artarken işletme faaliyetlerinden
+ nakit sürekli düşüyorsa nedenini araştırmak önemlidir.
+
+
+ TL üzerinden hesaplamalı örnek
+
+ Bir işletme 100.000 TL’lik ürün satıp 60.000 TL maliyet ve 15.000 TL gider yazdı: muhasebe kârı 25.000
+ TL. Ama müşteriden henüz 20.000 TL tahsil etti ve tedarikçiye 40.000 TL, giderlere 15.000 TL ödedi.
+ Basitleştirilmiş dönemsel nakit değişimi 20.000 - 40.000 - 15.000 = -35.000 TL olur. Kârlılık nakit açığını
+ engellemedi.
+
+
+ Günlük uygulama ödevi
+
+ Bir ay içinde sana kesilen ama henüz ödenmemiş borçları ve sana yapılması beklenen ödemeleri ayrı
+ sütunlarda listele. Her kalem için ödeme/tahsilat tarihini de ekle.
+
+
+ Üç soruluk mini test
+
+    1. Kâr ile nakit aynı şey midir?
+
+ A) Her zaman
+
+ B) Hayır
+
+ C) Sadece küçük işletmelerde
+
+    2. Vadeli satışın ilk etkisi ne olabilir?
+
+ A) Gelir kaydı olup nakit gelmemesi
+
+ B) Kesin zarar
+
+ C) Borcun bitmesi
+
+    3. Nakit akışında neye odaklanılır?
+
+ A) Sadece marka değeri
+
+ B) Hisse fiyatı
+
+ C) Gerçek para giriş-çıkış tarihleri
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                                          7
+<PARSED TEXT FOR PAGE: 28 / 166>
+ Kendini değerlendir: Anlatımı kendi cümlelerinle 2-3 cümlede özetle. Ödevi tamamladığın tarihi kaydet.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 2. Hafta                                                                8
+<PARSED TEXT FOR PAGE: 29 / 166>
+ GÜN 11
+
+
+ Finansal durum fotoğrafın
+ Kişisel finans yönetiminde ilk adım, gelirini değil bütün finansal durumunu görünür kılmaktır.
+
+
+ Konu anlatımı
+
+ Kişisel bilanço iki listeyle başlar: varlıkların ve borçların. Varlıklara banka bakiyesi, erişilebilir birikim ve
+ varsa gerçekçi ikinci el değeriyle sahip oldukların girer. Borçlara kredi kartı, tüketici kredisi, yakınlardan
+ alınan borç ve diğer yükümlülükler dâhildir.
+
+ Net servet = Toplam varlık - Toplam borç. Pozitif net servet düzenli nakit akışını garanti etmez;
+ varlıkların büyük bölümü kolay satılamayan bir evde olabilir. Negatif net servet de tek başına
+ davranışlarını değiştiremeyeceğin anlamına gelmez: önemli olan gidişatı ve ödeme planını izlemektir.
+
+ Aynı günün rakamlarıyla fotoğraf çek; farklı tarihlerden karışık rakam toplama. Varlık değerlerini iyimser
+ tahminlerle şişirme. Aylık gelir ve gider dengeni, mevcut nakit miktarını ve önümüzdeki 30 günün
+ ödemelerini ayrıca yaz.
+
+
+ TL üzerinden hesaplamalı örnek
+
+ Örnek: Bankada 40.000 TL, birikimlerde 60.000 TL, ikinci el araçta 300.000 TL değer var; toplam
+ 400.000 TL. Araç kredisi 180.000 TL ve kredi kartı borcu 35.000 TL; toplam borç 215.000 TL. Net servet
+ 185.000 TL. Ancak hemen kullanılabilir tutar sadece banka ve likit birikim bölümüdür.
+
+
+ Günlük uygulama ödevi
+
+ Bugünün tarihiyle kendi varlık-borç tablonu oluştur. Her varlığa “ne kadar sürede nakde çevrilebilir?”
+ notu ekle. Net servetini hesapla ve 30 gün sonraki kontrol tarihini belirle.
+
+
+ Üç soruluk mini test
+
+    1. Net servet formülü nedir?
+
+ A) Gelir + gider
+
+ B) Varlıklar - borçlar
+
+ C) Borçlar - gelir
