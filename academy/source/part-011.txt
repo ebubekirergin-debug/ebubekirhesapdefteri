@@ -1,0 +1,299 @@
+ 10. Satış büyürken marj düşebilir mi? ........................................................................
+
+ 11. Alacak artışı nakdi nasıl etkileyebilir? ........................................................................
+
+ 12. İşletme faaliyet nakdi neyi anlatır? ........................................................................
+
+ 13. Serbest nakit akışında hangi harcama düşülür? ........................................................................
+
+ 14. Net borç nasıl hesaplanır? ........................................................................
+
+ 15. Borç riskinde vade neden önemlidir? ........................................................................
+
+
+
+
+Finansal Okuryazarlık Akademisi • 4. Hafta                                                                                       9
+<PARSED TEXT FOR PAGE: 62 / 166>
+ CEVAP ANAHTARI
+
+ Günlük mini testler
+
+ Gün 22: 1-B, 2-A, 3-B
+
+ Gün 23: 1-A, 2-B, 3-A
+
+ Gün 24: 1-A, 2-B, 3-B
+
+ Gün 25: 1-A, 2-B, 3-A
+
+ Gün 26: 1-A, 2-A, 3-A
+
+ Gün 27: 1-A, 2-A, 3-A
+
+ Gün 28: 1-A, 2-B, 3-A
+
+
+ Haftalık sınav - örnek doğru yanıtlar
+
+ 1. Varsayımların geçerliliğini takip etmek
+
+ 2. Toplam kayba katkısını
+
+ 3. 10.000 TL
+
+ 4. Birlikte aynı yönlü doğrusal hareket
+
+ 5. Hayır
+
+ 6. İşlem maliyetidir
+
+ 7. Yatırımcı bilgi formu ve izahname
+
+ 8. Satış eksi satış maliyeti
+
+ 9. Faiz ve vergi
+
+ 10. Evet
+
+ 11. Nakit girişini geciktirebilir
+
+ 12. Ana işten doğan nakit akışını
+
+ 13. Sermaye harcaması
+
+ 14. Finansal borç eksi nakit
+
+ 15. Yakın ödemeler likidite baskısı yaratabilir
+
+
+ Haftalık değerlendirme
+
+ 0–7 doğru: kavramları yeniden çalış. 8–11 doğru: örnekleri tekrar çöz. 12–15 doğru: uygulama ödevlerine
+ geç ve varsayımlarını kontrol et. Puan, yatırım başarısı garantisi değildir.
+
+ Hafta sonu görevi: Hayalî bir şirket seç. 1 sayfalık yatırım tezi yaz; gelir tablosu, faaliyet nakdi, borç
+ yapısı ve risklerini ayrı başlıklarda değerlendir. Her verinin hangi kaynaktan doğrulanacağını not et.
+
+
+
+
+Finansal Okuryazarlık Akademisi • 4. Hafta                                                                    10
+<PARSED TEXT FOR PAGE: 63 / 166>
+                   91 GÜNLÜK FİNANSAL
+                 OKURYAZARLIK AKADEMİSİ
+                                         5. HAFTA | GÜNLER 29–35
+
+                        Değerleme, para yönetimi ve finansal dayanıklılık
+
+
+
+
+ Bu haftanın hedefi
+ Yatırımda fiyat ile değeri ayıracak, kişisel finans kararlarını tekrar edilebilir kurallara bağlayacak, maaş
+ gününü planlayacak, harcama tetikleyicilerini fark edecek, yatırım bütçesini hesaplayacak ve kademeli
+ acil durum fonu kuracaksın.
+
+ Çalışma düzeni: Her gün 25–40 dakika okuma, hesaplama ve uygulama. Her gün üç mini test sorusu;
+ hafta sonunda 15 soruluk değerlendirme. Tüm TL rakamları varsayımsaldır.
+
+ Uyarı: Eğitim amaçlıdır; kişiye özel yatırım, vergi veya hukuki danışmanlık değildir. Ürün koşulları ve
+ mevzuat için güncel resmî kaynakları kontrol et.
+
+
+ Haftalık rota
+ Gün 29: Değerleme: fiyat ile değer aynı şey değil
+
+ Gün 30: Kendi finans işletim sistemin
+
+ Gün 31: Bütçe değil, para yönlendirme sistemi
+
+ Gün 32: Maaş günü protokolü
+
+ Gün 33: Para harcatıcı tetikleyiciler
+
+ Gün 34: Yatırım bütçesi
+
+ Gün 35: Acil fonu kademeli kurmak
+
+
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                                                      1
+<PARSED TEXT FOR PAGE: 64 / 166>
+ GÜN 29 | Değerleme: fiyat ile değer aynı şey değil
+ Öğrenme hedefi: Bir varlığın borsadaki fiyatı ile ekonomik değerine ilişkin tahmini ayırt etmek.
+
+
+ Ayrıntılı konu anlatımı
+
+ Fiyat, piyasada gerçekleşen işlemin sonucudur; değer ise gelecekteki ekonomik faydalara ilişkin
+ varsayımlarla yapılan tahmindir. Aynı şirketi inceleyen iki kişi büyüme, risk veya faiz beklentileri farklı
+ olduğu için farklı değerler bulabilir. Bu yüzden değerleme tek bir kesin sayı üretmez; koşullara bağlı bir
+ aralık oluşturur.
+
+ Bir şirketin satışları artarken hisse fiyatı düşebilir: piyasa önceden daha yüksek büyüme beklemiş
+ olabilir. Tersine, zarar eden şirketin fiyatı gelecekte toparlanma beklentisiyle yükselebilir. Bu ayrım, “iyi
+ şirket her fiyattan iyi yatırımdır” düşüncesinin neden eksik olduğunu gösterir.
+
+ Fiyat/kazanç (F/K), piyasa değeri/defter değeri (PD/DD) ve indirgenmiş nakit akışı farklı sorular sorar.
+ F/K oranı kazançların geçici biçimde yüksek veya düşük olduğu dönemlerde yanıltabilir. İndirgenmiş
+ nakit akışı ise büyüme ve iskonto oranına çok duyarlıdır. Tek oranla karar verme; sektör, borç, nakit
+ üretimi ve belirsizlikleri birlikte incele.
+
+ Güvenlik marjı, tahmini değer ile ödenen fiyat arasında belirsizliğe karşı bırakılan paydır. Ancak yanlış
+ tahmin edilmiş değerleme, yüksek görünen marjı da anlamsız kılabilir. Önce varsayımların mantığını ve
+ olumsuz senaryoyu yaz.
+
+
+ TL ile çözümlü örnek
+
+ Bir şirketin gelecek yıl hisse başına kârı 12 TL ve varsayımsal uygun F/K çarpanı 8 ise basit değer
+ tahmini 96 TL olur. Çarpan 6 olursa 72 TL, 10 olursa 120 TL çıkar. 90 TL piyasa fiyatı tek başına ucuzluk
+ kanıtı değildir; 72–120 TL aralığı varsayım duyarlılığını gösterir.
+
+
+ Günlük uygulama ödevi
+
+ Hayalî bir şirket için üç F/K senaryosu oluştur; her senaryoda hangi büyüme ve risk varsayımını
+ kullandığını yaz.
+
+
+ Mini test: 3 soru
+ 1. Fiyat ve değer için doğru ifade hangisi?
+
+ A) Her zaman eşittir
+
+ B) Fiyat işlem sonucudur, değer tahmindir
+
+ C) Değer değişmez
+
+ 2. F/K çarpanı neden yanıltabilir?
+
+ A) Kâr geçici olabilir
+
+ B) Bütün şirketler aynıdır
+
+ C) Faiz önemsizdir
+
+ 3. Güvenlik marjı neyi garanti eder?
+
+
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                                                       2
+<PARSED TEXT FOR PAGE: 65 / 166>
+ A) Kesin kazancı
+
+ B) Sıfır kaybı
+
+ C) Hiçbirini
+
+
+ Kendi notun
+
+ Bugün hangi davranışımı değiştireceğim? Hangi hesaplamayı tekrar kontrol etmeliyim?
+
+
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                             3
+<PARSED TEXT FOR PAGE: 66 / 166>
+ GÜN 30 | Kendi finans işletim sistemin
+ Öğrenme hedefi: Parayı rastgele kararlarla değil, tekrar eden basit kurallarla yönetmek.
+
+
+ Ayrıntılı konu anlatımı
+
+ Finansal işletim sistemi, gelir geldiğinde, fatura vadesi yaklaştığında ve beklenmedik masraf çıktığında
+ ne yapacağını önceden belirleyen kurallar bütünüdür. Bütçe bir tablo olabilir; sistem ise o tabloyu
+ düzenli güncelleyen davranıştır. Başarılı sistem kusursuz tahmin değil, tekrarlanabilir uygulama
+ gerektirir.
+
+ Sistemin dört temel parçası vardır: hesapların ve borçların güncel listesi, nakit takvimi, otomatik veya
+ planlı para ayırma adımları ve aylık gözden geçirme. Kısa vadeli zorunlu harcamalar için ayrılan para ile
+ uzun vadeli yatırım bütçesini karıştırmamak, beklenmedik satışları önler.
+
+ Bir karar kuralı somut olmalıdır: “Her ay tasarruf edeceğim” yerine “Maaş yattıktan sonraki ilk iş
+ gününde gelirimin belirlediğim tutarını ayrı hesaba aktaracağım.” Gelir düzensizse sabit tutar yerine
+ asgari giderlerin karşılanmasından sonra yüzdelik kural kullanılabilir.
+
+ Sistemin işe yarayıp yaramadığını üç ölçütle kontrol et: faturalar zamanında ödeniyor mu, nakit
+ tamponu büyüyor mu, borç ve tasarruf hedefleri izleniyor mu? Kurallar yaşam koşullarına uyarlanabilir;
+ amaç katı olmak değil, belirsizlikte karar yükünü azaltmaktır.
+
+
+ TL ile çözümlü örnek
+
+ Aylık net geliri 55.000 TL olan birinin zorunlu giderleri 32.000 TL, planlı borç ödemesi 8.000 TL, esnek
+ harcama limiti 9.000 TL olsun. Kalan 6.000 TL acil fon ve hedeflere ayrılabilir. Gelir 45.000 TL’ye
+ düşerse önce zorunlu ödemeler ve sözleşmeler gözden geçirilir; aynı tasarruf tutarı otomatik olarak
+ zorlanmaz.
+
+
+ Günlük uygulama ödevi
+
+ Tek sayfalık “Para Anayasası” yaz: maaş günü, ödeme günü, haftalık kontrol ve acil harcama kurallarını
+ belirle.
+
+
+ Mini test: 3 soru
+ 1. Finans sistemi neyi hedefler?
+
+ A) Tek seferlik tahmin
+
+ B) Tekrarlanabilir kararlar
+
+ C) Her ay aynı harcama
+
+ 2. Ölçülebilir kural hangisi?
+
+ A) Daha dikkatli olacağım
+
+ B) Bir gün biriktireceğim
+
+ C) Maaş günü 2.000 TL ayıracağım
+
+ 3. Gelir düşünce ne yapılmalı?
+
+
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                                                   4
+<PARSED TEXT FOR PAGE: 67 / 166>
+ A) Planı güncellemek
+
+ B) Borcu görmezden gelmek
+
+ C) Tüm parayı yatırıma aktarmak
+
+
+ Kendi notun
+
+ Bugün hangi davranışımı değiştireceğim? Hangi hesaplamayı tekrar kontrol etmeliyim?
+
+
+
+
+Finansal Okuryazarlık Akademisi | 5. Hafta                                             5
+<PARSED TEXT FOR PAGE: 68 / 166>
+ GÜN 31 | Bütçe değil, para yönlendirme sistemi
+ Öğrenme hedefi: Her liraya ihtiyaç ve hedeflere göre önceden görev vermek.
+
+
+ Ayrıntılı konu anlatımı
+
+ Klasik bütçe çoğu zaman ay sonunda geçmiş harcamaları sınıflandırır. Para yönlendirme yaklaşımı ise
+ ay başında gelir ile zorunlu ödemeleri eşleştirir ve kalan tutarı hedeflere dağıtır. Bu yöntem, “para
+ nereye gitti?” sorusunu “para nereye gidecek?” sorusuna çevirir.
+
+ Önce barınma, gıda, ulaşım, faturalar ve sözleşmeye bağlı borç ödemelerini ayır. Ardından düzensiz
+ ama öngörülebilir masraflar için pay oluştur: yıllık sigorta, bakım, okul, hediye veya vergi gibi. Bu
+ kalemleri yok saymak, bütçenin her birkaç ayda bir bozulmasına yol açar.
+
+ Gelirin tümünü planlamak sıfır bakiye tutmak anlamına gelmez. Hesapta bırakılan güvenlik payı da
+ planlanmış bir kategoridir. Yönlendirme sisteminde esnek harcamalar için üst sınır belirlenir; bir
+ kategoride fazla harcama olursa hangi diğer kategoriden aktarım yapılacağı bilinmelidir.
+
+ Aylık planı haftalık kontrol etmek, küçük sapmaları büyümeden yakalamayı sağlar. Yöntemin başarısı
+ kategorilerin çokluğuna değil, basitliğine ve düzenli uygulanmasına bağlıdır.
