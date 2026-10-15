@@ -1,0 +1,300 @@
+
+
+ Karar öncesi kontrol
+
+ Her para kararını dört soruyla test et: Bu kararın amacı ne? En kötü makul senaryoda ne kaybederim?
+ Paraya ne zaman yeniden ihtiyacım olacak? Aynı hedefe daha düşük maliyetle ulaşabilir miyim? Bu
+ soruların yanıtı net değilse karar vermeden önce bilgi toplamak çoğu zaman daha güvenlidir. Belirsizlik
+ varken küçük denemeler ve yazılı planlar hataların maliyetini azaltabilir.
+
+
+ Sık yapılan hata
+
+ Yeni başlayanların sık hatası tek bir rakama odaklanmaktır. Sadece aylık taksite bakmak toplam borç
+ maliyetini, sadece yüksek getiriye bakmak riski, sadece maaşa bakmak düzensiz giderleri gizler. Sağlıklı
+ değerlendirme tutar, zaman ve olasılığı birlikte ele alır. Farklı seçenekleri aynı dönem ve aynı para birimi
+ üzerinden karşılaştırmaya çalış. Böylece görünüşte cazip olan bir kararın gerçekte bütçeni zorlayıp
+ zorlamadığını görebilirsin.
+
+
+ Kayıt tutma disiplini
+
+ Bir defter veya elektronik tablo kullanarak başlangıç değerini, varsayımı ve gerçekleşen sonucu ayrı
+ sütunlarda sakla. Varsayımları sonuç gibi yazma. Tahminin gerçekleşmediğinde kendini suçlamak yerine
+ hangi varsayımın yanlış çıktığını incele. Bir ayın verisi eğilim göstermek için yeterli olmayabilir; üç veya
+ altı aylık gözlem daha sağlam karar vermene yardım eder. Kayıtların amacı geçmişi yargılamak değil
+ gelecekteki seçimi iyileştirmektir.
+
+
+ Türkiye bağlamı
+
+ TL ile plan yaparken fiyatların değişebileceğini, bazı sözleşmelerin dönemsel yenilendiğini ve bankacılık
+ ürünlerinde koşulların kuruma göre farklılaşabileceğini unutma. Oranları ve ücretleri güncel sözleşmeden
+ doğrula. Buradaki hesaplar öğretici varsayımlardır; vergi, kesinti ve özel sözleşme hükümlerini
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                                      13
+<PARSED TEXT FOR PAGE: 16 / 166>
+ içermeyebilir. Herhangi bir ürün seçmeden önce resmî açıklamayı incelemek ve kendi nakit akışını esas
+ almak gerekir.
+
+
+ Haftalık küçük alışkanlık
+
+ Öğrendiğin kavramı kalıcı hâle getirmek için haftada bir kez 15 dakikalık finans kontrolü yap. Hesap
+ bakiyelerini doğrula, yaklaşan ödemeleri yaz, harcamaları sınıflandır ve bir sonraki haftanın önceliğini
+ seç. Aynı gün ve saatte tekrar etmek alışkanlık oluşturmayı kolaylaştırır. Büyük bir planın uygulanması,
+ her hafta tamamlanan küçük ve ölçülebilir adımlara bağlıdır.
+
+
+ Uygulamalı örnek ve hesaplama
+
+ 100.000 TL’yi tek bir varlığa yatırıp yüzde 40 düşüş yaşarsan 60.000 TL kalır. Başlangıca dönmek için
+ yüzde 66,7 artış gerekir: 40.000 / 60.000. Bunun yerine 100.000 TL’nin yüzde 50’sini A, yüzde 30’unu B,
+ yüzde 20’sini nakit olarak ayırdığını düşün. A yüzde 40 düşer, B yüzde 10 yükselir ve nakit değişmezse
+ toplam değer 30.000 + 33.000 + 20.000 = 83.000 TL olur. Bu dağılım kaybı azaltmış olabilir, ancak
+ garanti vermez; farklı koşullarda bütün varlıklar birlikte düşebilir.
+
+ Örneği yeniden hesaplarken önce bütün tutarların aynı döneme ait olduğunu doğrula. Aylık rakamı yıllık
+ rakamla doğrudan karşılaştırmak yanıltıcıdır. Her tutarın hangi varsayıma dayandığını yaz; varsayım
+ değiştiğinde sonucun nasıl değiştiğini de incele.
+
+ İkinci bir senaryo kur: gelirin yüzde 10 düşmesi, giderin yüzde 10 artması veya beklenmedik bir ödeme
+ çıkması durumunu hesapla. Bu küçük stres testi, tek bir sonuca güvenmek yerine kararının ne kadar
+ dayanıklı olduğunu gösterir. Sonucu bir tabloya yaz ve hangi kalemin en çok etkilendiğini belirle.
+
+ Son olarak kendi koşullarına uyarlama yap. Gerçek tutarlarını paylaşman gerekmez; yalnızca kendin için
+ hesapla. Sonuçlar beklentinden farklıysa önce veri girişini, sonra formülü, ardından varsayımları kontrol
+ et. Finansal beceri doğru cevabı ezberlemekten çok tutarlı hesap yapabilmektir.
+
+
+ Günlük ödev
+
+ Üç finansal hedefini yaz; her biri için süreyi, kabul edilebilir kaybı ve likidite ihtiyacını belirle.
+
+
+ 3 soruluk mini test
+
+ 1. Yüzde 50 kayıptan sonra başa dönmek için gereken kazanç? A) %50 B) %100 C) %25
+
+ 2. Çeşitlendirme neyi garanti eder? A) Hiç kayıp olmamasını B) Riskin tamamen bitmesini C) Tek varlığa
+ bağımlılığın azalmasını
+
+ 3. Bir ay sonra gereken para için hangi özellik önemlidir? A) Likidite B) En yüksek oynaklık C) Kaldıraç
+
+ Cevap anahtarı: 1: B, 2: C, 3: A
+
+
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                                   14
+<PARSED TEXT FOR PAGE: 17 / 166>
+ GÜN 7 | Finansal kararlar ve haftalık değerlendirme
+ Öğrenme hedefi
+
+ Öğrenilen ilkeleri kişisel karar kontrol listesine dönüştürmek.
+
+
+ Konu anlatımı
+
+ Finansal okuryazarlık, tek tek terimleri ezberlemekten çok doğru soruları düzenli sormaktır. Her karar
+ öncesinde hedef, vade, maliyet, risk, likidite ve alternatifler değerlendirilmelidir. Harcama yaparken
+ ihtiyacın gerçekliği ve fırsat maliyeti; borç alırken toplam geri ödeme ve nakit akışına etkisi; yatırım
+ yaparken zarar ihtimali ve çeşitlendirme düşünülmelidir. Haftalık değerlendirme, mükemmel bir tablo
+ üretmek değil tekrarlanabilir bir alışkanlık kurmaktır. İlk hafta sonunda para hareketlerinin daha görünür
+ olması, acil fon hedefinin belirlenmesi ve borç listesinin hazırlanması önemli kazanımlardır.
+
+
+ Kavramı günlük hayata uygulama
+
+ Bir finansal kavramı öğrenirken yalnızca tanımına bakma. O kavramın senin maaşında, faturanda, banka
+ hesabında ve gelecek planında hangi davranışı değiştirdiğini düşün. Bir kayıt doğru olsa bile karar
+ vermeye yardım etmiyorsa eksiktir. Örneğin bir fiyat artışı karşısında hemen paniklemek yerine hangi
+ giderin zorunlu olduğunu, hangisinin ertelenebileceğini ve eldeki kaynağın kaç hafta yeteceğini
+ hesaplamak daha yararlıdır.
+
+
+ Karar öncesi kontrol
+
+ Her para kararını dört soruyla test et: Bu kararın amacı ne? En kötü makul senaryoda ne kaybederim?
+ Paraya ne zaman yeniden ihtiyacım olacak? Aynı hedefe daha düşük maliyetle ulaşabilir miyim? Bu
+ soruların yanıtı net değilse karar vermeden önce bilgi toplamak çoğu zaman daha güvenlidir. Belirsizlik
+ varken küçük denemeler ve yazılı planlar hataların maliyetini azaltabilir.
+
+
+ Sık yapılan hata
+
+ Yeni başlayanların sık hatası tek bir rakama odaklanmaktır. Sadece aylık taksite bakmak toplam borç
+ maliyetini, sadece yüksek getiriye bakmak riski, sadece maaşa bakmak düzensiz giderleri gizler. Sağlıklı
+ değerlendirme tutar, zaman ve olasılığı birlikte ele alır. Farklı seçenekleri aynı dönem ve aynı para birimi
+ üzerinden karşılaştırmaya çalış. Böylece görünüşte cazip olan bir kararın gerçekte bütçeni zorlayıp
+ zorlamadığını görebilirsin.
+
+
+ Kayıt tutma disiplini
+
+ Bir defter veya elektronik tablo kullanarak başlangıç değerini, varsayımı ve gerçekleşen sonucu ayrı
+ sütunlarda sakla. Varsayımları sonuç gibi yazma. Tahminin gerçekleşmediğinde kendini suçlamak yerine
+ hangi varsayımın yanlış çıktığını incele. Bir ayın verisi eğilim göstermek için yeterli olmayabilir; üç veya
+ altı aylık gözlem daha sağlam karar vermene yardım eder. Kayıtların amacı geçmişi yargılamak değil
+ gelecekteki seçimi iyileştirmektir.
+
+
+ Türkiye bağlamı
+
+ TL ile plan yaparken fiyatların değişebileceğini, bazı sözleşmelerin dönemsel yenilendiğini ve bankacılık
+ ürünlerinde koşulların kuruma göre farklılaşabileceğini unutma. Oranları ve ücretleri güncel sözleşmeden
+ doğrula. Buradaki hesaplar öğretici varsayımlardır; vergi, kesinti ve özel sözleşme hükümlerini
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                                      15
+<PARSED TEXT FOR PAGE: 18 / 166>
+ içermeyebilir. Herhangi bir ürün seçmeden önce resmî açıklamayı incelemek ve kendi nakit akışını esas
+ almak gerekir.
+
+
+ Haftalık küçük alışkanlık
+
+ Öğrendiğin kavramı kalıcı hâle getirmek için haftada bir kez 15 dakikalık finans kontrolü yap. Hesap
+ bakiyelerini doğrula, yaklaşan ödemeleri yaz, harcamaları sınıflandır ve bir sonraki haftanın önceliğini
+ seç. Aynı gün ve saatte tekrar etmek alışkanlık oluşturmayı kolaylaştırır. Büyük bir planın uygulanması,
+ her hafta tamamlanan küçük ve ölçülebilir adımlara bağlıdır.
+
+
+ Uygulamalı örnek ve hesaplama
+
+ Bir kişi ay sonunda 12.000 TL fazla verdiğini görüyor. Bunun 5.000 TL’sini acil fonuna, 4.000 TL’sini
+ yüksek maliyetli borca, 3.000 TL’sini yaklaşan yıllık giderlerine ayırıyor. Böylece aynı para üç farklı amaca
+ hizmet ediyor: dayanıklılık, maliyet azaltma ve planlı ödeme. Sonraki ay gelir 10.000 TL azalırsa ilk
+ yapılacak şey riskli yatırım miktarını artırmak değil zorunlu giderleri ve ödeme takvimini yeniden gözden
+ geçirmek olmalıdır. Karar kalitesi tek bir ayın getirisiyle değil sürdürülebilirlikle ölçülür.
+
+ Örneği yeniden hesaplarken önce bütün tutarların aynı döneme ait olduğunu doğrula. Aylık rakamı yıllık
+ rakamla doğrudan karşılaştırmak yanıltıcıdır. Her tutarın hangi varsayıma dayandığını yaz; varsayım
+ değiştiğinde sonucun nasıl değiştiğini de incele.
+
+ İkinci bir senaryo kur: gelirin yüzde 10 düşmesi, giderin yüzde 10 artması veya beklenmedik bir ödeme
+ çıkması durumunu hesapla. Bu küçük stres testi, tek bir sonuca güvenmek yerine kararının ne kadar
+ dayanıklı olduğunu gösterir. Sonucu bir tabloya yaz ve hangi kalemin en çok etkilendiğini belirle.
+
+ Son olarak kendi koşullarına uyarlama yap. Gerçek tutarlarını paylaşman gerekmez; yalnızca kendin için
+ hesapla. Sonuçlar beklentinden farklıysa önce veri girişini, sonra formülü, ardından varsayımları kontrol
+ et. Finansal beceri doğru cevabı ezberlemekten çok tutarlı hesap yapabilmektir.
+
+
+ Günlük ödev
+
+ İlk haftanın tek sayfalık finans fotoğrafını hazırla: gelir, gider, borç, acil fon hedefi ve gelecek hafta
+ yapacağın üç eylem.
+
+
+ 3 soruluk mini test
+
+ 1. Finansal kararda ilk soru hangisidir? A) Hedef ve vade nedir? B) En çok kim kazandı? C) Trend ne kadar
+ popüler?
+
+ 2. Fırsat maliyeti nedir? A) Seçilmeyen en iyi alternatifin değeri B) Banka şifresi C) Vergi oranı
+
+ 3. Haftalık değerlendirmenin amacı nedir? A) Tekrarlanabilir karar disiplini B) Kesin kazanç C) Bütün
+ harcamaları sıfırlamak
+
+ Cevap anahtarı: 1: A, 2: A, 3: A
+
+
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                                    16
+<PARSED TEXT FOR PAGE: 19 / 166>
+ 1. HAFTA | 15 SORULUK DEĞERLENDİRME
+ 1. Paranın hesap birimi işlevi nedir?
+
+ A) Fiyatları karşılaştırmayı sağlaması B) Yalnızca nakit olması C) Değerinin hiç değişmemesi
+
+ 2. Enflasyon yükseldiğinde nakit tutarın nominal değeri ne olur?
+
+ A) Mutlaka iki katına çıkar B) Aynı kalabilir C) Sıfırlanır
+
+ 3. Nakit akışı farkı nasıl hesaplanır?
+
+ A) Gelir eksi gider B) Varlık eksi borç C) Faiz çarpı anapara
+
+ 4. Kendi hesapların arası transfer nedir?
+
+ A) Yeni gelir B) Gelir olmayan para hareketi C) Yatırım getirisi
+
+ 5. Çığ yöntemi hangi borca öncelik verir?
+
+ A) En düşük bakiyeli B) En yüksek maliyetli C) En yeni açılan
+
+ 6. Asgari ödemeleri geciktirmek neye yol açabilir?
+
+ A) Gecikme maliyetine B) Garantili getiriye C) Daha düşük riske
+
+ 7. Acil durum fonunun ilk amacı nedir?
+
+ A) Yüksek getiri kovalamak B) Beklenmedik gideri karşılamak C) Spekülasyon yapmak
+
+ 8. Temel gider 20.000 TL ise üç aylık hedef kaçtır?
+
+ A) 20.000 TL B) 40.000 TL C) 60.000 TL
+
+ 9. Reel getiri neyi ölçer?
+
+ A) Satın alma gücü değişimini B) Sadece hesap bakiyesini C) Yalnızca vergiyi
+
+ 10. Nominal getiri %40, enflasyon %50 ise reel getiri?
+
+ A) Pozitiftir B) Negatiftir C) Sıfırdır
+
+ 11. Yüzde 50 kayıptan sonra başa dönmek için gereken kazanç?
+
+ A) %50 B) %100 C) %25
+
+ 12. Çeşitlendirme neyi garanti eder?
+
+ A) Hiç kayıp olmamasını B) Riskin tamamen bitmesini C) Tek varlığa bağımlılığın azalmasını
+
+ 13. Finansal kararda ilk soru hangisidir?
+
+ A) Hedef ve vade nedir? B) En çok kim kazandı? C) Trend ne kadar popüler?
+
+ 14. Fırsat maliyeti nedir?
+
+ A) Seçilmeyen en iyi alternatifin değeri B) Banka şifresi C) Vergi oranı
+
+ 15. Haftalık değerlendirmenin amacı nedir?
+
+ A) Tekrarlanabilir karar disiplini B) Kesin kazanç C) Bütün harcamaları sıfırlamak
+
+
+ Haftalık cevap anahtarı
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                      17
+<PARSED TEXT FOR PAGE: 20 / 166>
+ 1-A · 2-B · 3-A · 4-B · 5-B · 6-A · 7-B · 8-C · 9-A · 10-B · 11-B · 12-C · 13-A · 14-A · 15-A
+
+
+ Haftalık uygulama kontrolü
+
+ Gelir-gider tablosu, borç haritası, acil fon hedefi, reel getiri hesabı ve üç maddelik eylem planı hazırsa
+ haftanın temel çıktıları tamamlanmıştır. Yanlış yaptığın soruların bağlı olduğu güne dönerek örnekleri
+ tekrar hesapla.
+
+
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                                    18
+<PARSED TEXT FOR PAGE: 21 / 166>
+ 91 GÜNLÜK FİNANSAL OKURYAZARLIK AKADEMİSİ
+
+
+ 2. HAFTA
+ Gün 8–14
+ Portföy çeşitlendirmeden kişisel finans fotoğrafına: şirket tablolarını okuma, borç
+ haritası, acil durum fonu ve tasarruf oranı.
+
+
+
+ Bu kitapta 7 günlük konu anlatımı, her gün için hesaplamalı örnek ve ödev, 21 mini test sorusu, 15
+ soruluk hafta sonu sınavı ve cevap anahtarı vardır.
