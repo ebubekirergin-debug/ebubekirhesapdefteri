@@ -1,0 +1,299 @@
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                               2
+<PARSED TEXT FOR PAGE: 5 / 166>
+ GÜN 1 | Paranın dört temel görevi
+ Öğrenme hedefi
+
+ Paranın değişim aracı, hesap birimi, değer saklama aracı ve ertelenmiş ödeme ölçüsü olarak nasıl
+ çalıştığını anlamak.
+
+
+ Konu anlatımı
+
+ Para yalnızca elde tutulan banknot değildir. İnsanların emeklerini, ürünlerini ve zamanlarını ortak bir
+ ölçüyle karşılaştırabilmesini sağlayan toplumsal bir araçtır. Bir ürünün 500 TL olarak etiketlenmesi hesap
+ birimi işlevine; bu ürünü kartla veya nakitle alabilmek değişim aracı işlevine örnektir. Bugün kazanılan
+ paranın gelecek ay kullanılmak üzere saklanması değer saklama işlevine dayanır. Ancak enflasyon
+ nedeniyle nominal tutar korunurken satın alma gücü azalabilir. Vadeli bir borcun TL cinsinden
+ belirlenmesi ise ertelenmiş ödeme ölçüsü işlevini gösterir.
+
+
+ Kavramı günlük hayata uygulama
+
+ Bir finansal kavramı öğrenirken yalnızca tanımına bakma. O kavramın senin maaşında, faturanda, banka
+ hesabında ve gelecek planında hangi davranışı değiştirdiğini düşün. Bir kayıt doğru olsa bile karar
+ vermeye yardım etmiyorsa eksiktir. Örneğin bir fiyat artışı karşısında hemen paniklemek yerine hangi
+ giderin zorunlu olduğunu, hangisinin ertelenebileceğini ve eldeki kaynağın kaç hafta yeteceğini
+ hesaplamak daha yararlıdır.
+
+
+ Karar öncesi kontrol
+
+ Her para kararını dört soruyla test et: Bu kararın amacı ne? En kötü makul senaryoda ne kaybederim?
+ Paraya ne zaman yeniden ihtiyacım olacak? Aynı hedefe daha düşük maliyetle ulaşabilir miyim? Bu
+ soruların yanıtı net değilse karar vermeden önce bilgi toplamak çoğu zaman daha güvenlidir. Belirsizlik
+ varken küçük denemeler ve yazılı planlar hataların maliyetini azaltabilir.
+
+
+ Sık yapılan hata
+
+ Yeni başlayanların sık hatası tek bir rakama odaklanmaktır. Sadece aylık taksite bakmak toplam borç
+ maliyetini, sadece yüksek getiriye bakmak riski, sadece maaşa bakmak düzensiz giderleri gizler. Sağlıklı
+ değerlendirme tutar, zaman ve olasılığı birlikte ele alır. Farklı seçenekleri aynı dönem ve aynı para birimi
+ üzerinden karşılaştırmaya çalış. Böylece görünüşte cazip olan bir kararın gerçekte bütçeni zorlayıp
+ zorlamadığını görebilirsin.
+
+
+ Kayıt tutma disiplini
+
+ Bir defter veya elektronik tablo kullanarak başlangıç değerini, varsayımı ve gerçekleşen sonucu ayrı
+ sütunlarda sakla. Varsayımları sonuç gibi yazma. Tahminin gerçekleşmediğinde kendini suçlamak yerine
+ hangi varsayımın yanlış çıktığını incele. Bir ayın verisi eğilim göstermek için yeterli olmayabilir; üç veya
+ altı aylık gözlem daha sağlam karar vermene yardım eder. Kayıtların amacı geçmişi yargılamak değil
+ gelecekteki seçimi iyileştirmektir.
+
+
+ Türkiye bağlamı
+
+ TL ile plan yaparken fiyatların değişebileceğini, bazı sözleşmelerin dönemsel yenilendiğini ve bankacılık
+ ürünlerinde koşulların kuruma göre farklılaşabileceğini unutma. Oranları ve ücretleri güncel sözleşmeden
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                                      3
+<PARSED TEXT FOR PAGE: 6 / 166>
+ doğrula. Buradaki hesaplar öğretici varsayımlardır; vergi, kesinti ve özel sözleşme hükümlerini
+ içermeyebilir. Herhangi bir ürün seçmeden önce resmî açıklamayı incelemek ve kendi nakit akışını esas
+ almak gerekir.
+
+
+ Haftalık küçük alışkanlık
+
+ Öğrendiğin kavramı kalıcı hâle getirmek için haftada bir kez 15 dakikalık finans kontrolü yap. Hesap
+ bakiyelerini doğrula, yaklaşan ödemeleri yaz, harcamaları sınıflandır ve bir sonraki haftanın önceliğini
+ seç. Aynı gün ve saatte tekrar etmek alışkanlık oluşturmayı kolaylaştırır. Büyük bir planın uygulanması,
+ her hafta tamamlanan küçük ve ölçülebilir adımlara bağlıdır.
+
+
+ Uygulamalı örnek ve hesaplama
+
+ Bir kişi bugün 10.000 TL ayırıyor. Bir yıl boyunca fiyatlar yüzde 30 artarsa, parası hâlâ 10.000 TL görünse
+ de başlangıçtaki alışveriş sepetini almak için yaklaşık 13.000 TL gerekir. Başlangıç alım gücünün yaklaşık
+ yüzde 76,9’u kalır: 10.000 / 1,30 = 7.692 TL (başlangıç fiyatlarıyla). Bu örnek, hesapta görülen rakam ile
+ gerçek alım gücünün aynı olmadığını anlatır.
+
+ Örneği yeniden hesaplarken önce bütün tutarların aynı döneme ait olduğunu doğrula. Aylık rakamı yıllık
+ rakamla doğrudan karşılaştırmak yanıltıcıdır. Her tutarın hangi varsayıma dayandığını yaz; varsayım
+ değiştiğinde sonucun nasıl değiştiğini de incele.
+
+ İkinci bir senaryo kur: gelirin yüzde 10 düşmesi, giderin yüzde 10 artması veya beklenmedik bir ödeme
+ çıkması durumunu hesapla. Bu küçük stres testi, tek bir sonuca güvenmek yerine kararının ne kadar
+ dayanıklı olduğunu gösterir. Sonucu bir tabloya yaz ve hangi kalemin en çok etkilendiğini belirle.
+
+ Son olarak kendi koşullarına uyarlama yap. Gerçek tutarlarını paylaşman gerekmez; yalnızca kendin için
+ hesapla. Sonuçlar beklentinden farklıysa önce veri girişini, sonra formülü, ardından varsayımları kontrol
+ et. Finansal beceri doğru cevabı ezberlemekten çok tutarlı hesap yapabilmektir.
+
+
+ Günlük ödev
+
+ Bir hafta boyunca satın aldığın beş ürünü yaz; fiyatlarını, neden aldığını ve bunların ihtiyaç mı istek mi
+ olduğunu işaretle.
+
+
+ 3 soruluk mini test
+
+ 1. Paranın hesap birimi işlevi nedir? A) Fiyatları karşılaştırmayı sağlaması B) Yalnızca nakit olması C)
+ Değerinin hiç değişmemesi
+
+ 2. Enflasyon yükseldiğinde nakit tutarın nominal değeri ne olur? A) Mutlaka iki katına çıkar B) Aynı
+ kalabilir C) Sıfırlanır
+
+ 3. Değer saklama işlevinin temel riski nedir? A) Satın alma gücü kaybı B) Hesap yapılamaması C) Fiyat
+ etiketi olmaması
+
+ Cevap anahtarı: 1: A, 2: B, 3: A
+
+
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                                     4
+<PARSED TEXT FOR PAGE: 7 / 166>
+ GÜN 2 | Nakit akışı ve paranın izini sürmek
+ Öğrenme hedefi
+
+ Gelir, gider, transfer ve birikimi birbirinden ayırarak aylık para hareketlerini anlamak.
+
+
+ Konu anlatımı
+
+ Nakit akışı belirli bir dönemde hesaba giren ve hesaptan çıkan paranın düzenli kaydıdır. Gelir, maaş ve ek
+ kazanç gibi dışarıdan gelen kaynakları; gider, kira, gıda ve ulaşım gibi tüketim harcamalarını kapsar.
+ Kendi iki hesabın arasında yapılan transfer yeni gelir değildir. Kredi kartı borcunun ödenmesi de daha
+ önce kaydedilmiş alışverişler yeniden gider yazılırsa çift sayım yaratır. İyi bir nakit akışı tablosu işlem
+ tarihi, tutar, kategori ve açıklama içerir. Aylık kalan tutar gelir eksi giderdir; fakat bu tutarın tamamı kalıcı
+ tasarruf sayılmaz. Yaklaşan vergi, bakım veya okul giderleri de düşünülmelidir.
+
+
+ Kavramı günlük hayata uygulama
+
+ Bir finansal kavramı öğrenirken yalnızca tanımına bakma. O kavramın senin maaşında, faturanda, banka
+ hesabında ve gelecek planında hangi davranışı değiştirdiğini düşün. Bir kayıt doğru olsa bile karar
+ vermeye yardım etmiyorsa eksiktir. Örneğin bir fiyat artışı karşısında hemen paniklemek yerine hangi
+ giderin zorunlu olduğunu, hangisinin ertelenebileceğini ve eldeki kaynağın kaç hafta yeteceğini
+ hesaplamak daha yararlıdır.
+
+
+ Karar öncesi kontrol
+
+ Her para kararını dört soruyla test et: Bu kararın amacı ne? En kötü makul senaryoda ne kaybederim?
+ Paraya ne zaman yeniden ihtiyacım olacak? Aynı hedefe daha düşük maliyetle ulaşabilir miyim? Bu
+ soruların yanıtı net değilse karar vermeden önce bilgi toplamak çoğu zaman daha güvenlidir. Belirsizlik
+ varken küçük denemeler ve yazılı planlar hataların maliyetini azaltabilir.
+
+
+ Sık yapılan hata
+
+ Yeni başlayanların sık hatası tek bir rakama odaklanmaktır. Sadece aylık taksite bakmak toplam borç
+ maliyetini, sadece yüksek getiriye bakmak riski, sadece maaşa bakmak düzensiz giderleri gizler. Sağlıklı
+ değerlendirme tutar, zaman ve olasılığı birlikte ele alır. Farklı seçenekleri aynı dönem ve aynı para birimi
+ üzerinden karşılaştırmaya çalış. Böylece görünüşte cazip olan bir kararın gerçekte bütçeni zorlayıp
+ zorlamadığını görebilirsin.
+
+
+ Kayıt tutma disiplini
+
+ Bir defter veya elektronik tablo kullanarak başlangıç değerini, varsayımı ve gerçekleşen sonucu ayrı
+ sütunlarda sakla. Varsayımları sonuç gibi yazma. Tahminin gerçekleşmediğinde kendini suçlamak yerine
+ hangi varsayımın yanlış çıktığını incele. Bir ayın verisi eğilim göstermek için yeterli olmayabilir; üç veya
+ altı aylık gözlem daha sağlam karar vermene yardım eder. Kayıtların amacı geçmişi yargılamak değil
+ gelecekteki seçimi iyileştirmektir.
+
+
+ Türkiye bağlamı
+
+ TL ile plan yaparken fiyatların değişebileceğini, bazı sözleşmelerin dönemsel yenilendiğini ve bankacılık
+ ürünlerinde koşulların kuruma göre farklılaşabileceğini unutma. Oranları ve ücretleri güncel sözleşmeden
+ doğrula. Buradaki hesaplar öğretici varsayımlardır; vergi, kesinti ve özel sözleşme hükümlerini
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                                           5
+<PARSED TEXT FOR PAGE: 8 / 166>
+ içermeyebilir. Herhangi bir ürün seçmeden önce resmî açıklamayı incelemek ve kendi nakit akışını esas
+ almak gerekir.
+
+
+ Haftalık küçük alışkanlık
+
+ Öğrendiğin kavramı kalıcı hâle getirmek için haftada bir kez 15 dakikalık finans kontrolü yap. Hesap
+ bakiyelerini doğrula, yaklaşan ödemeleri yaz, harcamaları sınıflandır ve bir sonraki haftanın önceliğini
+ seç. Aynı gün ve saatte tekrar etmek alışkanlık oluşturmayı kolaylaştırır. Büyük bir planın uygulanması,
+ her hafta tamamlanan küçük ve ölçülebilir adımlara bağlıdır.
+
+
+ Uygulamalı örnek ve hesaplama
+
+ Bir hanenin aylık geliri 75.000 TL; kirası 22.000 TL, mutfak gideri 14.000 TL, faturaları 5.000 TL, ulaşımı
+ 6.000 TL ve diğer harcamaları 12.000 TL olsun. Toplam gider 59.000 TL, aylık fark 16.000 TL’dir. Gelirin
+ yüzde 21,3’ü harcanmamış görünür. Ancak yıllık 24.000 TL sigorta gideri için her ay 2.000 TL ayırmak
+ gerekir. Böylece planlanabilir aylık birikim 14.000 TL’ye iner. Bankalar arası 10.000 TL transferi gelir
+ olarak sayarsan tablo hatalı biçimde fazla kazanç gösterir.
+
+ Örneği yeniden hesaplarken önce bütün tutarların aynı döneme ait olduğunu doğrula. Aylık rakamı yıllık
+ rakamla doğrudan karşılaştırmak yanıltıcıdır. Her tutarın hangi varsayıma dayandığını yaz; varsayım
+ değiştiğinde sonucun nasıl değiştiğini de incele.
+
+ İkinci bir senaryo kur: gelirin yüzde 10 düşmesi, giderin yüzde 10 artması veya beklenmedik bir ödeme
+ çıkması durumunu hesapla. Bu küçük stres testi, tek bir sonuca güvenmek yerine kararının ne kadar
+ dayanıklı olduğunu gösterir. Sonucu bir tabloya yaz ve hangi kalemin en çok etkilendiğini belirle.
+
+ Son olarak kendi koşullarına uyarlama yap. Gerçek tutarlarını paylaşman gerekmez; yalnızca kendin için
+ hesapla. Sonuçlar beklentinden farklıysa önce veri girişini, sonra formülü, ardından varsayımları kontrol
+ et. Finansal beceri doğru cevabı ezberlemekten çok tutarlı hesap yapabilmektir.
+
+
+ Günlük ödev
+
+ Son 30 günün harcamalarını dört ana kategoriye ayır ve üç gereksiz sızıntıyı tespit et.
+
+
+ 3 soruluk mini test
+
+ 1. Nakit akışı farkı nasıl hesaplanır? A) Gelir eksi gider B) Varlık eksi borç C) Faiz çarpı anapara
+
+ 2. Kendi hesapların arası transfer nedir? A) Yeni gelir B) Gelir olmayan para hareketi C) Yatırım getirisi
+
+ 3. Yıllık giderleri aylık plana katmak için ne yapılır? A) Yok sayılır B) 12 aya bölünür C) İki kez gider yazılır
+
+ Cevap anahtarı: 1: A, 2: B, 3: B
+
+
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                                           6
+<PARSED TEXT FOR PAGE: 9 / 166>
+ GÜN 3 | Borçları doğru sırada kapatmak
+ Öğrenme hedefi
+
+ Borç maliyeti, gecikme riski ve nakit tamponu arasında dengeli öncelik belirlemek.
+
+
+ Konu anlatımı
+
+ Her borç aynı değildir. Borcun kalan anaparası, yıllık veya aylık maliyeti, asgari ödemesi, vadesi, teminatı
+ ve gecikme sonuçları farklıdır. İlk adım tüm borçları tek listede toplamaktır. Sonra zorunlu asgari
+ ödemeleri aksatmadan sürdürmek gerekir. Ek ödeme için matematiksel açıdan genellikle en yüksek etkin
+ maliyetli borçtan başlamak toplam faizi azaltır; buna çığ yöntemi denir. Daha küçük bakiyeli borcu önce
+ bitirmek ise motivasyon sağlayan kartopu yöntemidir. Yüksek maliyetli borcu kapatırken hiç nakit
+ bırakmamak, ilk beklenmedik harcamada yeniden pahalı borçlanmaya yol açabilir. Bu nedenle küçük bir
+ başlangıç tamponu da planlanmalıdır.
+
+
+ Kavramı günlük hayata uygulama
+
+ Bir finansal kavramı öğrenirken yalnızca tanımına bakma. O kavramın senin maaşında, faturanda, banka
+ hesabında ve gelecek planında hangi davranışı değiştirdiğini düşün. Bir kayıt doğru olsa bile karar
+ vermeye yardım etmiyorsa eksiktir. Örneğin bir fiyat artışı karşısında hemen paniklemek yerine hangi
+ giderin zorunlu olduğunu, hangisinin ertelenebileceğini ve eldeki kaynağın kaç hafta yeteceğini
+ hesaplamak daha yararlıdır.
+
+
+ Karar öncesi kontrol
+
+ Her para kararını dört soruyla test et: Bu kararın amacı ne? En kötü makul senaryoda ne kaybederim?
+ Paraya ne zaman yeniden ihtiyacım olacak? Aynı hedefe daha düşük maliyetle ulaşabilir miyim? Bu
+ soruların yanıtı net değilse karar vermeden önce bilgi toplamak çoğu zaman daha güvenlidir. Belirsizlik
+ varken küçük denemeler ve yazılı planlar hataların maliyetini azaltabilir.
+
+
+ Sık yapılan hata
+
+ Yeni başlayanların sık hatası tek bir rakama odaklanmaktır. Sadece aylık taksite bakmak toplam borç
+ maliyetini, sadece yüksek getiriye bakmak riski, sadece maaşa bakmak düzensiz giderleri gizler. Sağlıklı
+ değerlendirme tutar, zaman ve olasılığı birlikte ele alır. Farklı seçenekleri aynı dönem ve aynı para birimi
+ üzerinden karşılaştırmaya çalış. Böylece görünüşte cazip olan bir kararın gerçekte bütçeni zorlayıp
+ zorlamadığını görebilirsin.
+
+
+ Kayıt tutma disiplini
+
+ Bir defter veya elektronik tablo kullanarak başlangıç değerini, varsayımı ve gerçekleşen sonucu ayrı
+ sütunlarda sakla. Varsayımları sonuç gibi yazma. Tahminin gerçekleşmediğinde kendini suçlamak yerine
+ hangi varsayımın yanlış çıktığını incele. Bir ayın verisi eğilim göstermek için yeterli olmayabilir; üç veya
+ altı aylık gözlem daha sağlam karar vermene yardım eder. Kayıtların amacı geçmişi yargılamak değil
+ gelecekteki seçimi iyileştirmektir.
+
+
+ Türkiye bağlamı
+
+ TL ile plan yaparken fiyatların değişebileceğini, bazı sözleşmelerin dönemsel yenilendiğini ve bankacılık
+ ürünlerinde koşulların kuruma göre farklılaşabileceğini unutma. Oranları ve ücretleri güncel sözleşmeden
+
+
+Finansal Okuryazarlık Akademisi | 1. Hafta                                                                      7
+<PARSED TEXT FOR PAGE: 10 / 166>
+ doğrula. Buradaki hesaplar öğretici varsayımlardır; vergi, kesinti ve özel sözleşme hükümlerini
+ içermeyebilir. Herhangi bir ürün seçmeden önce resmî açıklamayı incelemek ve kendi nakit akışını esas
+ almak gerekir.
+
+
+ Haftalık küçük alışkanlık
